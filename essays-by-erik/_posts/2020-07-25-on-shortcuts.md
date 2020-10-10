@@ -1,0 +1,44 @@
+---
+layout: post
+title: On Shortcuts to Becoming a Developer
+---
+> As [Jesus] was setting out on his journey, a man ran up and knelt before him and asked him, “Good Teacher, what must I do to inherit eternal life?" Jesus gave him the answer. The man replied, “Teacher, all these I have kept from my youth.” And Jesus, looking at him, loved him, and said to him, “You lack one thing: go, sell all that you have and give to the poor, and you will have treasure in heaven; and come, follow me.” Disheartened by the saying, he went away sorrowful, for he had great possessions.
+> 
+> – [Mark 10:17-22](https://www.biblegateway.com/passage/?search=mark+10%3A17-22&version=ESV){:target="_blank"} (heavily paraphrased)
+
+Occassionally I'm asked to grab coffee with folks looking to change careers and become software engineers. I'm happy to do so and enjoy the conversations!
+
+There's usually a series of questions that come during our discussion that follow the order below:
+* Do I need to go back and get a bachelor's in computer science?
+* Should I get a master's?
+* What about bootcamps? I found one I can graduate from in just 6 months.
+
+One of the things that I love about tech is that it's as _close_ to a meritocracy as we can find in today's workplace (yes, it's far from perfect, but it's as close as I've found). I've worked with and hired people who hold PhDs in computer science, people who have little more in the way of formal education than a high school diploma, and people well-educated in domains seemingly unrelated to computer science or software engineering altogether (e.g. music, Arabic).
+
+In my experience, software engineer performance is not due to educational background.
+
+To put a finer point on it, a computer science degree is not necessary to have a successful career in software development.
+
+What is? Sweat equity.
+
+There is no shortcut to putting in the time and effort required to enter into software engineering. Period.
+
+Folks can break into the industry via a bachelor's in computer science. They can do it with a degree in an adjacent degree like bioinformatics or astrophysics. They can do it with a bootcamp. They can self-teach. I can name numerous, great engineers that I've worked with who did it each way.
+
+But each one put in the time.
+
+There's often a point in my coffee conversations where I'm breaking this news to someone. And our discussion is certainly incomparable to the eternal stakes Jesus is dealing with. But I feel just a _bit_ like I'm talking with the rich, young ruler in some of these conversations. I'm about to say something they don't want to hear. "Yeah, yeah, yeah, I hear you, I like this, I don't **have** to go back to school. This is good." For some people, their ears tune me out thereafter.
+
+They tune me out when I say that the reason that a bachelor's or master's or adjacent degree works is because these people have spent _years_ of their lives studying the fundamentals. An undergraduate degree in computer science is 4 (+/- 1) years of a forcing function for putting in the time and getting good at one thing: programming principles. 
+
+And those principles are what you need to get your first job in the business.
+
+One software engineer I worked with is incredibly talented and did not study computer science. She studied economics. She took a few CS classes too late in her undergrad to want to change. So she took a technical support job out of undergrad and studied at night for hours overs years. And that effort allowed her to move within that same company into an entry-level engineering role. And then that experience allowed her to get the next job. Which allowed her to gain new experiences...repeat.
+
+But there was no shortcut for the time and effort she put in.
+
+Sweat. Equity.
+
+> Read five hundred pages like this every day. That’s how knowledge works. It builds up, like compound interest. All of you can do it, but I guarantee not many of you will do it.
+>
+> – [Warren Buffet](https://www.inc.com/scott-mautz/warren-buffett-says-you-should-read-500-pages-a-day-yikes-here-are-7-ways-to-at-least-read-more.html){:target="_blank"}
