@@ -1,0 +1,39 @@
+---
+layout: post
+title: Organizational Orthodontia
+---
+Not all organizational change requires swift action. In fact, most doesn't. And to apply it would be wrong.
+
+Instead, it's better to think of organizational change like orthodontia.
+
+Sometimes the teeth need a lot of help. But it's the rare case where the orthodontist or oral surgeon has to break the jaw and plate the bones.
+
+Instead, orthodontia is a game of constant, steady pressure over time. Patience.
+
+Come back for regular adjustments. Soon you'll have the braces removed and a perfect smile underneath.
+
+(Then you have to retain that result nightly for the rest of your life.)
+
+When you begin of course, the future state seems too far off to ever be a reality.
+
+There are cases where an organization needs swift action (e.g. a concise termination).
+
+In most cases though, organizational change requires patient, steady pressure.
+
+Have a nasty habit of oral tradition or Slack essays to share knowledge?
+
+Nudge the team to document their knowledge in the wiki.
+
+Again.
+
+And again.
+
+And again.
+
+> The team is going to grow by 3x in 12 months. You won't want to explain every one of these concepts 25 times.
+
+Slowly. Very slowly. It starts to click into place.
+
+One day a new employee has a question. And someone replies to that question with a wiki link. A link that contains the answer. An answer that would have been rehashed in Slack. Now that person knows knowledge transfers here through the wiki not oral tradition.
+
+😁 Smile.

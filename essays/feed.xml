@@ -3,9 +3,54 @@
   <channel>
     <title>Essays by Erik</title>
     <atom:link href="/essays/feed.xml" rel="self" type="application/rss+xml"/>
-    <link>https://erikbarbara.com/essays/</link>
+    <link>http://localhost:4000/essays/</link>
     <description>Essays by Erik Barbara. All opinions are my own.</description>
-    <pubDate>Fri, 16 Oct 2020 22:57:06 -0500</pubDate>
+    <pubDate>Wed, 18 Nov 2020 22:31:08 -0600</pubDate>
+    
+      <item>
+        <title>Organizational Orthodontia</title>
+        <link>/essays/2020/11/18/organizational-orthodontia.html</link>
+        <guid isPermaLink="true">/essays/2020/11/18/organizational-orthodontia.html</guid>
+        <description>&lt;p&gt;Not all organizational change requires swift action. In fact, most doesn’t. And to apply it would be wrong.&lt;/p&gt;
+
+&lt;p&gt;Instead, it’s better to think of organizational change like orthodontia.&lt;/p&gt;
+
+&lt;p&gt;Sometimes the teeth need a lot of help. But it’s the rare case where the orthodontist or oral surgeon has to break the jaw and plate the bones.&lt;/p&gt;
+
+&lt;p&gt;Instead, orthodontia is a game of constant, steady pressure over time. Patience.&lt;/p&gt;
+
+&lt;p&gt;Come back for regular adjustments. Soon you’ll have the braces removed and a perfect smile underneath.&lt;/p&gt;
+
+&lt;p&gt;(Then you have to retain that result nightly for the rest of your life.)&lt;/p&gt;
+
+&lt;p&gt;When you begin of course, the future state seems too far off to ever be a reality.&lt;/p&gt;
+
+&lt;p&gt;There are cases where an organization needs swift action (e.g. a concise termination).&lt;/p&gt;
+
+&lt;p&gt;In most cases though, organizational change requires patient, steady pressure.&lt;/p&gt;
+
+&lt;p&gt;Have a nasty habit of oral tradition or Slack essays to share knowledge?&lt;/p&gt;
+
+&lt;p&gt;Nudge the team to document their knowledge in the wiki.&lt;/p&gt;
+
+&lt;p&gt;Again.&lt;/p&gt;
+
+&lt;p&gt;And again.&lt;/p&gt;
+
+&lt;p&gt;And again.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The team is going to grow by 3x in 12 months. You won’t want to explain every one of these concepts 25 times.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Slowly. Very slowly. It starts to click into place.&lt;/p&gt;
+
+&lt;p&gt;One day a new employee has a question. And someone replies to that question with a wiki link. A link that contains the answer. An answer that would have been rehashed in Slack. Now that person knows knowledge transfers here through the wiki not oral tradition.&lt;/p&gt;
+
+&lt;p&gt;😁 Smile.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 18 Nov 2020 00:00:00 -0600</pubDate>
+      </item>
     
       <item>
         <title>The Duality of Man(agement)</title>
