@@ -1,0 +1,41 @@
+I"�<blockquote>
+  <p>We just want to hire someone who can hit the ground running.</p>
+
+  <p>— Hiring Manager</p>
+</blockquote>
+
+<p>It’s not going to happen. Ok, that’s hyperbolic, it will almost never happen. The conditions for a new knowledge worker “hitting the ground running” are exceedingly rare.</p>
+
+<p>Joining a new company is a bit like an organ transplant, for both the new hire as well as the organization. And like an organ transplant, there are significant risks and adjustments that need to take place to avoid rejection. The impact is asymmetric and falls more on the new hire. The larger the organization, the larger the asymmetry becomes. A new hire in a 5 person organization has much more ability to help or hurt than a new hire in a 500 person organization.</p>
+
+<p>Here are a few factors to consider.</p>
+
+<ul>
+  <li>New organizations are <strong>distracting on a personal level</strong>.
+    <ul>
+      <li>Which healthcare plan should I choose?</li>
+      <li>Which 401K option do I invest in? Do I invest?</li>
+      <li>How will my commute be different?</li>
+      <li>Will anyone eat lunch with me? (Seriously, people think about this especially after leaving an environment where they are well established.)</li>
+      <li>Imposter syndrome as folks unfairly compare themselves to their established peers.</li>
+    </ul>
+  </li>
+  <li><strong>New tech stacks</strong> require time to learn. Ruby to Python isn’t a huge leap but an engineer with deep muscle memory in one will need to retrain all their instincts and knowledge. Some modeling between the two helps speed things up. Regardless, languages have their nuances that become important to understand and help a developer to be effective. For example, a new Python developer may eventually find understanding the different outcomes here helpful:
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt;&gt;&gt; foo = 1
+&gt;&gt;&gt; 1 is foo
+True
+&gt;&gt;&gt; bar = 10000000
+&gt;&gt;&gt; bar is 10000000
+False
+</code></pre></div>    </div>
+  </li>
+  <li>Even if the tech stack is the same, <strong>the code base is foreign</strong>. First, there’s learning how the code base is structured and why. Then there’s making changes and building confidence that you’re doing things right. The more established the code base, the greater the chance of there being deep-seated pitfalls that may not be immediately obvious to an engineer.</li>
+  <li><strong>Domain knowledge</strong> is yet another dimension of knowledge to rebuild. We pay engineers (and product managers and designers) to build tools that people want to use. If they don’t understand why a user is doing something, even at a high level, then it’s difficult to be truly effective and build great things. Switching from security to genomics is a gigantic leap and potentially one of the least translatable facets of a new hire depending on their background.</li>
+</ul>
+
+<p>Ultimately, we’re paying engineers for the internalization of the lessons that they have learned in their past experiences. For folks like Site Reliability Engineers, we refer to this as the “wisdom of production” or “scar tissue”.</p>
+
+<p>All this to say, people don’t “hit the ground running” 99.9% of the time. The primary exception to this that I can think of is a re-hire, someone who left their current company for a tour of duty at another organization and returned. They’ll still have catch up to do as they say <a href="https://www.youtube.com/watch?v=2JNRo7OipYc" target="_blank">“What did I miss?”</a></p>
+
+<p>Let’s stop talking about “hitting the ground running”. Maybe we say an experienced candidate who has translatable domain expertise in a similar tech stack “has some assembly required”.</p>
+:ET
