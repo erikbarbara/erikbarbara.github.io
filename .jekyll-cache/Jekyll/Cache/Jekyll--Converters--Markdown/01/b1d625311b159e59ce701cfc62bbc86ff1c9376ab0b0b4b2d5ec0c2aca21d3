@@ -1,0 +1,58 @@
+I"�<blockquote>
+  <p>Individuals and interactions over processes and tools</p>
+
+  <p>– <a href="https://agilemanifesto.org/" target="_blank">1st Principle of the Agile Manifesto</a></p>
+</blockquote>
+
+<p>I’m regularly asked by candidates when conducting interviews something along the lines of “Are you all an Agile shop?” or “What Agile methodologies do you all follow?”</p>
+
+<p>These candidates are typically looking to hear what elements we’ve adopted of scrum, kanban, or XP. Do we estimate? Do we have a product owner? Do we use Jira?</p>
+
+<p>The profound irony to me of this line of questions is that it is completely antithetical to the Agile Manifesto, in particular the first principle: individuals and interactions over processes and tools.</p>
+
+<p>I call this line of thinking big-A Agile. It’s a type of religiosity about the by-products that evolved to serve the manifesto but that has forgotten the master they serve.</p>
+
+<p>When asking about big-A Agile, the candidates are literally asking what processes we follow.</p>
+
+<p>The result isn’t necessarily suprising to me, but it does reveal an amnesia in what led the forefathers of agile to its roots to begin with.</p>
+
+<p>There are entire cottage industries of consultants, certifications, tools, and books that teach “agile methodologies”. They’ll show you the “right” way of being Agile.</p>
+
+<p>Now, I’m not against any one of these practices. However, if adopted what needs to be relgiously adhered to is not the process or tool itself, it’s the people and principles of the manifesto itself.</p>
+
+<p>When I lead engineering teams, <strong>I</strong> don’t mandate that we perform story pointing or planning poker. If the team finds value in it, great; I will gladly help facilitate this activity. The value I’ve seen teams derive from estimation though is that it is a forcing function for a conversation. That’s it.</p>
+
+<blockquote>
+  <p>You think that’s X, and I it’s Y. Tell me more!</p>
+</blockquote>
+
+<p>or</p>
+
+<blockquote>
+  <p>Hey, the team’s velocity won’t allow for all of this work. What are we willing to trade off?</p>
+</blockquote>
+
+<p>If these discussions are occuring without the tool, then why change it?</p>
+
+<p>The reason that I feel so strongly about this is because I have been part of teams that followed scrum and XP practices to a T.</p>
+
+<p>We were efficient.</p>
+
+<p>But we were not effective.</p>
+
+<p>We were doing the work right but we were not doing the right work.</p>
+
+<p>Agile hardliners will argue that’s because we were missing some key ceremony or role to protect against this guardrail.</p>
+
+<p>It’s not that complicated though.</p>
+
+<p>We forgot that we were <strong>people</strong> who needed to <strong>interact</strong> to create <strong>working software</strong> that served our <strong>customers’</strong> <strong>changing needs</strong>.</p>
+
+<p>Losing the essence of something in the pursuit of religiosity is nothing new.</p>
+
+<blockquote>
+  <p>The Sabbath was made for man, not man for the Sabbath.</p>
+
+  <p>– <a href="https://www.biblegateway.com/passage/?search=mark+2%3A27&amp;version=ESV" target="_blank">Mark 2:27</a></p>
+</blockquote>
+:ET

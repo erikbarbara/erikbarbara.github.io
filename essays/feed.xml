@@ -5,7 +5,72 @@
     <atom:link href="/essays/feed.xml" rel="self" type="application/rss+xml"/>
     <link>http://localhost:4000/essays/</link>
     <description>Essays by Erik Barbara. All opinions are my own.</description>
-    <pubDate>Sat, 16 Jan 2021 20:46:33 -0600</pubDate>
+    <pubDate>Mon, 25 Jan 2021 15:35:35 -0600</pubDate>
+    
+      <item>
+        <title>The Religion of Agile</title>
+        <link>/essays/2021/01/25/the-religion-of-agile.html</link>
+        <guid isPermaLink="true">/essays/2021/01/25/the-religion-of-agile.html</guid>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Individuals and interactions over processes and tools&lt;/p&gt;
+
+  &lt;p&gt;– &lt;a href=&quot;https://agilemanifesto.org/&quot; target=&quot;_blank&quot;&gt;1st Principle of the Agile Manifesto&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’m regularly asked by candidates when conducting interviews something along the lines of “Are you all an Agile shop?” or “What Agile methodologies do you all follow?”&lt;/p&gt;
+
+&lt;p&gt;These candidates are typically looking to hear what elements we’ve adopted of scrum, kanban, or XP. Do we estimate? Do we have a product owner? Do we use Jira?&lt;/p&gt;
+
+&lt;p&gt;The profound irony to me of this line of questions is that it is completely antithetical to the Agile Manifesto, in particular the first principle: individuals and interactions over processes and tools.&lt;/p&gt;
+
+&lt;p&gt;I call this line of thinking big-A Agile. It’s a type of religion of the by-products that evolved to serve the manifesto. But we’ve forgotten the master they serve.&lt;/p&gt;
+
+&lt;p&gt;When asking about big-A Agile, the candidates are literally asking what processes we follow.&lt;/p&gt;
+
+&lt;p&gt;The fact that we’ve arrived here isn’t suprising to me, but it does reveal an amnesia in what led the forefathers of agile to its roots to begin with.&lt;/p&gt;
+
+&lt;p&gt;There are entire cottage industries of consultants, certifications, tools, and books that teach “agile methodologies”. They’ll show you the “right” way of being Agile.&lt;/p&gt;
+
+&lt;p&gt;Now, I’m not against any one of these practices. However, if adopted what needs to be relgiously adhered to is not the process or tool itself, it’s the people and principles of the manifesto.&lt;/p&gt;
+
+&lt;p&gt;When I lead engineering teams, &lt;strong&gt;I&lt;/strong&gt; don’t mandate that we perform story pointing or planning poker. If the team finds value in it, great; I will gladly help facilitate this activity. The value I’ve seen teams derive from estimation though is that it is a forcing function for a conversation. That’s it.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You think that will take X, and I think it’ll take Y. Tell me more!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Hey, the team’s velocity won’t allow for all of this work. What are we willing to trade off?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If these discussions are occuring without the tool, then why change it?&lt;/p&gt;
+
+&lt;p&gt;The reason that I feel so strongly about this is because I have been part of teams that followed scrum and XP practices to a T.&lt;/p&gt;
+
+&lt;p&gt;We were efficient.&lt;/p&gt;
+
+&lt;p&gt;But we were not effective.&lt;/p&gt;
+
+&lt;p&gt;We were doing the work right but we were not doing the right work.&lt;/p&gt;
+
+&lt;p&gt;Agile hardliners will argue that’s because we were missing some key ceremony or role to protect against this.&lt;/p&gt;
+
+&lt;p&gt;It’s not that complicated though.&lt;/p&gt;
+
+&lt;p&gt;We forgot that we were &lt;strong&gt;people&lt;/strong&gt; who needed to &lt;strong&gt;interact&lt;/strong&gt; to create &lt;strong&gt;working software&lt;/strong&gt; that served our &lt;strong&gt;customers’&lt;/strong&gt; &lt;strong&gt;changing needs&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Losing the essence of something in the pursuit of religion is nothing new.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The Sabbath was made for man, not man for the Sabbath.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;a href=&quot;https://www.biblegateway.com/passage/?search=mark+2%3A27&amp;amp;version=ESV&quot; target=&quot;_blank&quot;&gt;Mark 2:27&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Mon, 25 Jan 2021 00:00:00 -0600</pubDate>
+      </item>
     
       <item>
         <title>Assessing Sales and Engineering Performance</title>
@@ -817,81 +882,6 @@ Where are the limbs out on which we once walked?&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Sat, 25 Jul 2020 00:00:00 -0500</pubDate>
-      </item>
-    
-      <item>
-        <title>Welcome Kits</title>
-        <link>/essays/2020/07/17/welcome-kits.html</link>
-        <guid isPermaLink="true">/essays/2020/07/17/welcome-kits.html</guid>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;We basically took one part of our product and we extrapolated: what would a five-star experience be. Then we went crazy. So a one-, two-, or three-star experience is, you get to your Airbnb and no one’s there. You knock on the door. They don’t open. That’s a one star. Maybe it’s a three star if they don’t open, you have to wait 20 minutes…&lt;/p&gt;
-
-  &lt;p&gt;So a five-star experience is you knock on the door, they open the door, they let you in. Great. That’s not a big deal. You’re not going tell every friend about it. You might say, “I used Airbnb. It worked.”&lt;/p&gt;
-
-  &lt;p&gt;What’s a seven-star experience? You knock on the door. Reid Hoffman opens. Get in. “Welcome. Here’s my full kitchen. I know you like surfing. There’s a surfboard waiting for you. I’ve booked lessons for you. It’s going to be an amazing experience. By the way, here’s my car. You can use my car. And I also want to surprise you. There’s this best restaurant in the city of San Francisco. I got you a table there.” And you’re like, “Whoa. This is way beyond.”&lt;/p&gt;
-
-  &lt;p&gt;— &lt;a href=&quot;https://mastersofscale.com/brian-chesky-handcrafted/&quot; target=&quot;_blank&quot;&gt;Brian Chesky, CEO of Airbnb, on Masters of Scale&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I think about the above quote a lot. It applies to many things we do in companies. It helps answer the questions “What does excellence look like?” as well as “How do design for excellence?”&lt;/p&gt;
-
-&lt;p&gt;I like the exercise in particular because it’s easy to settle for average. As Brian explains, there’s magic in describing the ideal. After discussing 11 stars, all of a sudden 5 stars doesn’t seem so unreasonable to hit.&lt;/p&gt;
-
-&lt;p&gt;Welcoming new employees to your organization is an excellent use case of this. Hiring is expensive. Further, we hire because we desire employees make an impact and return the investment of training them up. It often takes at least 3 months to really start seeing a productivity bump from new knowledge workers. It takes about 6 months to overcome the impostor syndrome many new employees face.&lt;/p&gt;
-
-&lt;p&gt;At least &lt;a href=&quot;https://www.forbes.com/sites/fedex/2013/05/14/why-your-new-employees-first-six-months-matter-most/#4409a8261379&quot; target=&quot;_blank&quot;&gt;one study&lt;/a&gt; indicates that employees decide in their first six months whether they are going to make their home at their new company.&lt;/p&gt;
-
-&lt;p&gt;So why not invest in helping them confirm their decision even before they start? There are sure to be hiccups in their first 6 months. By welcoming and onboarding employees appropriately, you can buy yourself some grace to cover over these problems and continue the goodwill.&lt;/p&gt;
-
-&lt;p&gt;Which brings us to the exercise of rating a welcome experience.&lt;/p&gt;
-
-&lt;h2 id=&quot;whats-a-one-star-experience-&quot;&gt;What’s a One Star Experience? ★&lt;/h2&gt;
-
-&lt;p&gt;You only have contact with a recruiter outside your interviews. You sign the papers and are sent a tepid “Congratulations, now fill out this background check” from from the HR rep. Your manager doesn’t reach out. No one tells you where to go on day one; you have to ask yourself. They don’t have your laptop ready for several days. It seems as if you starting is mostly an inconvenience to your manager as they try to squeeze you in between meetings. No one invites you to lunch. It’s going to take 2 weeks to even get your dev environment set up.&lt;/p&gt;
-
-&lt;h2 id=&quot;whats-a-three-star-experience-&quot;&gt;What’s a three star experience? ★★★&lt;/h2&gt;
-
-&lt;p&gt;You interview with an engaged recruiter. You sign the papers and get a welcome from your new boss. You’re told where to show up on your first day and maybe given an agenda. Your laptop is present and being formatted by IT. Your manager has scheduled some time with you.&lt;/p&gt;
-
-&lt;h2 id=&quot;whats-a-ten-star-experience-&quot;&gt;What’s a ten star experience? ★★★★★★★★★★&lt;/h2&gt;
-
-&lt;p&gt;Before we discuss what five stars looks like, let’s imagine perfection.&lt;/p&gt;
-
-&lt;p&gt;Your hiring manager was engaged the entire time through the recruiting process. You built rapport with them even before you started. The day you signed your offer letter, a flood of welcome emails poured in from the entire company, including from the CEO who remarks on a non-generic, specific detail that you discussed in your interviews. The hiring manager called you and said they were excited for you to start. Two days later, a welcome package arrives on your porch. Let’s say you’re working at a genomics company. Inside are 23andMe kits for you and your entire family, a genetic testing kit for your dog, a DNA model for your middle school child, a plush toy for your toddler, a $500 Visa gift card just to pamper yourself, a handwritten note from your manager, books on your new domain area as well as ones that the CEO often references on the culture they’re building towards, and handmade candy from where the company is headquartered. On your first day, which you’re well prepped for, you arrive to a configured laptop with code checked out and the core software installed. You open your inbox and see your manager has blocked several touchpoints with you. They’ve built out a 30/60/90 day plan; it’s reasonable too and already defeats impostor syndrome. Your first coding task is assigned, totally doable, and you’ve got a few hours to settle in and even focus on that after your officemate has given you a tour of the kitchen area and you’ve picked up a cup of coffee. You land your first commit, people give you kudos on your pull request. Just in time for lunch with a few people from your team, not too many though. You come back, sync with your manager, they’ve outlined the next few days of work…&lt;/p&gt;
-
-&lt;p&gt;Woah! I recognize that may not be &lt;em&gt;everyone’s&lt;/em&gt; ten star experience. There’s a lot there to build on regardless. I feel pretty good about that experience just writing it.&lt;/p&gt;
-
-&lt;h2 id=&quot;whats-a-five-star-experience-&quot;&gt;What’s a five star experience? ★★★★★&lt;/h2&gt;
-
-&lt;p&gt;So now, let’s dial it back to five stars. Where do we land?&lt;/p&gt;
-
-&lt;p&gt;You built rapport with both your hiring manager and recruiter throughout the process. You’re excited about continuing that relationship, about the company, the work you’ll do, and the team you’re part of. When you sign your offer, the folks you interviewed with send welcome emails. A few folks who you didn’t even meet do so as well! They’re excited that engineering is growing. A week after you sign a box arrives on your doorstep. It contains a few books, some stickers, a DNA plush toy, a Starbucks gift card, a notebook to capture all your ideas. A metaphorical and literal fresh start. You receive your computer on or before you start. You’ve been invited to the appropriate tools including GitHub, Slack, AWS, 1Password. Your manager books time with you first thing and has already shared a 30/60/90 day plan with you in your inbox. You discuss your first coding tasks on day one. Part of your plan includes Udemy courses to support learning about your new domain. A welcome email goes out to the company on day one.&lt;/p&gt;
-
-&lt;h2 id=&quot;day-two&quot;&gt;Day Two&lt;/h2&gt;
-
-&lt;p&gt;I believe that the level of engagement I describe in the five star experience goes a long way. There will always be hiccups in an employee’s experience. But welcoming and onboarding people effectively is an investment that pays dividends. Invest in that first 6 months and that employee will carry it forward for the next cohort.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i.pinimg.com/originals/88/ae/51/88ae51f1317b80f859923d85790670e0.jpg&quot; alt=&quot;There’s work and there’s your life’s work. The kind of work that has your fingerprints all over it. The kind of work that you’d never compromise on. That you’d sacrifice a weekend for. You can do that kind of work at Apple. People don’t come here to play it safe. They come here to swim in the deep end. Something big. Something that couldn’t happen anywhere else. Welcome to Apple.&quot; width=&quot;450px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Apple places (or at least used to place) this note on new hires’ desks on their first day.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;If it’s backed by authenticity, then these welcome experiences set the tone for an employee’s time at the company.&lt;/p&gt;
-
-&lt;p&gt;This is the standard.&lt;/p&gt;
-
-&lt;p&gt;This is the culture.&lt;/p&gt;
-
-&lt;p&gt;This is the expectation: for ourselves as well as you.&lt;/p&gt;
-
-&lt;p&gt;This is how we treat coworkers.&lt;/p&gt;
-
-&lt;p&gt;This is how we think of our products.&lt;/p&gt;
-
-&lt;p&gt;This is how we treat our customers.&lt;/p&gt;
-
-&lt;p&gt;Welcome. Let’s get started.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 17 Jul 2020 00:00:00 -0500</pubDate>
       </item>
     
   </channel>
