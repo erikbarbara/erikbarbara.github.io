@@ -3,9 +3,72 @@
   <channel>
     <title>Essays by Erik</title>
     <atom:link href="/essays/feed.xml" rel="self" type="application/rss+xml"/>
-    <link>http://localhost:4000/essays/</link>
+    <link>https://erikbarbara.com/essays/</link>
     <description>Essays by Erik Barbara. All opinions are my own.</description>
-    <pubDate>Mon, 25 Jan 2021 15:35:35 -0600</pubDate>
+    <pubDate>Sat, 24 Apr 2021 20:08:34 -0600</pubDate>
+    
+      <item>
+        <title>What Funding Rounds Buy You</title>
+        <link>/essays/2021/04/23/funding-rounds.html</link>
+        <guid isPermaLink="true">/essays/2021/04/23/funding-rounds.html</guid>
+        <description>&lt;p&gt;As I’ve been recruiting, onboarding, and coaching lately within &lt;a href=&quot;http://datagrail.io/&quot; target=&quot;_blank&quot;&gt;DataGrail&lt;/a&gt;, I frequently touch on the topic of the company’s stage.&lt;/p&gt;
+
+&lt;p&gt;Folks make observations or have questions about where we are, where we’re going, problems we’re encountering, and what the right set of trade-offs to optimize for are.&lt;/p&gt;
+
+&lt;p&gt;One of the models that I come back to is our stage of company. I find it a useful tool to frame a larger discussion about what we’re working toward at this moment as a company.&lt;/p&gt;
+
+&lt;p&gt;It uses fundraising rounds as a lens for the problems that a company is focused on. What does each of these rounds buy an investor and focus the compnay on?&lt;/p&gt;
+
+&lt;p&gt;n.b. this model biases toward B2B SaaS companies.&lt;/p&gt;
+
+&lt;h1 id=&quot;seed&quot;&gt;Seed&lt;/h1&gt;
+
+&lt;p&gt;You’re paying for the company (really the founders at this point) to find a market problem that people are willing to spend money to have solved.&lt;/p&gt;
+
+&lt;p&gt;You’re discovering what the job to be done is.&lt;/p&gt;
+
+&lt;p&gt;Usually this involves building an alpha or POC version of a product.&lt;/p&gt;
+
+&lt;p&gt;Shortcuts are taken on the path to validating that this is a worthy problem.&lt;/p&gt;
+
+&lt;h1 id=&quot;series-a&quot;&gt;Series A&lt;/h1&gt;
+
+&lt;p&gt;You’ve proven that your problem matters to people.&lt;/p&gt;
+
+&lt;p&gt;Now the goal is to build a product that you can sell repeatedly.&lt;/p&gt;
+
+&lt;p&gt;Again, perfection is not the goal; iterating quickly is. By the end of A, if you’ve done it right, you’ve built yourself a product with market fit.&lt;/p&gt;
+
+&lt;h1 id=&quot;series-c&quot;&gt;Series C&lt;/h1&gt;
+
+&lt;p&gt;Before we move on to series B, it’s useful to first jump to C. By the time you arrive at a C round, you should have a repeatable go-to-market motion. You should have playbooks. You should have an excellent product that &lt;em&gt;can&lt;/em&gt; take off without the company collapsing under the weight of its own success.&lt;/p&gt;
+
+&lt;p&gt;We’re about to hit the steep part of the hockey stick and the money from this round buys you gasoline to pour on the 🔥. Building out a robust salesforce, hiring engineers to expand product surface area rapidly, pursuing new channels and verticals.&lt;/p&gt;
+
+&lt;p&gt;Let’s go.&lt;/p&gt;
+
+&lt;h1 id=&quot;series-b&quot;&gt;Series B&lt;/h1&gt;
+
+&lt;p&gt;So if A is about hitting the groove of product-market fit and C is about pouring gasoline on the fire, B is about tuning the engine of the company.&lt;/p&gt;
+
+&lt;p&gt;The goal here is to build a strong, repeatable GTM engine and a robust product that requires sublinear human effort to grow in usage.&lt;/p&gt;
+
+&lt;p&gt;In other words, engineer the business.&lt;/p&gt;
+
+&lt;h1 id=&quot;series-d-and-beyond&quot;&gt;Series D and Beyond&lt;/h1&gt;
+
+&lt;p&gt;The meaning of rounds at this point become fuzzier. D can be a mezzanine to something bigger like an IPO. For example, prove to the public markets ahead that you can acquire companies, integrate them, and grow non-organically. Or show that you can deliver on multi-year strategic plans.&lt;/p&gt;
+
+&lt;p&gt;Series D for a company that has executed through C &lt;em&gt;well&lt;/em&gt; though is a tee up for the big leagues.&lt;/p&gt;
+
+&lt;p&gt;Each of these rounds is critical, but to me the first 3 are the hardest to get right.&lt;/p&gt;
+
+&lt;p&gt;The plumb line moving from seed to A and A to B and B to C needs to be true. Small misalignments compound and become much costlier the further you go.&lt;/p&gt;
+
+&lt;p&gt;So nail the purpose of the round when executing and you’ll have better problems to focus on. 📈&lt;/p&gt;
+</description>
+        <pubDate>Fri, 23 Apr 2021 00:00:00 -0600</pubDate>
+      </item>
     
       <item>
         <title>The Religion of Agile</title>
@@ -69,7 +132,7 @@
   &lt;p&gt;– &lt;a href=&quot;https://www.biblegateway.com/passage/?search=mark+2%3A27&amp;amp;version=ESV&quot; target=&quot;_blank&quot;&gt;Mark 2:27&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
-        <pubDate>Mon, 25 Jan 2021 00:00:00 -0600</pubDate>
+        <pubDate>Mon, 25 Jan 2021 00:00:00 -0700</pubDate>
       </item>
     
       <item>
@@ -106,7 +169,7 @@
 
 &lt;p&gt;At this point in our industry, it’s impossible to objectively and qualitatively measure a single engineer’s performance. Engineering leaders are paid to bring to bear their professional experience and judgement to assess and steer both the team’s and individuals’ performance. Management is fundamentally about applying subjective assessment to ambiguous situations. Software engineer performance is no exception.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 16 Jan 2021 00:00:00 -0600</pubDate>
+        <pubDate>Sat, 16 Jan 2021 00:00:00 -0700</pubDate>
       </item>
     
       <item>
@@ -163,7 +226,7 @@
 
 &lt;p&gt;&lt;em&gt;h/t to my former colleague &lt;a href=&quot;https://www.linkedin.com/in/glenn-stempeck/&quot; target=&quot;_blank&quot;&gt;Glenn Stempeck&lt;/a&gt; for the pool analogy; he also wrote &lt;a href=&quot;https://medium.com/@glennstempeck/software-engineering-like-a-6-000-piece-hogwarts-lego-castle-bc7441d0b1b5&quot; target=&quot;_blank&quot;&gt;this excellent essay&lt;/a&gt; on the perils of splitting a team’s focus.&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Mon, 14 Dec 2020 00:00:00 -0600</pubDate>
+        <pubDate>Mon, 14 Dec 2020 00:00:00 -0700</pubDate>
       </item>
     
       <item>
@@ -208,7 +271,7 @@
 
 &lt;p&gt;😁 Smile.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 18 Nov 2020 00:00:00 -0600</pubDate>
+        <pubDate>Wed, 18 Nov 2020 00:00:00 -0700</pubDate>
       </item>
     
       <item>
@@ -259,7 +322,7 @@
 
 &lt;p&gt;Choose wisely.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 16 Oct 2020 00:00:00 -0500</pubDate>
+        <pubDate>Fri, 16 Oct 2020 00:00:00 -0600</pubDate>
       </item>
     
       <item>
@@ -328,7 +391,7 @@
 
 &lt;p&gt;These three aspects are a sort of Proterozoic soup out of which an engineer can evolve into a manager.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 10 Oct 2020 00:00:00 -0500</pubDate>
+        <pubDate>Sat, 10 Oct 2020 00:00:00 -0600</pubDate>
       </item>
     
       <item>
@@ -413,7 +476,7 @@
 
 &lt;p&gt;Bugs happen. We’ll fix them when they do. At least I know a bit more about Python’s datetime internals now.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 04 Oct 2020 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 04 Oct 2020 00:00:00 -0600</pubDate>
       </item>
     
       <item>
@@ -454,7 +517,7 @@
 
 &lt;p&gt;Stop asking if something is the right choice. Instead, ask if it’s a reasonable, good enough choice. Make the decision. Then move on.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 02 Oct 2020 00:00:00 -0500</pubDate>
+        <pubDate>Fri, 02 Oct 2020 00:00:00 -0600</pubDate>
       </item>
     
       <item>
@@ -501,7 +564,7 @@
 
 &lt;p&gt;In the periods of regular, predictable projects, this is the area to focus the most on growing your team.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 19 Sep 2020 00:00:00 -0500</pubDate>
+        <pubDate>Sat, 19 Sep 2020 00:00:00 -0600</pubDate>
       </item>
     
       <item>
@@ -541,7 +604,7 @@
 
 &lt;p&gt;Just kill the 🐍.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 11 Sep 2020 00:00:00 -0500</pubDate>
+        <pubDate>Fri, 11 Sep 2020 00:00:00 -0600</pubDate>
       </item>
     
       <item>
@@ -642,7 +705,7 @@
 
 &lt;p&gt;I also feel a bit better knowing that the internet is working really hard to make doing bad things even harder.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 04 Sep 2020 00:00:00 -0500</pubDate>
+        <pubDate>Fri, 04 Sep 2020 00:00:00 -0600</pubDate>
       </item>
     
       <item>
@@ -722,7 +785,7 @@ Direct Report: Can we just do the split already? I’ve had some initial 1:1s wi
 
 &lt;p&gt;My work here is done. 🐸&lt;/p&gt;
 </description>
-        <pubDate>Tue, 01 Sep 2020 00:00:00 -0500</pubDate>
+        <pubDate>Tue, 01 Sep 2020 00:00:00 -0600</pubDate>
       </item>
     
       <item>
@@ -788,7 +851,7 @@ Where are the limbs out on which we once walked?&lt;/p&gt;
 
 &lt;p&gt;Thanks, Zack; I think you like totally may have changed how I communicate.&lt;/p&gt;
 </description>
-        <pubDate>Sun, 23 Aug 2020 00:00:00 -0500</pubDate>
+        <pubDate>Sun, 23 Aug 2020 00:00:00 -0600</pubDate>
       </item>
     
       <item>
@@ -827,61 +890,7 @@ Where are the limbs out on which we once walked?&lt;/p&gt;
 
 &lt;p&gt;Pull it forward.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 06 Aug 2020 00:00:00 -0500</pubDate>
-      </item>
-    
-      <item>
-        <title>On Shortcuts to Becoming a Developer</title>
-        <link>/essays/2020/07/25/on-shortcuts.html</link>
-        <guid isPermaLink="true">/essays/2020/07/25/on-shortcuts.html</guid>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;As [Jesus] was setting out on his journey, a man ran up and knelt before him and asked him, “Good Teacher, what must I do to inherit eternal life?” Jesus gave him the answer. The man replied, “Teacher, all these I have kept from my youth.” And Jesus, looking at him, loved him, and said to him, “You lack one thing: go, sell all that you have and give to the poor, and you will have treasure in heaven; and come, follow me.” Disheartened by the saying, he went away sorrowful, for he had great possessions.&lt;/p&gt;
-
-  &lt;p&gt;– &lt;a href=&quot;https://www.biblegateway.com/passage/?search=mark+10%3A17-22&amp;amp;version=ESV&quot; target=&quot;_blank&quot;&gt;Mark 10:17-22&lt;/a&gt; (heavily paraphrased)&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Occassionally I’m asked to grab coffee with folks looking to change careers and become software engineers. I’m happy to do so and enjoy the conversations!&lt;/p&gt;
-
-&lt;p&gt;There’s usually a series of questions that come during our discussion that follow the order below:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Do I need to go back and get a bachelor’s in computer science?&lt;/li&gt;
-  &lt;li&gt;Should I get a master’s?&lt;/li&gt;
-  &lt;li&gt;What about bootcamps? I found one I can graduate from in just 6 months.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;One of the things that I love about tech is that it’s as &lt;em&gt;close&lt;/em&gt; to a meritocracy as we can find in today’s workplace (yes, it’s far from perfect, but it’s as close as I’ve found). I’ve worked with and hired people who hold PhDs in computer science, people who have little more in the way of formal education than a high school diploma, and people well-educated in domains seemingly unrelated to computer science or software engineering altogether (e.g. music, Arabic).&lt;/p&gt;
-
-&lt;p&gt;In my experience, software engineer performance is not due to educational background.&lt;/p&gt;
-
-&lt;p&gt;To put a finer point on it, a computer science degree is not necessary to have a successful career in software development.&lt;/p&gt;
-
-&lt;p&gt;What is? Sweat equity.&lt;/p&gt;
-
-&lt;p&gt;There is no shortcut to putting in the time and effort required to enter into software engineering. Period.&lt;/p&gt;
-
-&lt;p&gt;Folks can break into the industry via a bachelor’s in computer science. They can do it with a degree in an adjacent degree like bioinformatics or astrophysics. They can do it with a bootcamp. They can self-teach. I can name numerous, great engineers that I’ve worked with who did it each way.&lt;/p&gt;
-
-&lt;p&gt;But each one put in the time.&lt;/p&gt;
-
-&lt;p&gt;There’s often a point in my coffee conversations where I’m breaking this news to someone. And our discussion is certainly incomparable to the eternal stakes Jesus is dealing with. But I feel just a &lt;em&gt;bit&lt;/em&gt; like I’m talking with the rich, young ruler in some of these conversations. I’m about to say something they don’t want to hear. “Yeah, yeah, yeah, I hear you, I like this, I don’t &lt;strong&gt;have&lt;/strong&gt; to go back to school. This is good.” For some people, their ears tune me out thereafter.&lt;/p&gt;
-
-&lt;p&gt;They tune me out when I say that the reason that a bachelor’s or master’s or adjacent degree works is because these people have spent &lt;em&gt;years&lt;/em&gt; of their lives studying the fundamentals. An undergraduate degree in computer science is 4 (+/- 1) years of a forcing function for putting in the time and getting good at one thing: programming principles.&lt;/p&gt;
-
-&lt;p&gt;And those principles are what you need to get your first job in the business.&lt;/p&gt;
-
-&lt;p&gt;One software engineer I worked with is incredibly talented and did not study computer science. She studied economics. She took a few CS classes too late in her undergrad to want to change. So she took a technical support job out of undergrad and studied at night for hours overs years. And that effort allowed her to move within that same company into an entry-level engineering role. And then that experience allowed her to get the next job. Which allowed her to gain new experiences…repeat.&lt;/p&gt;
-
-&lt;p&gt;But there was no shortcut for the time and effort she put in.&lt;/p&gt;
-
-&lt;p&gt;Sweat. Equity.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Read five hundred pages like this every day. That’s how knowledge works. It builds up, like compound interest. All of you can do it, but I guarantee not many of you will do it.&lt;/p&gt;
-
-  &lt;p&gt;– &lt;a href=&quot;https://www.inc.com/scott-mautz/warren-buffett-says-you-should-read-500-pages-a-day-yikes-here-are-7-ways-to-at-least-read-more.html&quot; target=&quot;_blank&quot;&gt;Warren Buffet&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Sat, 25 Jul 2020 00:00:00 -0500</pubDate>
+        <pubDate>Thu, 06 Aug 2020 00:00:00 -0600</pubDate>
       </item>
     
   </channel>
