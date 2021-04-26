@@ -5,7 +5,38 @@
     <atom:link href="/essays/feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://erikbarbara.com/essays/</link>
     <description>Essays by Erik Barbara. All opinions are my own.</description>
-    <pubDate>Sat, 24 Apr 2021 20:08:34 -0600</pubDate>
+    <pubDate>Sun, 25 Apr 2021 21:12:31 -0600</pubDate>
+    
+      <item>
+        <title>A Gap in My Fossil Record</title>
+        <link>/essays/2021/04/25/fossil-record.html</link>
+        <guid isPermaLink="true">/essays/2021/04/25/fossil-record.html</guid>
+        <description>&lt;p&gt;I joined Duo Security in early 2015. At the time we were just shy of 100 employees and had around 20 engineers. We had &amp;lt;$10M ARR. We were late in our series B financing and just about to raise &lt;a href=&quot;https://duo.com/resources/news-and-press/releases/duo-raises-30-million&quot; target=&quot;_blank&quot;&gt;series C&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;In the 5.5 years to follow I would be a part of Duo’s growth to 800+ employees, over 100 engineers, a &lt;a href=&quot;https://techcrunch.com/2018/08/02/cisco-is-buying-duo-security-for-2-35b-in-cash/&quot; target=&quot;_blank&quot;&gt;$2.35B acquisition by Cisco&lt;/a&gt;, and $300M+ ARR.&lt;/p&gt;
+
+&lt;p&gt;In 2015, we tripled revenue. Then we doubled it again and again and nearly again.&lt;/p&gt;
+
+&lt;p&gt;I got to see firsthand how Duo’s leadership steered the company through an unrelenting pace of change. I ran and invented many plays myself along the way as I led teams doing things neither I nor anyone else around me had experienced before.&lt;/p&gt;
+
+&lt;p&gt;Most days it felt a bit like going too fast down a hill on your bike. The handlebars are wobbling despite your white knuckles with control just out of reach.&lt;/p&gt;
+
+&lt;p&gt;In retrospect, it was exhilirating. In the moment, it was exhausting and terrifying.&lt;/p&gt;
+
+&lt;p&gt;I joined DataGrail in late 2020. We were and still are earlier in our journey than Duo was when I joined. We had 40 employees and just 7 engineers. We were earlier in the &lt;a href=&quot;https://techcrunch.com/2015/02/01/the-saas-travel-adventure/&quot; target=&quot;_blank&quot;&gt;T2D3 model&lt;/a&gt;. We were late series A and now are &lt;a href=&quot;https://techcrunch.com/2021/03/10/datagrail-snares-30m-series-b-to-help-deal-with-privacy-regulations/&quot; target=&quot;_blank&quot;&gt;series B&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Many days I feel a bit uncomfortable. Not discomfort like growing from 100 to 200 or 200 to 400 people or starting 3 product lines in a year. I know what over &lt;em&gt;there&lt;/em&gt; at Duo’s stage should generally feel like. Rather, the discomfort is not yet knowing the course to chart to get there.&lt;/p&gt;
+
+&lt;p&gt;In short, I have a gap in my fossil records.&lt;/p&gt;
+
+&lt;p&gt;My job over the next 18 to 24 months is to nudge us–my team, the company, myself–bit by bit closer to &lt;em&gt;there&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Then my job is to bring to bear my 5+ years of experience under incredible growth to do it again at DataGrail.&lt;/p&gt;
+
+&lt;p&gt;Mind the (fossil) gap. 🦕&lt;/p&gt;
+</description>
+        <pubDate>Sun, 25 Apr 2021 00:00:00 -0600</pubDate>
+      </item>
     
       <item>
         <title>What Funding Rounds Buy You</title>
@@ -852,45 +883,6 @@ Where are the limbs out on which we once walked?&lt;/p&gt;
 &lt;p&gt;Thanks, Zack; I think you like totally may have changed how I communicate.&lt;/p&gt;
 </description>
         <pubDate>Sun, 23 Aug 2020 00:00:00 -0600</pubDate>
-      </item>
-    
-      <item>
-        <title>Pull It Forward</title>
-        <link>/essays/2020/08/06/pull-it-forward.html</link>
-        <guid isPermaLink="true">/essays/2020/08/06/pull-it-forward.html</guid>
-        <description>&lt;p&gt;I worked with Chester Kustarz at Duo Security. He was Head of Engineering in various roles throughout my tenure there (Director, VP, Director again after we were acquired by Cisco). Like many leaders who are cultural staples within an organization, there are stories and Chesterisms that float around Duo. Some I experienced and have retold, some I heard, and some are probably just made up. Regardless of their truth though, they are nearly all impactful in setting the tone and culture of the org.&lt;/p&gt;
-
-&lt;p&gt;One that I return to constantly is the following, told in Chester’s words.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We were trying to kick off a project. And someone looked and saw that the people had non-overlapping calendars for the next two weeks.&lt;/p&gt;
-
-  &lt;p&gt;So they said, “Ok. I’ll schedule it for then.”&lt;/p&gt;
-
-  &lt;p&gt;Wrong.&lt;/p&gt;
-
-  &lt;p&gt;I say “What does it take for us to clear the calendar for tomorrow afternoon to get it scheduled? What about tomorrow morning? What about today? What about we walk over to the whiteboard right now and kick it off? This is important.”&lt;/p&gt;
-
-  &lt;p&gt;The point is that we have to reframe our mindset. We have to have a sense of urgency. Pull it forward.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Companies don’t stop innovating because they become too big or bloated or outperformed. They become complacent. It happens to small companies too.&lt;/p&gt;
-
-&lt;p&gt;It’s important to have a sense of urgency. In particular this is true in startups, which as Paul Graham &lt;a href=&quot;http://www.paulgraham.com/aord.html&quot; target=&quot;_blank&quot;&gt;says&lt;/a&gt; are often “default to death”. The only path to success is to have a sense of urgency.&lt;/p&gt;
-
-&lt;p&gt;Reid Hoffman says it slightly differently.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You jump off a cliff and you assemble an aeroplane on the way down.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The point is that time is of the essence. Even when you’ve made it to profitability, you have a unique opportunity to seize that momentum and do more or go faster.&lt;/p&gt;
-
-&lt;p&gt;What’s powerful about the Chesterism above is that he doesn’t just say, “we need to have a sense of urgency”. His questions simultaneously model and will it into reality.&lt;/p&gt;
-
-&lt;p&gt;Pull it forward.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 06 Aug 2020 00:00:00 -0600</pubDate>
       </item>
     
   </channel>
