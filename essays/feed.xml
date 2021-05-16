@@ -5,7 +5,42 @@
     <atom:link href="/essays/feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://erikbarbara.com/essays/</link>
     <description>Essays by Erik Barbara. All opinions are my own.</description>
-    <pubDate>Sun, 25 Apr 2021 21:12:31 -0600</pubDate>
+    <pubDate>Sat, 15 May 2021 20:52:02 -0600</pubDate>
+    
+      <item>
+        <title>A Ratcheting Effect</title>
+        <link>/essays/2021/05/15/ratcheting-effect.html</link>
+        <guid isPermaLink="true">/essays/2021/05/15/ratcheting-effect.html</guid>
+        <description>&lt;p&gt;&lt;em&gt;This post was derived from a message I delivered at a regular company all hands meeting after I let an employee go due to under performance.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;As a company focused on fostering trust between organizations and their customers, a core part of DataGrail’s m.o. revolves around transparency both within and without.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;I was asked to say a few words at the meeting about the circumstances surrounding this departure. It was a humbling experience because I wanted to honor the employee while being transparent and true to the circumstances. Here’s what I said.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Thanks, Daniel. Lee’s (not their real name) last full day with the company was on Thursday.&lt;/p&gt;
+
+&lt;p&gt;I want to say two things about this departure.&lt;/p&gt;
+
+&lt;p&gt;First, Daniel has made the analogy before that the demands of a startup of DataGrail’s stage and trajectory are akin in many ways to being a professional athlete.&lt;/p&gt;
+
+&lt;p&gt;We are in an intense period and the expectations for everyone in an organization like this are incredibly high. Maintaining our current trajectory means that they will only increase.&lt;/p&gt;
+
+&lt;p&gt;These demands may not be for everyone across every season of life. If that’s true for someone we’re interviewing or someone who exits the organization, it’s not an indictment of their character, their intelligence, or them as a person.&lt;/p&gt;
+
+&lt;p&gt;There was simply an impedance mismatch between our stage as an organization and their stage.&lt;/p&gt;
+
+&lt;p&gt;We desire to be a high performing organization. As we go, there’s a ratcheting effect to our talent and the expectations for each of us.&lt;/p&gt;
+
+&lt;p&gt;Second, this was not a sudden event.&lt;/p&gt;
+
+&lt;p&gt;The idea of “win as a team” is incredibly pertinent here. We don’t trade people off the team for a missed play, a bum game, or even a poor season here at DataGrail. We rally around them and attempt to support them.&lt;/p&gt;
+
+&lt;p&gt;If over a period of multiple seasons we’re still not seeing the contributions that are fair to the whole team, only then do we move toward what we might describe as formal performance management.&lt;/p&gt;
+
+&lt;p&gt;We “win as a team” and have “empathy always”.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 15 May 2021 00:00:00 -0600</pubDate>
+      </item>
     
       <item>
         <title>A Gap in My Fossil Record</title>
@@ -817,72 +852,6 @@ Direct Report: Can we just do the split already? I’ve had some initial 1:1s wi
 &lt;p&gt;My work here is done. 🐸&lt;/p&gt;
 </description>
         <pubDate>Tue, 01 Sep 2020 00:00:00 -0600</pubDate>
-      </item>
-    
-      <item>
-        <title>Words Matter</title>
-        <link>/essays/2020/08/23/words-matter.html</link>
-        <guid isPermaLink="true">/essays/2020/08/23/words-matter.html</guid>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;What has happened to our conviction?&lt;br /&gt;
-Where are the limbs out on which we once walked?&lt;/p&gt;
-
-  &lt;p&gt;– &lt;a href=&quot;https://www.youtube.com/watch?v=LGAMd-tT6fQ&quot; target=&quot;_blank&quot;&gt;“Totally like whatever, you know?” by Taylor Mali&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Another individual I worked with at Duo Security was Zack Urlocker. At the time he was COO. Zack had previously served as COO of Zendesk, an EVP at MySQL, and a VP at Borland.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Side note, Zack always prounced MySQL as “My-Ess-Que-Ell”. After having asked him once he told me that’s what Monty, core author of MySQL, called it. So now that’s how I refer to it.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;One of the most poignant Urlocker memories I have was as part of a regular Engineering Leads meeting. He made it a point to attend regularly (I think he did enjoy the team that Chester had assembled although he also used his attendance as a high-leverage way to imbue the culture he desired). I don’t recall the exact topic but Zack was making a point and said:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;If we want to be a…No, we &lt;strong&gt;want&lt;/strong&gt; to be a high-performing organization…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;That’s it. It was in that moment that I learned two things.&lt;/p&gt;
-
-&lt;p&gt;First, words matter. They convey conviction and meaning and power. Did we want to be a high-performing organization? Was that up for debate? The COO was making that clear. We wanted to be one. It also conveyed that he felt we weren’t yet one. We had work to do.&lt;/p&gt;
-
-&lt;p&gt;Second, public self-correction is not only something you can do, it in and of itself speaks volumes. Take ownership in the moment for what you’re communicating. Send a message to your team and those around you.&lt;/p&gt;
-
-&lt;p&gt;That one moment with Zack fundamentally changed how I communicate out loud. Here are a few areas I find myself publicly, self-correcting.&lt;/p&gt;
-
-&lt;h4 id=&quot;gender-biases&quot;&gt;Gender Biases&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We have a candidate coming in for VP of People? When do you interview her?…That’s a gender bias. When do you interview them?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Hey! Where are you guys going?…Where are you all going?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h4 id=&quot;weasel-words&quot;&gt;Weasel Words&lt;/h4&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We might want to fix that bug…Sorry, let me remove the weasel word. We need to fix that.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I could probably…It will be done by tomorrow.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;At first I thought it would be awkward to so publicly self-correct. Having seen Zack do so though and the impact it had on me, I started doing it. Funnily, it’s liberating.&lt;/p&gt;
-
-&lt;p&gt;I can be clear about what I intended.&lt;/p&gt;
-
-&lt;p&gt;I don’t have to correct myself through an email.&lt;/p&gt;
-
-&lt;p&gt;I set the tone in the moment, even when I don’t get it right the first time.&lt;/p&gt;
-
-&lt;p&gt;People notice even more because it’s not common.&lt;/p&gt;
-
-&lt;p&gt;Words matter and they hold power.&lt;/p&gt;
-
-&lt;p&gt;Thanks, Zack; I think you like totally may have changed how I communicate.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 23 Aug 2020 00:00:00 -0600</pubDate>
       </item>
     
   </channel>
