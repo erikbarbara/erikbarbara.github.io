@@ -10,7 +10,7 @@ Behavorial interviewing posits that _past behavior is the best predictor of futu
 
 Questions often follow the form "Tell me about a time when..." or "Have you ever...?"
 
-> Tell me about a time you provided critical feedback to a boss or superior?
+> Tell me about a time you provided critical feedback to a boss or superior.
 
 I'm not as interested in what you'd do in a hypothetical situation. Instead, I want you to show me what you have done in reality.
 
@@ -34,7 +34,7 @@ If you can't think of a story immediately, ask for a moment to collect your thou
 
 If you can't think of a story that's an exact match, tell something that's proximate. Tell me:
 
-> I don't know if this will be an exact match but I think it will help you understand a similar scenario."
+> I don't know if this will be an exact match but I think it will help you understand a similar scenario.
 
 Telling stories involves details.
 
