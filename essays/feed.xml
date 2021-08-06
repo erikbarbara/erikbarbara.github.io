@@ -5,7 +5,54 @@
     <atom:link href="/essays/feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://erikbarbara.com/essays/</link>
     <description>Essays by Erik Barbara. All opinions are my own.</description>
-    <pubDate>Tue, 27 Jul 2021 08:46:21 -0400</pubDate>
+    <pubDate>Fri, 06 Aug 2021 12:20:52 -0400</pubDate>
+    
+      <item>
+        <title>Own It</title>
+        <link>/essays/2021/08/06/own-it.html</link>
+        <guid isPermaLink="true">/essays/2021/08/06/own-it.html</guid>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;A friend recently complained about how inefficient his employer is. Processes are poor, communication is bad. He then said a competitor company had its act together. I asked him how he knew that – he’s never worked there and has never been inside the company. Fair, he said. It just seems that way from the outside.&lt;/p&gt;
+
+  &lt;p&gt;But almost everything looks better from the outside. I guarantee workers at the competitor find flaws in the way their company operates, because they know about their company what my friend knows about his: how the sausage is made. All the messy personalities and difficult decisions that you only see when you’re inside, in the trenches. “All businesses are loosely functioning disasters” Brent Beshore says. But it’s like an iceberg, only a fraction is visible.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;a href=&quot;https://www.collaborativefund.com/blog/hard/&quot; target=&quot;_blank&quot;&gt;Harder Than It Looks, Not As Fun as It Seems, Collaborative Fund&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’m not a Sales Engineer but I occasionally play one on Zoom calls.&lt;/p&gt;
+
+&lt;p&gt;I’ve &lt;a href=&quot;/essays/2021/01/16/assessing-performance.html&quot;&gt;written&lt;/a&gt; about the differences in assessing sales vs engineering performance.&lt;/p&gt;
+
+&lt;p&gt;There’s a similar dichotomy for feedback, especially critical feedback that pertains to relational dynamics. The culture must be strongly cultivated in engineering organizations. It seems to come much easier in sales.&lt;/p&gt;
+
+&lt;p&gt;I enjoy the blunt feedback and rigorous analysis of interactions from sales professionals.&lt;/p&gt;
+
+&lt;p&gt;I’ve hopped off calls and had Account Executives with 15 years selling ask me:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;What did you think?&lt;br /&gt;
+What was strong?&lt;br /&gt;
+Where did I suck?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;They then go on to self-criticize before giving me unsolicited feedback on what to change.&lt;/p&gt;
+
+&lt;p&gt;One great piece of feedback I received was about “owning it.”&lt;/p&gt;
+
+&lt;p&gt;Our product had a particular weakness in comparison to our competitors. When I discussed our approach, I’d often caveat my explanation with, “This is how we approach this…&lt;em&gt;for now&lt;/em&gt;.” I’d hesitate.&lt;/p&gt;
+
+&lt;p&gt;After hearing me do this on a few of their calls, one of the Account Executives I worked with said:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Drop the hesitancy.&lt;br /&gt;
+Tell the prospect what we do and why.&lt;br /&gt;
+They don’t know and don’t need to know this is a point of internal discussion.&lt;br /&gt;
+The solution works; it’s just different.&lt;br /&gt;
+Own it.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Fri, 06 Aug 2021 00:00:00 -0400</pubDate>
+      </item>
     
       <item>
         <title>Behavioral Interviewing Made Simple (Interviewees)</title>
@@ -798,107 +845,6 @@ How did you know it hurt morale?&lt;/p&gt;
 &lt;p&gt;Just kill the 🐍.&lt;/p&gt;
 </description>
         <pubDate>Fri, 11 Sep 2020 00:00:00 -0400</pubDate>
-      </item>
-    
-      <item>
-        <title>Safe Browsing</title>
-        <link>/essays/2020/09/04/safe-browsing.html</link>
-        <guid isPermaLink="true">/essays/2020/09/04/safe-browsing.html</guid>
-        <description>&lt;h4 id=&quot;background&quot;&gt;Background&lt;/h4&gt;
-
-&lt;p&gt;One of the first responsibilities I had as I became an Engineering Manager at Duo Security was the launch of a greenfield phishing product, Duo Insight.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Side note, there was an internal employee poll at the time on what to name the new product. The record will show that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Tackle Box&lt;/code&gt; was the winner. Get it? Phishing? Fishing? Tackle box? Yes, that’s what I voted for. Still a missed opportunity in my mind.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Duo’s core product was centered around 2FA, which guards against stolen credentials. However, we had decided there was an opportunity to demonstrate the need for 2FA by allowing companies to phish their own employees for free. The story behind the decision to build the product is a different blog post (or three). But decide to build it we did!&lt;/p&gt;
-
-&lt;p&gt;So let me state it like this. My team was tasked with allowing any company to send fake phishing emails to their employees that looked like Google Drive, Office 365, Salesforce, or Outlook messages linked to fake login pages in less than 5 minutes.&lt;/p&gt;
-
-&lt;p&gt;The largest companies in tech have been working for a very long time to counter nearly every aspect of what we were doing.&lt;/p&gt;
-
-&lt;p&gt;Blocking unwanted emails at all? Check.&lt;/p&gt;
-
-&lt;p&gt;Blocking emails that are suspiciously similar in content and look and feel to popular services? Check&lt;/p&gt;
-
-&lt;p&gt;Blocking emails that use brand names but come from email addresses not associated with those brand names? Check&lt;/p&gt;
-
-&lt;p&gt;Blocking sites that seem suspicious? Check&lt;/p&gt;
-
-&lt;p&gt;Stopping phishing is a problem that Fortune 100 tech companies have spent enormous amounts of money building into their products to keep users safe.&lt;/p&gt;
-
-&lt;p&gt;So why shouldn’t a team of 5 engineers, product managers, and designers be able to launch this product? Knowing what I know now, I would never have thought we could do it. But that’s the power of naivete. It turns out that it’s trivial to send an email; getting it to show up in someone’s inbox though is pretty difficult.&lt;/p&gt;
-
-&lt;h4 id=&quot;launch&quot;&gt;Launch&lt;/h4&gt;
-
-&lt;p&gt;Anyways, we spent 12 months building this product. I took over the team as a new manager about 4 months before launch (the classic story of “There’s just a few more things remaining. Your team should be able to finish it in a sprint or two.”)&lt;/p&gt;
-
-&lt;p&gt;We finally launch the product mid-summer and all goes smoothly at first.&lt;/p&gt;
-
-&lt;h4 id=&quot;crisis&quot;&gt;Crisis&lt;/h4&gt;
-
-&lt;p&gt;Then one day a Technical Support Engineer Slacks the #duo-insight channel and reports that a customer is seeing this view.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/en/d/d0/Google_Safe_Browsing_Screenshot.png&quot; alt=&quot;Google Safe Browsing - Deceptive Site Ahead&quot; width=&quot;250px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;That’s Chrome’s display for a site on the &lt;a href=&quot;https://en.wikipedia.org/wiki/Google_Safe_Browsing&quot;&gt;Google Safe Browsing&lt;/a&gt; list.&lt;/p&gt;
-
-&lt;p&gt;I distinctly remember that I was in an Engineering Staff Meeting at the time when I looked down at my phone and saw the message. I got up, went back to my desk, went to the tool on my laptop, and tried it myself. Sure enough, that URL had been burnt by Safe Browsing.&lt;/p&gt;
-
-&lt;p&gt;No problem, this is why we had multiple services and domains.&lt;/p&gt;
-
-&lt;p&gt;I go to another site. Same story.&lt;/p&gt;
-
-&lt;p&gt;I pull another engineer from my team out of the meeting and have them try on their laptop. Not good.&lt;/p&gt;
-
-&lt;p&gt;Every domain and service that we had built this product around was now being flagged by Safe Browsing across every major browser.&lt;/p&gt;
-
-&lt;p&gt;It turns out registering all of these domains as part of the same Amazon Certificate Manager cert was a bad idea. Safe Browsing grabbed all the sites on the cert and added them to their list.&lt;/p&gt;
-
-&lt;p&gt;Worse still, the interconnected web of tools that keep the internet safe was propagating this list through itself. Soon it wasn’t just browsers that were blocking our domains. After a few more tests, any emails sent out from our tool were automatically being blocked by the most popular built-in and off-the-shelf spam defense products.&lt;/p&gt;
-
-&lt;p&gt;I pulled our VP of Security into what was now becoming a war room. He had warned that we should proactively reach out to these groups and get their feedback before launch. He reminded me that he said this would happen. He wasn’t wrong.&lt;/p&gt;
-
-&lt;p&gt;As a new manager though and with the pressure of hearing “this should only take a few more sprints” and then having 4 months go by, I felt we couldn’t delay launch longer. Lesson learned.&lt;/p&gt;
-
-&lt;p&gt;Luckily, Duo had people deeply connected with the security community at nearly all major companies. I ate crow and asked these folks to reach out to their contacts at these places.&lt;/p&gt;
-
-&lt;p&gt;Google’s reply was something like this.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;So, you’re telling us that Safe Browsing is blocking a site that has a lookalike domain (e.g. drive-accounts-google-com.com) for one of our products (e.g. Google Docs) that’s being linked in phishing emails that are fake but indistinguishable from real ones and that link to a fake login page that looks like the Google sign-in page that’s using our branding and logo? Sounds like Safe Browsing is working as designed. Good luck with your little, new product though.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ok. We should have anticipated that response too.&lt;/p&gt;
-
-&lt;p&gt;But we were trying to make the internet safer! Couldn’t they just allow our service? No.&lt;/p&gt;
-
-&lt;h4 id=&quot;decision&quot;&gt;Decision&lt;/h4&gt;
-
-&lt;p&gt;In the midst of all this, I had sales people asking me when the site would be back up. I had marketing asking for the status because they had just launched a demand gen campaign around this. Product had ideas. Security wanted to rethink the entire product. And Duo had just invested over $1M for over a year to make this product. And it was now the web app equivalent of being bricked.&lt;/p&gt;
-
-&lt;p&gt;I was walking from our conference room huddle to the kitchen at one point and Zack Urlocker, our COO, came up to me. I thought I was about to get a good chewing out or better yet fired. At the least I thought I was going to get an opinion. And in a way I did.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Erik, you’re getting a million opinions right now. At the end of the day though it’s you and your engineers who have to fix the problem. You make the call. You own the decisions. You can listen to everyone else but you make the call.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;In the depths of this crisis, as a new manager, surrounded by chaos, this is what I needed to hear.&lt;/p&gt;
-
-&lt;h4 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h4&gt;
-
-&lt;p&gt;We eventually took a number of measures to get Duo Insight back online. Remarkably, it took just a few days. We removed the lookalike domains, had emails and login pages that were stylistically similar to the services we were phishing with but that didn’t include their logos, added explainers about how our tool did not collect passwords to the root of each domain where Safe Browsing looks, performed transparent domain registration, etc. I think in the 4 years that followed we might have had one additional domain burned. But nothing of the magnitude of the initial crisis.&lt;/p&gt;
-
-&lt;h4 id=&quot;postscript&quot;&gt;Postscript&lt;/h4&gt;
-
-&lt;p&gt;In early 2020, we shuttered Duo Insight due to lack of traction and to focus on higher-lever product development opportunities.&lt;/p&gt;
-
-&lt;p&gt;I learned a ton about product development, market opportunity evaluation, making decisions, and leading teams during this time.&lt;/p&gt;
-
-&lt;p&gt;I’m incredibly proud of my team for collaborating with subject matter experts at Duo and in the industry and then taking that information, owning the decision, and solving this problem.&lt;/p&gt;
-
-&lt;p&gt;I also feel a bit better knowing that the internet is working really hard to make doing bad things even harder.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 04 Sep 2020 00:00:00 -0400</pubDate>
       </item>
     
   </channel>
