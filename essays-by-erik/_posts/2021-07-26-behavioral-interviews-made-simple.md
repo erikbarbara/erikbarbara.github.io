@@ -88,7 +88,7 @@ Did you reflect on that and wish you had behaved differently? Yes? Great!
 
 This is your chance to tell me what you did **and** what you wish you had done differently. This is the one time I want to hear hypotheticals.
 
-> One co-worker in particular I worked with early in my career was incredibly difficult. I honestly didn't have the crucial conversations with them that I wish I had. I ended up quiting. I haven't encountered anyone as challenging for me as that since then. But I have a few cases where I was encountering friction with a co-worker. I remembered where I fell down and decided to have an uncomfortable conversation. Can I share that with you?
+> One co-worker in particular I worked with early in my career was incredibly difficult. I honestly didn't have the crucial conversations with them that I wish I had. I ended up quitting. I haven't encountered anyone as challenging for me as that since then. But I have a few cases where I was encountering friction with a co-worker. I remembered where I fell down and decided to have an uncomfortable conversation. Can I share that with you?
 
 Yes. Yes. Yes. Please do! (_Can you tell I'm excited?_)
 

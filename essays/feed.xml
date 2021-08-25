@@ -5,7 +5,105 @@
     <atom:link href="/essays/feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://erikbarbara.com/essays/</link>
     <description>Essays by Erik Barbara. All opinions are my own.</description>
-    <pubDate>Fri, 06 Aug 2021 12:20:52 -0400</pubDate>
+    <pubDate>Tue, 24 Aug 2021 20:21:36 -0400</pubDate>
+    
+      <item>
+        <title>Buy In</title>
+        <link>/essays/2021/08/24/buy-in.html</link>
+        <guid isPermaLink="true">/essays/2021/08/24/buy-in.html</guid>
+        <description>&lt;p&gt;Getting buy in for an idea is an undervalued skill for knowledge workers.&lt;/p&gt;
+
+&lt;p&gt;It holds new managers back. It separates senior engineers from staff, principal, and beyond.&lt;/p&gt;
+
+&lt;p&gt;There are myriad ways to get buy in. I want to cover three models I’ve found useful in my own career.&lt;/p&gt;
+
+&lt;h2 id=&quot;activation-energy&quot;&gt;Activation Energy&lt;/h2&gt;
+
+&lt;p&gt;I managed a senior engineer who had “right” ideas that never got buy in. A hyperbolic example follows.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We really need to switch to Python 3, move to protobuf for service-to-service communication, and implement service discovery.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This would come as we were encountering a difficult project challenge at crunch time. The tech stack would be Python 2.7 with Twisted, JSON-based REST communication, and a largely monolithic architecture with a few decoupled services.&lt;/p&gt;
+
+&lt;p&gt;This engineer was perpetually frustrated. They had topped out as a senior engineer for over a decade now. Senior isn’t an up-or-out role (a topic for another day). But a key to moving beyond senior is being able to influence the organization and achieve buy in for your ideas.&lt;/p&gt;
+
+&lt;p&gt;The coaching I landed on with this engineer centered on &lt;strong&gt;activation energy&lt;/strong&gt;. Think back to high school chemistry.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://upload.wikimedia.org/wikipedia/commons/e/e3/Activation2_updated.svg&quot; alt=&quot;Example of an enzyme-catalysed exothermic reaction &quot; width=&quot;350px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The organization or tech stack or $X is operating at its current energy level. You have an idea that could bring it to a new, better state.&lt;/p&gt;
+
+&lt;p&gt;The energy required to achieve your new state is untenable for the organization.&lt;/p&gt;
+
+&lt;p&gt;Could you instead achieve 80% of your goal by making one, palatable suggestion at much lower cost? Instead of changing three variables, what if protobuf alone would help solve the project’s problems?&lt;/p&gt;
+
+&lt;p&gt;You’re 1/3 of the way to your technical changes. You’ve got 80% of the benefits. The project was pushed along, not delayed further by your ideas.&lt;/p&gt;
+
+&lt;p&gt;Consider the activation energy the organization will need to accept your idea.&lt;/p&gt;
+
+&lt;h2 id=&quot;shackletons-dogs&quot;&gt;Shackleton’s Dogs&lt;/h2&gt;
+
+&lt;p&gt;This is a variant of &lt;a href=&quot;/essays/2020/09/01/proposing-technical-changes.html&quot;&gt;boiling frogs&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;To be clear, I learned this at Calibrate SF in 2017 from Karen Catlin’s talk, &lt;em&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=bBf2okRBegc&amp;amp;list=PL8iMj9kx_ykTSWpvKj0oBuHYSR6eA9fnu&amp;amp;index=7&quot; target=&quot;_blank&quot;&gt;The Art of the Pre-Meeting&lt;/a&gt;&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ernest Shackleton and his crew while stranded in the Antarctic were quickly running out of food.&lt;/p&gt;
+
+&lt;p&gt;He concluded: we have to kill the dogs.&lt;/p&gt;
+
+&lt;p&gt;But he couldn’t just say that. So, he visited the men at night around their fires. He’d hear them bemoan the dwindling food supplies. He’d empathize and help them see that the dogs ate many seals per day that could feed several men over days.&lt;/p&gt;
+
+&lt;p&gt;I imagine he’d ask questions like this.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;How many seals did we get today?&lt;br /&gt;
+How many are left?&lt;br /&gt;
+Did you get much?&lt;br /&gt;
+How are the dogs?&lt;br /&gt;
+Are they eating?&lt;br /&gt;
+How much?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It sunk in. The dogs were killing the men.&lt;/p&gt;
+
+&lt;p&gt;And so, when Shackleton finally proposed that they kill the dogs, the men understood.&lt;/p&gt;
+
+&lt;p&gt;I’ve found that when I “know” what the right idea is, most times I shouldn’t tell the team what we should do. I present the same constraints that I’ve considered.&lt;/p&gt;
+
+&lt;p&gt;One of two things happens.&lt;/p&gt;
+
+&lt;p&gt;The team arrives at the same conclusion.&lt;/p&gt;
+
+&lt;p&gt;Or very often they find more accurate constraints and better solutions.&lt;/p&gt;
+
+&lt;p&gt;Regardless, because they were part of the process they are bought into the solution.&lt;/p&gt;
+
+&lt;p&gt;Be careful. Consensus leadership on everything is ineffective. Many decisions though are worth the wait.&lt;/p&gt;
+
+&lt;p&gt;Get the group to consider the constraints of the problem space you’re working in.&lt;/p&gt;
+
+&lt;h2 id=&quot;thats-right&quot;&gt;That’s Right&lt;/h2&gt;
+
+&lt;p&gt;The last model comes from &lt;em&gt;&lt;a href=&quot;https://www.amazon.com/Never-Split-Difference-Negotiating-Depended/dp/0062407805&quot;&gt;Never Split the Difference&lt;/a&gt;&lt;/em&gt;, the only book I would recommend on negotiation.&lt;/p&gt;
+
+&lt;p&gt;This “technique” isn’t about negotiation, it’s about relating.&lt;/p&gt;
+
+&lt;p&gt;As an engineer, it’s my tendency to want to be right. And for others to acknowledge it. That’s ineffective.&lt;/p&gt;
+
+&lt;p&gt;Others want to be heard.&lt;/p&gt;
+
+&lt;p&gt;If you’re trying to convince a person of something, it’s more powerful when they say, “that’s right”, not “you’re right”.&lt;/p&gt;
+
+&lt;p&gt;If they say “you’re right” then you’ve lost because now they’ve resigned.&lt;/p&gt;
+
+&lt;p&gt;If you echo their positions and they say, “that’s right”, they’re now ready to listen. They know you heard them out.&lt;/p&gt;
+
+&lt;p&gt;It’s better to be effective than to be right.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Aug 2021 00:00:00 -0400</pubDate>
+      </item>
     
       <item>
         <title>Own It</title>
@@ -159,7 +257,7 @@ How did you know it hurt morale?&lt;/p&gt;
 &lt;p&gt;This is your chance to tell me what you did &lt;strong&gt;and&lt;/strong&gt; what you wish you had done differently. This is the one time I want to hear hypotheticals.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;One co-worker in particular I worked with early in my career was incredibly difficult. I honestly didn’t have the crucial conversations with them that I wish I had. I ended up quiting. I haven’t encountered anyone as challenging for me as that since then. But I have a few cases where I was encountering friction with a co-worker. I remembered where I fell down and decided to have an uncomfortable conversation. Can I share that with you?&lt;/p&gt;
+  &lt;p&gt;One co-worker in particular I worked with early in my career was incredibly difficult. I honestly didn’t have the crucial conversations with them that I wish I had. I ended up quitting. I haven’t encountered anyone as challenging for me as that since then. But I have a few cases where I was encountering friction with a co-worker. I remembered where I fell down and decided to have an uncomfortable conversation. Can I share that with you?&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Yes. Yes. Yes. Please do! (&lt;em&gt;Can you tell I’m excited?&lt;/em&gt;)&lt;/p&gt;
@@ -805,46 +903,6 @@ How did you know it hurt morale?&lt;/p&gt;
 &lt;p&gt;In the periods of regular, predictable projects, this is the area to focus the most on growing your team.&lt;/p&gt;
 </description>
         <pubDate>Sat, 19 Sep 2020 00:00:00 -0400</pubDate>
-      </item>
-    
-      <item>
-        <title>Problem Solving Maturity Model</title>
-        <link>/essays/2020/09/11/problem-solving-maturity-model.html</link>
-        <guid isPermaLink="true">/essays/2020/09/11/problem-solving-maturity-model.html</guid>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;The first rule is if you see a snake, don’t call committees, don’t call your buddies, don’t form a team, don’t get a meeting together, just kill the snake.&lt;/p&gt;
-
-  &lt;p&gt;– &lt;a href=&quot;https://www.celebrazio.net/jimb/15.html&quot; target=&quot;_blank&quot;&gt;Jim Barksdale, Former President and CEO of Netscape&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I have a mental model I call my &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Problem Solving Maturity Model&lt;/code&gt;. It goes like this.&lt;/p&gt;
-
-&lt;p&gt;At the lowest end of the maturity model are direct reports who complain about issues, particularly unconstructively. “This sucks” or “that’s stupid” are the most obtuse forms of this, but just pointing out problems is a less pernicious manifestation as well.&lt;/p&gt;
-
-&lt;p&gt;Folks on the mature end of the model solve problems, often by the time I’m hearing about it. These folks are high performers. There’s a bit of danger here in solving problems without talking to others. But folks who can judge when to just solve the problem without asking are really dialed into the organization’s needs. It’s ok to ask before solving, in particular if you’re new to an organization and trying to figure out the API or if the solution is expensive or political.&lt;/p&gt;
-
-&lt;p&gt;The point though is that solving problems » finding problems. The latter is necessary but not sufficient.&lt;/p&gt;
-
-&lt;p&gt;So here’s the maturity model:&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;“This is a problem” or “This is dumb”&lt;/li&gt;
-  &lt;li&gt;“This is a problem; here’s what we should do about it…” (notice the use of the ambiguous we)&lt;/li&gt;
-  &lt;li&gt;“This is a problem; here’s how I’m planning on fixing it…let me know if you have feedback”&lt;/li&gt;
-  &lt;li&gt;“This was a problem; I already fixed it.”&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;I hear pushback sometimes that a direct report may not know how to fix a problem and so it’s not fair to ding them. A few thoughts there.&lt;/p&gt;
-
-&lt;p&gt;First, I’m more willing to accept this the earlier someone is in their career. They may not know how to navigate the org or they may not have developed the professional muscles to realize that they should bring solutions. That’s a coaching moment; don’t waste it.&lt;/p&gt;
-
-&lt;p&gt;Second, I could see a case for more senior people being handed more intractable problems. My rebuttal to this though is that the more senior you are, the more that your role &lt;em&gt;is&lt;/em&gt; about solving intractable problems. The Secretary of State doesn’t just get to hand off their intractable issues to the President. They are hired to solve exactly those issues!&lt;/p&gt;
-
-&lt;p&gt;I might refine this argument by saying that the more removed a problem is from someone’s role, the more tolerance I have for someone not coming with solutions. That being said, I still believe that it’s a sign of professional maturity for someone to clearly articulate the problem and be clear that they’re at a loss for how to solve it. A mid-level engineer may see dysfunction (that’s affecting them) with some HR-related process and not know how to solve it. But if it’s a problem related to form-validation in the core product where they work, I don’t want to hear complaints without plans.&lt;/p&gt;
-
-&lt;p&gt;Just kill the 🐍.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 11 Sep 2020 00:00:00 -0400</pubDate>
       </item>
     
   </channel>
