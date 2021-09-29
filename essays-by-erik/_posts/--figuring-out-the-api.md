@@ -8,9 +8,9 @@ People are incongruent, myself included. Organizations are made of people.
 
 We say one thing and do another.
 
-Organizations are similarly incongruent and this often manifests in tension. This tension is usually healthy, akin to agonist-antagonist muscle pairs. Product Management indexes toward shipping new features. Engineering indexes towards the ever elusive technical debt that "needs" to be paid down.
+Organizations are similarly incongruent and this often manifests in tension. Most times this tension is healthy, akin to agonist-antagonist muscle pairs. Product Management indexes toward shipping new features. Engineering indexes towards the ever elusive technical debt that "needs" to be paid down.
 
-Here's one thing I've found helpful in articulating these incongruencies as well as coaching others and navigating them myself.
+Here's a model I've found helpful in articulating these incongruencies as well as helping others and myself to navigate them:
 
 **Discover a person's and organization's API.**
 
@@ -18,15 +18,17 @@ There are all sorts of downsides to focusing on a person's intentions. The [fund
 
 This is actually the premise of the [DISC assessment](https://en.wikipedia.org/wiki/DISC_assessment). Don't focus on people's motivations, but rather understand their exhibited behaviors.
 
-Reframing the problem to APIs is another way to frame the same concept; a way that may resonate more with you if you have a technical background.
+Reframing the problem to APIs is another way to frame the same concept. It may resonate  with you if you have a technical background.
 
-One Engineering Manager I managed was having a hard time getting through to someone on another team. Our conversation went somethign like this.
+One Engineering Manager I managed was having a hard time getting through to someone on another team. Our conversation went something like this.
 
-> EM: I just don't get it. Everytime I try to review project tradeoffs with $X, it's like we're saying the same thing.
+> EM: I just don't get it. Everytime I try to review project tradeoffs with $X, it's like we're saying the same thing but still disagreeing.
 > Me: I hear you. It's like they have an entirely different API. Like you're speaking REST and they're using SOAP.
 > EM: Exactly!
-> Me: That's how I think of people. Sometimes our APIs are compatible. Othertimes it's like we're off by a minor version but one of us is backwards compatible. And sometimes it's like we're not even speaking over HTTP, like they're on Telnet and I'm on Protobufs.
-> Don't focus on 
+
+That's how I think of people. Sometimes our APIs are compatible. Othertimes it's like we're off by a minor version but one of us is backwards compatible.
+
+And sometimes it's like we're not even speaking the same protocol. I'm on HTTP and they're on Telnet.
 
 I had experienced similar difficulties with this individual as well in the past.
 

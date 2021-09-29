@@ -5,7 +5,113 @@
     <atom:link href="/essays/feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://erikbarbara.com/essays/</link>
     <description>Essays by Erik Barbara. All opinions are my own.</description>
-    <pubDate>Tue, 24 Aug 2021 20:21:36 -0400</pubDate>
+    <pubDate>Tue, 28 Sep 2021 21:10:12 -0400</pubDate>
+    
+      <item>
+        <title>We Shape Our Comp Bands</title>
+        <link>/essays/2021/09/28/we-shape-our-comp-bands.html</link>
+        <guid isPermaLink="true">/essays/2021/09/28/we-shape-our-comp-bands.html</guid>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;We shape our buildings and afterwards our buildings shape us.&lt;/p&gt;
+
+  &lt;p&gt;– Winston Churchill&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;This is a reflection on a recent interaction. I feel self-conscious writing this post. Like most things I learn, it sounds like common sense when stated explicitly.&lt;/p&gt;
+
+&lt;p&gt;The insight struck me enough though that I’m going to share it.&lt;/p&gt;
+
+&lt;p&gt;I’ve typically designed comp bands to have even overlap between levels. If one level runs to $120K as a max salary, the next will start with a minimum of $110K.&lt;/p&gt;
+
+&lt;p&gt;Looking back, this is a product of organizations where budgets for raises are decoupled from budgets for promotions. You retain a great Software Engineer II and reward them for their contributions with a raise while standing in line for their promotion budget for several quarters.&lt;/p&gt;
+
+&lt;p&gt;Compensation in the software development job market, like pricing in the housing market, has recently come unhinged. In order to stay competitive, we took a pass at redesigning our comp bands.&lt;/p&gt;
+
+&lt;p&gt;The overlap described above makes sense when you have the budget constraints described. And that was informing my design.&lt;/p&gt;
+
+&lt;p&gt;However, our VPE (h/t &lt;a href=&quot;https://twitter.com/jondmatthews?lang=en&quot; target=&quot;_blank&quot;&gt;@jondmatthews&lt;/a&gt;) suggested something different.&lt;/p&gt;
+
+&lt;p&gt;He said we should not overlap compensation on the lower levels of our career ladder and instead maintain tigher salary bands. This would force us to recognize strong performance in our less tenured engineers with promotions, not raises.&lt;/p&gt;
+
+&lt;p&gt;Inversely, we’d design our most senior levels to have broad overlap. This would allow us to reward folks who made great contributions as senior engineers but who may not be ready for the title of principal engineer and the associated organizational impact.&lt;/p&gt;
+
+&lt;p&gt;Let’s pause for a moment. We can debate the merits of rapid early career promotions, the tradeoffs of up-or-out roles, or the wisdom of a career ladder with N levels. I welcome the coffee we’ll share over that discussion some day.&lt;/p&gt;
+
+&lt;p&gt;My point is we shape our comp bands and afterwards our comp bands shape us (and our management). In my example above, our budgeting process shapes our comp bands. And something shaped the budgeting process. And…&lt;/p&gt;
+
+&lt;p&gt;Intentional organizational design matters. Consider it a corollary of &lt;a href=&quot;https://en.wikipedia.org/wiki/Conway%27s_law&quot; target=&quot;_blank&quot;&gt;Conway’s Law&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Design wisely.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 28 Sep 2021 00:00:00 -0400</pubDate>
+      </item>
+    
+      <item>
+        <title>Depth-first and Breadth-first Learning</title>
+        <link>/essays/2021/09/16/dfs-and-bfs-learning.html</link>
+        <guid isPermaLink="true">/essays/2021/09/16/dfs-and-bfs-learning.html</guid>
+        <description>&lt;p&gt;I’ve encountered two patterns of learning when working with engineers. These patterns apply to most people. But I’ve spent most of my career working with engineers.&lt;/p&gt;
+
+&lt;p&gt;The two categories are useful to describe where people gravitate. Reality is less binary and is instead a spectrum.&lt;/p&gt;
+
+&lt;p&gt;I bring these up when onboarding a new engineer to learn how &lt;em&gt;they&lt;/em&gt; learn. It’s typically clear in how they approach their first tasks as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/1280/1*GT9oSo0agIeIj6nTg3jFEA.gif&quot; alt=&quot;Illustration of DFS Preorder and BFS Searches&quot; width=&quot;350px&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;breadth-first-learning&quot;&gt;Breadth-first Learning&lt;/h2&gt;
+
+&lt;p&gt;This is the model I tend toward. I self-deprecatingly call this the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;StackOverflow Coder&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;A breadth-first learner scans the solution space and returns to the work when they believe they have minimally viable knowledge.&lt;/p&gt;
+
+&lt;p&gt;Despite the deprecating name, this shouldn’t be confused with brute forcing. There is intentionality in the learning. The goal is to not over-optimize in depth or expertise of knowledge. The goal is getting to tangible value sooner.&lt;/p&gt;
+
+&lt;p&gt;If the first scan didn’t result in a workable solution, the learner goes deeper. It’s akin to a breadth-first search algorithm. The learner assumes that nodes in each subsequent layer in the tree require geometrically more effort to learn than the previous depth.&lt;/p&gt;
+
+&lt;h2 id=&quot;depth-first-learning&quot;&gt;Depth-first Learning&lt;/h2&gt;
+
+&lt;p&gt;These learners tend to be more “ready, aim, aim, aim, fire”.&lt;/p&gt;
+
+&lt;p&gt;A depth-first learner goes deep into a subject before writing a line of code or starting on the implementation. This is particularly true if it’s their first time working with a concept.&lt;/p&gt;
+
+&lt;p&gt;They find comfort in developing depth and familiarity with the subject. And the depth of knowledge they gain can pay dividends when the problem being solved has nuance or if they specialize in that subject matter over a long period of time. The trade-off is that tangible results take longer to bootstrap.&lt;/p&gt;
+
+&lt;h2 id=&quot;trade-offs&quot;&gt;Trade-offs&lt;/h2&gt;
+
+&lt;p&gt;There isn’t a right answer about which model is best. There are simply trade-offs and contexts in which to apply each.&lt;/p&gt;
+
+&lt;p&gt;I find breadth-first works best when starting at a new company. You’re assigned your first task. Your manager picked a starter task. You’re supposed to send a new parameter in an API call.&lt;/p&gt;
+
+&lt;p&gt;Do you research Rails, controllers, the philosophy, etc.?&lt;/p&gt;
+
+&lt;p&gt;Or do you dive into the code, reproduce the issue, look at the existing routes, make an educated guess at how to implement the change, and iterate?&lt;/p&gt;
+
+&lt;p&gt;Conversely, I once worked on a project that required using the OpenID Connect protocol for authentication.&lt;/p&gt;
+
+&lt;p&gt;My approach was to find a popular library for the framework we were using, install it, and get basic authentication working. I was confident we were 90% done!&lt;/p&gt;
+
+&lt;p&gt;My manager was a depth-first learner. They printed out (yes on paper) the OIDC spec, sat down at their desk and read it with a highlighter. Then they looked at the source code of the library I had chosen and pointed out two or three important implementation details that had been skipped.&lt;/p&gt;
+
+&lt;p&gt;I felt a bit like King George III in Hamilton.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I wasn’t aware that was something a person could do.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;a href=&quot;https://www.youtube.com/watch?v=hGibKLo3SC0&quot; target=&quot;_blank&quot;&gt;I Know Him, Hamilton&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;From this experience, I’ve developed a (still too intuitive) heuristic for deciding when I need to go deep on a topic.&lt;/p&gt;
+
+&lt;p&gt;A strong team is comprised of both types of learners. And mature professionals will know when to adopt their non-dominant approach.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;There’s an opportune time to do things, a right time for everything on the earth.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;a href=&quot;https://www.biblegateway.com/passage/?search=Ecclesiastes+3%3A1&amp;amp;version=MSG&quot; target=&quot;_blank&quot;&gt;Ecclesiastes 3:1&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+        <pubDate>Thu, 16 Sep 2021 00:00:00 -0400</pubDate>
+      </item>
     
       <item>
         <title>Buy In</title>
@@ -815,94 +921,6 @@ How did you know it hurt morale?&lt;/p&gt;
 &lt;p&gt;Bugs happen. We’ll fix them when they do. At least I know a bit more about Python’s datetime internals now.&lt;/p&gt;
 </description>
         <pubDate>Sun, 04 Oct 2020 00:00:00 -0400</pubDate>
-      </item>
-    
-      <item>
-        <title>The &quot;Right&quot; Choice</title>
-        <link>/essays/2020/10/02/the-right-fallacy.html</link>
-        <guid isPermaLink="true">/essays/2020/10/02/the-right-fallacy.html</guid>
-        <description>&lt;p&gt;In &lt;del&gt;business&lt;/del&gt; decision-making, there’s rarely a clear, right choice.&lt;/p&gt;
-
-&lt;p&gt;There are usually some objectively wrong or bad choices.&lt;/p&gt;
-
-&lt;p&gt;There are often several good or fine choices.&lt;/p&gt;
-
-&lt;p&gt;This is good news!&lt;/p&gt;
-
-&lt;p&gt;Is a relational database better than a no-SQL database? It depends.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;This particular example hit the whole point of this essay home for me several years ago at Duo. &lt;a href=&quot;https://duo.com/blog/building-better-reports-with-a-data-pipeline&quot; target=&quot;_blank&quot;&gt;We were moving&lt;/a&gt; away from MySQL to store records of authentications. After growing a table to several billion records and continuing to add hundreds of millions more per month, making changes to the schema was onerous and caused outages. Further, it was nearly impossible for us to flexibly search, filter, and aggregate the data (a problematic outcome when we had customers screaming for robust reports to demonstrate how Duo was performing for them). We chose to move to Elasticsearch. What it made up for in the benefits of flexible schema, searching, and aggregation, we felt the tradeoff of cluster maintenance and a lack of relational data capabilities.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Most decisions are not about picking the right choice but rather being aware of the appropriate tradeoffs.&lt;/p&gt;
-
-&lt;p&gt;Org design decisions are no different. There is no best org design.&lt;/p&gt;
-
-&lt;p&gt;Are teams of full-stack developers focused on a single product better than teams of specialists? It depends.&lt;/p&gt;
-
-&lt;p&gt;What tradeoffs do you want to make? Neither is problem free so you’re really making a design decision about how you want to operate going forward. As Churchill said, “…we shape our buildings and afterwards our buildings shape us.”&lt;/p&gt;
-
-&lt;p&gt;Academically, it’s easy to see that there being a single, right choice is often not the right issue to focus on. Economists figured this out long ago. Vilfredo Pareto developed the idea of &lt;a href=&quot;https://en.wikipedia.org/wiki/Pareto_efficiency&quot; target=&quot;_blank&quot;&gt;Pareto Optimality or Pareto Efficiency&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.economicshelp.org/wp-content/uploads/2017/07/pareto-efficiency-2017.png.webp&quot; alt=&quot;Curve demonstrating a set of pareto optimal choices.&quot; width=&quot;450px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;In the economists’ model, it’s straightforward to chart the pareto curve and the options that are all optimum. It’s easily quantifiable.&lt;/p&gt;
-
-&lt;p&gt;Practical application is more difficult though.&lt;/p&gt;
-
-&lt;p&gt;Developers desire clearcut answers. However, software engineering is more art than science. The name belies how subjective the field is. Can you really quantify the benefits of Rust over Python? I doubt it (although someone invariably has or will try).&lt;/p&gt;
-
-&lt;p&gt;Luckily though, most decisions don’t need an optimal choice. They just need a good enough one. &lt;a href=&quot;https://en.wikipedia.org/wiki/Pareto_principle&quot; target=&quot;_blank&quot;&gt;Pareto&lt;/a&gt; figured this out too. 80% of the effects come from 20% of the causes.&lt;/p&gt;
-
-&lt;p&gt;Stop asking if something is the right choice. Instead, ask if it’s a reasonable, good enough choice. Make the decision. Then move on.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 02 Oct 2020 00:00:00 -0400</pubDate>
-      </item>
-    
-      <item>
-        <title>Builds, Feedback for High-Performers</title>
-        <link>/essays/2020/09/19/builds-feedback-for-high-performers.html</link>
-        <guid isPermaLink="true">/essays/2020/09/19/builds-feedback-for-high-performers.html</guid>
-        <description>&lt;p&gt;When managing high-performers, I’ve generally seen a bimodal distribution in the type of critical feedback that I give.&lt;/p&gt;
-
-&lt;p&gt;One the one hand, high-performers, almost definitionally, are sticking their necks out, pushing the organization forward, and challenging where the team and they themselves are at.&lt;/p&gt;
-
-&lt;p&gt;People who stick their necks out are most likely to receive a haircut when things go wrong. It’s easy to give a high-performer feedback in those circumstances. They’re not perfect and it’s obvious what their flaws and mistakes are. We’re pushing the boundaries of what we as an organization and they as a professional have done before.&lt;/p&gt;
-
-&lt;p&gt;On the other hand, I’ve seen where a high-performer goes through long periods of projects that are important but not necessarily critical to the organization. The margin for error is wider and the likelihood of making mistakes, or at the least others being impacted by them, if much lower.&lt;/p&gt;
-
-&lt;p&gt;I can go months on end during these times where I feel like I have nothing material to discuss in a 1:1. The direct may even ask, “What feedback do you have for me?” (as high-performers are apt to do). This feels, and arguably is, a management failure.&lt;/p&gt;
-
-&lt;p&gt;Funnily enough, I was discussing this dilemna with a manager who was a direct report of mine after they asked the very question above. I explained my guilt and failure after saying, “Keep doing what you’re doing.” Their personal solution as a manager to this problem removed the proverbial scales from my eyes.&lt;/p&gt;
-
-&lt;p&gt;This manager talked about how they sometimes thought of critical feedback for high-performers not so much as what they were doing wrong but what more they could do. They referred to it as a &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;build&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;It’s not dissimilar to the Airbnb model I discuss &lt;a href=&quot;/essays/2020/07/17/welcome-kits.html&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The feedback goes a bit like this.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Hey, that presentation you gave was good. You got your points across, drove a decision, and folks got clarity on what was needed. Here’s what you did well…It was a 7/10. Here’s how you could make it a 9/10…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Excellent delivery of leading the project. Next time, consider $X and $Y to perfect it.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;The purpose of all feedback is for a direct report to know how they can improve.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;What should they continue doing?&lt;/li&gt;
-  &lt;li&gt;What should they stop doing?&lt;/li&gt;
-  &lt;li&gt;What should they do differently?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;The first two are typically where positive and critical feedback hit. The build hits the last question. Not because what they’re doing right now is bad, but because it could be better. And that’s what you should want them to be.&lt;/p&gt;
-
-&lt;p&gt;In the periods of regular, predictable projects, this is the area to focus the most on growing your team.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 19 Sep 2020 00:00:00 -0400</pubDate>
       </item>
     
   </channel>
