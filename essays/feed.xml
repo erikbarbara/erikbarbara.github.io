@@ -5,7 +5,53 @@
     <atom:link href="/essays/feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://erikbarbara.com/essays/</link>
     <description>Essays by Erik Barbara. All opinions are my own.</description>
-    <pubDate>Tue, 28 Sep 2021 21:10:12 -0400</pubDate>
+    <pubDate>Tue, 16 Nov 2021 15:50:32 -0500</pubDate>
+    
+      <item>
+        <title>OKRs Need a Why</title>
+        <link>/essays/2021/11/16/okrs-why.html</link>
+        <guid isPermaLink="true">/essays/2021/11/16/okrs-why.html</guid>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;It’s not a key result unless it has a number.&lt;/p&gt;
+
+  &lt;p&gt;– Marissa Mayer&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;What you measure, you manage. &lt;a href=&quot;https://www.whatmatters.com/faqs/okr-meaning-definition-example/&quot; target=&quot;_blank&quot;&gt;OKRs&lt;/a&gt; and their predecessors &lt;a href=&quot;https://www.whatmatters.com/articles/the-origin-story/&quot; target=&quot;_blank&quot;&gt;MBOs&lt;/a&gt; are great. They’re also incomplete.&lt;/p&gt;
+
+&lt;p&gt;One unrecognized gap with OKRs, or how many organizations implement them, is that they are agnostic about &lt;em&gt;why&lt;/em&gt; something worked. This is an important component of being a product development team.&lt;/p&gt;
+
+&lt;p&gt;Consider a key result of increasing new user signups by 5%. A product development team responsible for the signup flow could achieve their KR from pure luck or an external influence by a marketing team while they did nothing.&lt;/p&gt;
+
+&lt;p&gt;While dated, this story of microchip yield rates captures my point.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;[The chip fabrication] process only seems straightforward. In reality, the entire operation has about as much built-in voodoo and superstition as a major league baseball team. No one is even quite sure why “yield rates” (the percentage of good chips) are what they are. Thus, when they suddenly fall, there is general panic. When they rise, fab managers scurry about trying to find the magic key. Short of a scientific solution, the managers revert to an almost primitive faith in retaining every vestige of status quo. One of the women wore a “silk blouse that day? Then she’ll wear it every day. Someone else used his left hand rather than his right to dip the wafer in acid? Then from now on he’s a southpaw.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;a href=&quot;https://www.amazon.com/Big-Score-Billion-Dollar-Silicon/dp/1953953166&quot; target=&quot;_blank&quot;&gt;Michael Malone, The Big Score&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;strong&gt;Objective&lt;/strong&gt;: Extend production quality well beyond best-in-class standards&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Key Result&lt;/strong&gt;: Increase yield rates from X% to Y% by end of quarter&lt;/p&gt;
+
+&lt;p&gt;I hope that team would have the intellectual honesty to admit they achieved their goal without understanding why. Without doing so, an organization is choosing to not understand why they are effective. I’ve &lt;a href=&quot;/essays/2021/01/25/boiling-frogs.html&quot;&gt;written&lt;/a&gt; before about efficiency and process trumping effectiveness and understanding.&lt;/p&gt;
+
+&lt;p&gt;My understanding is that Todd McKinnon chose VMTs (Vision / Methods / Targets) at Okta instead of OKRs in part of because of this. The methods were much more about the why.&lt;/p&gt;
+
+&lt;p&gt;So what to do? Certainly let’s not throw out OKRs. But we should require an element to explain &lt;em&gt;why&lt;/em&gt; something works, not just that a result was attained.&lt;/p&gt;
+
+&lt;p&gt;As I was writing this post, Roger Martin wrote a piece titled &lt;a href=&quot;https://rogermartin.medium.com/stop-letting-okrs-masquerade-as-strategy-a57fc2cea915&quot; target=&quot;_blank&quot;&gt;Stop Letting OKRs Masquerade as Strategy
+&lt;/a&gt;. Martin puts his finger on the same soft spot I’ve been describing applying the lens of his own planning and goals framework. In his own words:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…there is a huge gulf in the middle that OKRs are likely to miss. I say likely because I am sure some practitioners of the OKR approach have a way of filling in the strategy gap. And that gap is an explicit theory of the…choice that will make the objective/aspiration more than a pipe dream. If that gap is filled in the middle, then ‘O’ and ‘KR’ make a perfectly good set of bookends.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Yes, measure what matters. And don’t forget to manage toward that by understanding &lt;em&gt;why&lt;/em&gt; the key results will help you achieve the objective.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 16 Nov 2021 00:00:00 -0500</pubDate>
+      </item>
     
       <item>
         <title>We Shape Our Comp Bands</title>
@@ -836,91 +882,6 @@ How did you know it hurt morale?&lt;/p&gt;
 &lt;p&gt;These three aspects are a sort of Proterozoic soup out of which an engineer can evolve into a manager.&lt;/p&gt;
 </description>
         <pubDate>Sat, 10 Oct 2020 00:00:00 -0400</pubDate>
-      </item>
-    
-      <item>
-        <title>DevOops with Python Datetimes</title>
-        <link>/essays/2020/10/04/python-datetimes.html</link>
-        <guid isPermaLink="true">/essays/2020/10/04/python-datetimes.html</guid>
-        <description>&lt;p&gt;Let me tell you about the time we dropped all the data we had in a production Elasticsearch cluster just days before cutting over to it for a huge feature release.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;/essays/2020/10/02/the-right-fallacy.html&quot;&gt;I previously alluded&lt;/a&gt; to the pain of trading off the strengths and weaknesses of MySQL with those of Elasticsearch.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;If terms like document and index are lost on your in the context of Elasticsearch, &lt;a href=&quot;https://medium.com/@hansrajchoudhary_88463/elasticsearch-things-you-should-know-about-es-to-be-useful-fbc537a04086&quot;&gt;here’s&lt;/a&gt; a high-level overview.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;One of the challenges we encountered was cluster maintenance. Elasticsearch is best not left to grow unbounded. So we made a decision to cap data retention in our system at 180 days.&lt;/p&gt;
-
-&lt;p&gt;We wrote a Python process that would run regularly and check whether data needed to be purged. In Elasticsearch, it would have been more expensive to query and delete every single document that was older than 180 days. Instead, we decided to drop indexes that were older than this time period.&lt;/p&gt;
-
-&lt;p&gt;But of course, it wasn’t that simple. For most of our clusters, we stored our data in monthly indexes. This meant that every authentication that took place in December 2019 was stored in an &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;auths-monthly-2019-12&lt;/code&gt; index. On a few of our larger clusters at the time, we kept data in weekly indexes.&lt;/p&gt;
-
-&lt;p&gt;In order to do this, the process we wrote had to parse the index name and convert a portion of the name to a date. If it was older than 180 days, we could drop it.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Not really though. We had to add a bit of extra logic. If it’s June 15th and we’re evaluating whether to drop an index, we have to ask ourselves what the youngest data in the index is. So if it’s an index for December 2019, we have to check whether data from December 31st is old enough to drop.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Let’s see how this looks in practice.&lt;/p&gt;
-
-&lt;p&gt;If the index name was &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;auths-daily-2016-06-06&lt;/code&gt;, then we’d parse &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2016-06-06&lt;/code&gt; to a date. If that date was older than 180 days from today, we could drop the index.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strptime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'2016-06-06'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'%Y-%m-%d'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2016&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;We kept daily indexes in local development, but otherwise, this wasn’t a huge use case. Our retention code worked as expected.&lt;/p&gt;
-
-&lt;p&gt;We did keep monthly indexes though. So &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;auths-monthly-2016-06&lt;/code&gt; was parsed like below.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strptime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'2016-06'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'%Y-%m'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2016&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Puurrrfect. Data retention working as expected.&lt;/p&gt;
-
-&lt;p&gt;Like I mentioned, a few of our large clusters had weekly indexes. Let’s parse &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;auths-weekly-2016-26&lt;/code&gt;.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strptime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'2016-26'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'%Y-%W'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2016&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Wat? January 1, 2016 for the 26th week of the year.&lt;/p&gt;
-
-&lt;p&gt;The first time that we ran our data retention code against a weekly index was…in production…when we turned the retention process on…against our largest cluster…days before preparing to go live with a huge feature release that depended on the ES data.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Don’t worry, we recovered it rather quickly.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;It turns out you need to include a day of the week.&lt;/p&gt;
-
-&lt;div class=&quot;language-python highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;strptime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'2016-26-0'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'%Y-%W-%w'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;datetime&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;date&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2016&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;7&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;em&gt;Why the 0th day of the week gives you a date that’s older than the 1st day of the week is another matter altogether.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;What’s the moral of this story?&lt;/p&gt;
-
-&lt;p&gt;First, it’s just a (now) fun war story (or bit of scar tissue or wisdom of production lesson) that I wanted to share.&lt;/p&gt;
-
-&lt;p&gt;Second, it illustrates the difficulty of eliminating bugs in software. Now the TDD folks will say that unit tests would have caught this.&lt;/p&gt;
-
-&lt;p&gt;We did have unit tests.&lt;/p&gt;
-
-&lt;p&gt;We didn’t have ones to test weekly index parsing though.&lt;/p&gt;
-
-&lt;p&gt;Even if we had written those tests, the developer may just have easily have written the test to check that &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;auth-weekly-2016-0&lt;/code&gt; returned January, 1, 2016. And it would have.&lt;/p&gt;
-
-&lt;p&gt;This still wouldn’t have uncovered the unexpected behavior.&lt;/p&gt;
-
-&lt;p&gt;TDD diehards may say we should have written &lt;strong&gt;2&lt;/strong&gt; unit tests per unit of time we were parsing!&lt;/p&gt;
-
-&lt;p&gt;Fine.&lt;/p&gt;
-
-&lt;p&gt;However, the nature of a startup is that it defaults to death. When things start, the only thing that matters is shipping code, getting product into customer hands. As time goes on, protecting existing revenue may become more important. Customers come to expect the same level of quality in your new features as they do in your rock solid existing product.&lt;/p&gt;
-
-&lt;p&gt;I hesitate to conclude that there’s not a lesson to be learned here. I’m sure there is. I just don’t think it’s necessarily satisfying to most.&lt;/p&gt;
-
-&lt;p&gt;Bugs happen. We’ll fix them when they do. At least I know a bit more about Python’s datetime internals now.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 04 Oct 2020 00:00:00 -0400</pubDate>
       </item>
     
   </channel>
