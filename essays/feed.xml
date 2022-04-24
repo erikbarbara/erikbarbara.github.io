@@ -5,7 +5,100 @@
     <atom:link href="/essays/feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://erikbarbara.com/essays/</link>
     <description>Essays by Erik Barbara. All opinions are my own.</description>
-    <pubDate>Tue, 16 Nov 2021 15:50:32 -0500</pubDate>
+    <pubDate>Sun, 24 Apr 2022 14:31:02 -0400</pubDate>
+    
+      <item>
+        <title>Impostor Syndrome is Fractal</title>
+        <link>/essays/2022/04/24/fractal-impostor.html</link>
+        <guid isPermaLink="true">/essays/2022/04/24/fractal-impostor.html</guid>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Comparison is the thief of joy.&lt;/p&gt;
+
+  &lt;p&gt;– Unknown&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;For those of us who suffer from impostor syndrome, and it’s not everyone, the mark it leaves is indelible. The constant comparison and concern about delivering and keeping up both fuels and depletes. Strivings completed provide an all too brief reprieve. They are ended soon by the question “What’s next?” as you watch your contemporaries push forward while you rest.&lt;/p&gt;
+
+&lt;p&gt;Impostor syndrome is fractal. It doesn’t fade away. As cyclist Greg LeMond said, “It never gets easier, you just go faster.”&lt;/p&gt;
+
+&lt;p&gt;No matter your position or talent, the deficit between “their” skill and yours feels constant, infinitely nuanced, and ultimately unclosable.&lt;/p&gt;
+
+&lt;p&gt;Say you’re a beginner whose skill is 10. Examining someone a bit ahead of you at 100, the delta seems so wide.&lt;/p&gt;
+
+&lt;p&gt;But even for an expert–say a world class operator in their field–who executes at 1000, the delta between them and someone at 1010 is perceived to be just as wide.&lt;/p&gt;
+
+&lt;p&gt;This is demonstrated in episode one of &lt;em&gt;Get Back&lt;/em&gt; by Peter Jackson.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;George Harrison&lt;/strong&gt;: …the difference between me and, say, Eric, I’m just another guitar, sometimes playing bits and sometimes singing…So…I feel now I can play things. I can learn things that will sound okay, especially fast fingering like that.&lt;br /&gt;
+&lt;strong&gt;Paul McCartney&lt;/strong&gt;: It’s jazz, man.&lt;br /&gt;
+&lt;strong&gt;George Harrison&lt;/strong&gt;: Not really, Just Eric. He’s very good at that. At like, improvising and keeping it going…which I’m not good at.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The words alone don’t justify the exchange. George suffers throughout the clip. Here’s one of the most famous, most accomplished musicians forelorn over the gap between himself and Eric Clapton. Mind you, this is after Beatlemania, after fame and fortune has been attained. And yet George Harrison feels underaccomplished, trapped, and lacking.&lt;/p&gt;
+
+&lt;p&gt;Let’s take a more modern example from the podcast episode &lt;em&gt;&lt;a href=&quot;https://www.npr.org/2021/02/03/963592148/how-i-built-resilience-m-night-shyamalan&quot; target=&quot;_blank&quot;&gt;How I Built Resilience: M. Night Shyamalan&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;Guy Raz&lt;/strong&gt;: How did you overcome self-doubt?&lt;br /&gt;
+&lt;strong&gt;M. Night Shyamalan&lt;/strong&gt;: You don’t. You don’t. I have it right now in front of you. I mean, I just came from the editing room and I have all these issues with this reel and I’m trying to figure it out and the voice inside of you says, “You’re not, you’re not going to figure it out.”…I’m scared to write [my next movie]. Maybe today I won’t be able to think of that thing. My oldest daughter is an artist and I said, “That is your plight. You are going to wrestle with your demons every single day of your life.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;If you suffer from impostor syndrome–and I think “suffer” is an appropriate verb to describe its effects–you’re in good company.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 24 Apr 2022 00:00:00 -0400</pubDate>
+      </item>
+    
+      <item>
+        <title>Discovering a Person's API</title>
+        <link>/essays/2022/01/04/discovering-api.html</link>
+        <guid isPermaLink="true">/essays/2022/01/04/discovering-api.html</guid>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;The great thing about TCP jokes is that you always get them…I would tell some UDP jokes too but I never know if anyone gets them.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Humans are messy.&lt;/p&gt;
+
+&lt;p&gt;Organizations are made of people and are similarly messy places. This messiness often manifests in tension. The tension can be healthy, akin to agonist-antagonist muscle pairs.&lt;/p&gt;
+
+&lt;p&gt;Product indexes toward shipping new features. Engineering indexes towards the ever elusive technical debt that “needs” to be paid down.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Discovering a person’s and organization’s API&lt;/strong&gt; is a model I’ve found helpful in reasoning about and navigating these differences.&lt;/p&gt;
+
+&lt;p&gt;There are all sorts of downsides to focusing on a person’s intentions. The &lt;a href=&quot;https://en.wikipedia.org/wiki/Fundamental_attribution_error&quot;&gt;fundamental attribution error&lt;/a&gt; comes to mind.&lt;/p&gt;
+
+&lt;p&gt;I’m not saying that understanding &lt;em&gt;why&lt;/em&gt; someone wants something isn’t without value. But it’s wasted effort if there’s a more fundamental miscommunication occurring.&lt;/p&gt;
+
+&lt;p&gt;This is actually the premise of the &lt;a href=&quot;https://en.wikipedia.org/wiki/DISC_assessment&quot;&gt;DISC assessment&lt;/a&gt;. Don’t focus on people’s motivations; rather understand their behavioral tendencies.&lt;/p&gt;
+
+&lt;p&gt;Reframing the problem to APIs is another way to approach the same concept, one that may resonate with folks who have a technical background.&lt;/p&gt;
+
+&lt;p&gt;In the example above, Product may better receive a discussion about addressing a technical issue if it’s framed in terms of avoiding an increasing and now imminent likelihood of downtime. That’s the interface that makes interactions more easily understood.&lt;/p&gt;
+
+&lt;p&gt;One individual I managed was having a hard time getting through to someone on another team. Our conversation went something like this.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;&lt;strong&gt;EM&lt;/strong&gt;: I just don’t get it. Everytime I try to review project tradeoffs with $X, it’s like we’re saying the same thing but still disagreeing.&lt;br /&gt;
+&lt;strong&gt;Me&lt;/strong&gt;: I hear you. It’s like they have an entirely different API. Like you’re speaking REST and they’re using gRPC.&lt;br /&gt;
+&lt;strong&gt;EM&lt;/strong&gt;: Exactly!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Sometimes the APIs between people and organizations are naturally compatible.&lt;/p&gt;
+
+&lt;p&gt;Othertimes we’re off by a minor version but one of us is backwards compatible.&lt;/p&gt;
+
+&lt;p&gt;And sometimes we’re not even speaking the same protocol. One is on HTTP and the other is on Telnet.&lt;/p&gt;
+
+&lt;p&gt;Here’s another expample. I found that every time a coworker and I discussed a topic we both reiterated our points, which largely seemed to be in agreement. Eventually I’d say something like, “I think we’re in violent agreement.” And they’d agree!&lt;/p&gt;
+
+&lt;p&gt;Neither of us felt like we could cut the back-and-forth short. We were in an ACK loop not realizing what our APIs were signaling.&lt;/p&gt;
+
+&lt;p&gt;If you’re having trouble communicating with a person or organization on an issue, consider your respective APIs.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Left unexplored is the case where the API differences between two people or a person and org are so fundamentally divirgenct that they’re hopelessly incompatible.&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Tue, 04 Jan 2022 00:00:00 -0500</pubDate>
+      </item>
     
       <item>
         <title>OKRs Need a Why</title>
@@ -762,126 +855,6 @@ How did you know it hurt morale?&lt;/p&gt;
 &lt;p&gt;😁 Smile.&lt;/p&gt;
 </description>
         <pubDate>Wed, 18 Nov 2020 00:00:00 -0500</pubDate>
-      </item>
-    
-      <item>
-        <title>The Duality of Man(agement)</title>
-        <link>/essays/2020/10/16/the-duality-of-management.html</link>
-        <guid isPermaLink="true">/essays/2020/10/16/the-duality-of-management.html</guid>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;&lt;strong&gt;Poge Colonel&lt;/strong&gt;: You write “Born to Kill” on your helmet and you wear a peace button. What’s that supposed to be, some kind of sick joke?…&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;Private Joker&lt;/strong&gt;: I think I was trying to suggest something about the duality of man, sir.&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;Poge Colonel&lt;/strong&gt;: The what?&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;Private Joker&lt;/strong&gt;: The duality of man. The Jungian thing, sir.&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;Poge Colonel&lt;/strong&gt;: Whose side are you on, son?&lt;/p&gt;
-
-  &lt;p&gt;&lt;strong&gt;Private Joker&lt;/strong&gt;: Our side, sir.&lt;/p&gt;
-
-  &lt;p&gt;– &lt;a href=&quot;https://www.youtube.com/watch?v=KMEViYvojtY&quot; target=&quot;_blank&quot;&gt;Full Metal Jacket&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Management requires dichotomous thinking: holding two opposing ideas or branching paths in one’s head at a given time.&lt;/p&gt;
-
-&lt;p&gt;Each is a legitimate possibility.&lt;/p&gt;
-
-&lt;p&gt;They may not be equally weighted in terms of likelihood.&lt;/p&gt;
-
-&lt;p&gt;And you may desire for one to occur over another.&lt;/p&gt;
-
-&lt;p&gt;But each is a distinct possibility.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;You’re hiring for an open position. Candidate $X is advancing nicely. You have high hopes for them. You’ve built rapport with them. You can visualize how they’ll benefit and complement the team. And yet, you can’t let up on interviewing other candidates, sourcing new ones, generating additional pipeline. You may even meet candidate $Y. $Y could be excellent too. Maybe better than $X…&lt;/li&gt;
-  &lt;li&gt;You’ve come to recognize that $Z is not meeting expectations for their role. You need to start being more explicit both in your feedback to them about specific issues and generally about their overall performance. You simultaneously want $Z to raise their performance, to meet and exceed your expectations. You also need to be prepared that $Z may not be able to do so. $Z deserves an equitable chance to succeed. The team you manage also deserves to have contributions commensurate with folks’ positions…&lt;/li&gt;
-  &lt;li&gt;Your company is preparing to IPO, to make an entrance into the public markets. The board is built out, the C-suite is filled, appropriate financial reporting is in place, the roadshow is ready. And yet an interesting potential acquirer is asking for a meeting. You think there may be a good fit and better together may be…&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Responsible management requires holding both ideas in the mind’s eye simultaneously.&lt;/p&gt;
-
-&lt;p&gt;The muscle to build here is recognizing whether you are in a situation that requires considering two (or more) potential outcomes.&lt;/p&gt;
-
-&lt;p&gt;Is a single &lt;a href=&quot;/essays/2020/10/02/the-right-fallacy.html&quot;&gt;“good enough”&lt;/a&gt; solution ok?&lt;/p&gt;
-
-&lt;p&gt;Or is this the management equivalent of &lt;a href=&quot;https://en.wikipedia.org/wiki/Speculative_execution&quot; target=&quot;_blank&quot;&gt;speculative execution&lt;/a&gt; in processors?&lt;/p&gt;
-
-&lt;p&gt;If the latter, then your actions shouldn’t lead to pruned possibilities too soon.&lt;/p&gt;
-
-&lt;p&gt;Choose wisely.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 16 Oct 2020 00:00:00 -0400</pubDate>
-      </item>
-    
-      <item>
-        <title>Preconditions of People Management</title>
-        <link>/essays/2020/10/10/preconditions-of-management.html</link>
-        <guid isPermaLink="true">/essays/2020/10/10/preconditions-of-management.html</guid>
-        <description>&lt;p&gt;Career discussions with engineers invariably hit upon the topic of “management” at some point.&lt;/p&gt;
-
-&lt;p&gt;There’s a lot to unpack when these come up, but as a foundation for thinking about and discussing it, I usually start with the following framework or mental model.&lt;/p&gt;
-
-&lt;p&gt;The preconditions for someone moving into people management are threefold.&lt;/p&gt;
-
-&lt;p&gt;In order for an engineer to become a manager, there must be:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Opportunity / Need&lt;/li&gt;
-  &lt;li&gt;Interest&lt;/li&gt;
-  &lt;li&gt;Aptitude&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/essays/assets/img/manager_venn_diagram.png&quot; alt=&quot;3 Set Venn Diagram of Need, Interest, and Aptitude.&quot; width=&quot;350px&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;opportunity--need&quot;&gt;Opportunity / Need&lt;/h2&gt;
-
-&lt;p&gt;This is pretty straightforward. If a 6-person engineering team has a manager and isn’t planning on growing in the next year, there really isn’t an opportunity or need for another manager on the team.&lt;/p&gt;
-
-&lt;h2 id=&quot;interest&quot;&gt;Interest&lt;/h2&gt;
-
-&lt;p&gt;Similarly, if there’s a need for a manager but if no one is interested in the role, then no one on the existing team is going to make the transformation, even if they might be suited for it.&lt;/p&gt;
-
-&lt;h2 id=&quot;aptitude&quot;&gt;Aptitude&lt;/h2&gt;
-
-&lt;p&gt;Sometimes there’s both need and interest by someone looking to move into people leadership. This is where things may get a bit messy.&lt;/p&gt;
-
-&lt;p&gt;The last and equally critical piece of the puzzle is aptitude. Can the person do the job? I have a few determinants here.&lt;/p&gt;
-
-&lt;p&gt;First, are they effective in their current role? If they’re undependable as an engineer, can’t execute on projects, have trouble being an effective executive of their time, etc. why would I put them in a role that is even more demanding in those same avenues?&lt;/p&gt;
-
-&lt;p&gt;Second, managers must create clarity and determine what’s next often with little direction. They drive results for their team and set the pace.&lt;/p&gt;
-
-&lt;p&gt;I apply the following acid test as a starting place for assessing this form of aptitude.&lt;/p&gt;
-
-&lt;p&gt;An individual contributor says they’re interested in management. We discuss motivations, differences in the role, etc. Then, I typically recommend a number of follow-up ideas or resources for them to learn about managmeent.&lt;/p&gt;
-
-&lt;p&gt;For example, I might suggest they set up a 1:1 with the VP of Engineering at the organization or talk to $X who made a similar switch just 12 months ago. Or go and read &lt;a href=&quot;https://www.amazon.com/Radical-Candor-Kim-Scott/dp/B01KTIEFEE&quot; target=&quot;_blank&quot;&gt;Radical Candor&lt;/a&gt; or listen to the &lt;a href=&quot;https://www.manager-tools.com/manager-tools-basics&quot; target=&quot;_blank&quot;&gt;Manager Tools “Basics” series&lt;/a&gt;. I tell them to let me know when they’ve had a chance to do some of those things. I then let the discussion sit for a while.&lt;/p&gt;
-
-&lt;p&gt;Some never bring it up again.&lt;/p&gt;
-
-&lt;p&gt;Others, come back months later and restart the conversation.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;IC: Hey, what ever happened with that manager role we were going to need?&lt;/p&gt;
-
-  &lt;p&gt;Me: Glad you brought it up! Did you have a chance to listen to those podcasts or read those books or talk with those people? I’d love to hear your thoughts. No? Oh. Ok. Let’s talk about what fell off there…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;There’s a last group though that hears the suggestions and goes and does them. They come back a week later and want to talk about some aspect of the latest podcast episode they just listened to. Or I hear from the VPE that they had a great conversation with the person.&lt;/p&gt;
-
-&lt;p&gt;It’s this last group who has the aptitude for management.&lt;/p&gt;
-
-&lt;p&gt;The same quality in that person that took a small suggestion and followed up on it will mean they are 10x more likely to make their team successful.&lt;/p&gt;
-
-&lt;p&gt;A stakeholder on a project isn’t being responsive for an engineer. Will the manager throw their hands up and just say “I’m not sure what to do?” or will they figure out how to create clarity?&lt;/p&gt;
-
-&lt;p&gt;If you have a need for new managers in your organization, I strongly believe that promoting managers from within is one of the best things you can do. Look for folks who are interested in the role and demonstrate the aptitude and drive to be successful.&lt;/p&gt;
-
-&lt;p&gt;These three aspects are a sort of Proterozoic soup out of which an engineer can evolve into a manager.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 10 Oct 2020 00:00:00 -0400</pubDate>
       </item>
     
   </channel>
