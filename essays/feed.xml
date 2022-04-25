@@ -5,7 +5,34 @@
     <atom:link href="/essays/feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://erikbarbara.com/essays/</link>
     <description>Essays by Erik Barbara. All opinions are my own.</description>
-    <pubDate>Sun, 24 Apr 2022 14:31:02 -0400</pubDate>
+    <pubDate>Mon, 25 Apr 2022 11:30:06 -0400</pubDate>
+    
+      <item>
+        <title>Local Maxima</title>
+        <link>/essays/2022/04/25/local-maxima.html</link>
+        <guid isPermaLink="true">/essays/2022/04/25/local-maxima.html</guid>
+        <description>&lt;p&gt;A regular topic occurs in professional coffee chats. A leader has inherited a particularly dysfunctional $X: team, project, product. It’s the type of mess that if you knew what you were getting yourself into ahead of time, you never would have accepted the challenge.&lt;/p&gt;
+
+&lt;p&gt;The question the person wants to answer is, “Where do I start? How do I know I’m working on the most important thing to fix in these situations?”&lt;/p&gt;
+
+&lt;p&gt;The good thing is that identifying the most important thing doesn’t actually matter. And that’s for two reasons.&lt;/p&gt;
+
+&lt;p&gt;First, you’ve likely inherited a complex system of interrelated problems contributing to dysfunction. The likelihood that your mess is caused by just one thing is very low. Otherwise, the previous leadership would have fixed it by now. In reality, there are a dozen contributing factors to your mess.&lt;/p&gt;
+
+&lt;p&gt;When the person frets that they’re not working on the most important thing, they’re concerned about the search space. They want to make sure that they locate and fix the global maxima of their problems. This is a strong intuition, but slightly misguided. What they’re trying to avoid is fixing window dressing. For example, if they’re reorging an underperforming team, focusing on a team logo is not that important.&lt;/p&gt;
+
+&lt;p&gt;The reality is that there are a multitude of high impact things that they could work on. Each of those items has a local maxima that really isn’t that far off from the global maxima. Instead of focusing on &lt;em&gt;the&lt;/em&gt; highest leverage item to fix, just find &lt;em&gt;a&lt;/em&gt; high leverage item and fix that.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://www.researchgate.net/profile/Tshilidzi-Marwala/publication/252559450/figure/fig3/AS:668963637829639@1536504768501/Figure-illustrating-a-local-maxima-versus-a-global-maxima.ppm&quot; alt=&quot;Figure illustrating a local maxima versus a global maxima&quot; width=&quot;350px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Second, progress you make on material items creates a positive feedback loop. Pounding down a high leverage local optima reduces the total volume of outstanding problems. The team is freed up to focus on fewer things, the system is made less complex, momentum builds. Goto new problem.&lt;/p&gt;
+
+&lt;p&gt;This is not dissimilar to the idea behind the “debt snowball” in personal finance. Tackling your biggest, hardest debt may not always be the right thing. &lt;em&gt;Completing&lt;/em&gt; something tangible allows the team to accrue wins and carry that forward into the next problem.&lt;/p&gt;
+
+&lt;p&gt;There are exceptions to this rule though; issues you absolutely must fix. I was once part of a reorg. It was clear that hiring was broken, and we weren’t selecting for the people we needed to turn things around. That was a must-fix issue. From there though, the wins (slowly) compounded.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 Apr 2022 00:00:00 -0400</pubDate>
+      </item>
     
       <item>
         <title>Impostor Syndrome is Fractal</title>
@@ -21,7 +48,7 @@
 
 &lt;p&gt;Impostor syndrome is fractal. It doesn’t fade away. As cyclist Greg LeMond said, “It never gets easier, you just go faster.”&lt;/p&gt;
 
-&lt;p&gt;No matter your position or talent, the deficit between “their” skill and yours feels constant, infinitely nuanced, and ultimately unclosable.&lt;/p&gt;
+&lt;p&gt;No matter your position or talent, the deficit between “their” skill and yours feels constant, infinitely nuanced, and ultimately un-closable.&lt;/p&gt;
 
 &lt;p&gt;Say you’re a beginner whose skill is 10. Examining someone a bit ahead of you at 100, the delta seems so wide.&lt;/p&gt;
 
@@ -35,7 +62,7 @@
 &lt;strong&gt;George Harrison&lt;/strong&gt;: Not really, Just Eric. He’s very good at that. At like, improvising and keeping it going…which I’m not good at.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;The words alone don’t justify the exchange. George suffers throughout the clip. Here’s one of the most famous, most accomplished musicians forelorn over the gap between himself and Eric Clapton. Mind you, this is after Beatlemania, after fame and fortune has been attained. And yet George Harrison feels underaccomplished, trapped, and lacking.&lt;/p&gt;
+&lt;p&gt;The words alone don’t justify the exchange. George suffers throughout the clip. Here’s one of the most famous, most accomplished musicians forlorn over the gap between himself and Eric Clapton. Mind you, this is after Beatlemania, after fame and fortune has been attained. And yet George Harrison feels under-accomplished, trapped, and lacking.&lt;/p&gt;
 
 &lt;p&gt;Let’s take a more modern example from the podcast episode &lt;em&gt;&lt;a href=&quot;https://www.npr.org/2021/02/03/963592148/how-i-built-resilience-m-night-shyamalan&quot; target=&quot;_blank&quot;&gt;How I Built Resilience: M. Night Shyamalan&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 
@@ -810,51 +837,6 @@ How did you know it hurt morale?&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;h/t to my former colleague &lt;a href=&quot;https://www.linkedin.com/in/glenn-stempeck/&quot; target=&quot;_blank&quot;&gt;Glenn Stempeck&lt;/a&gt; for the pool analogy; he also wrote &lt;a href=&quot;https://medium.com/@glennstempeck/software-engineering-like-a-6-000-piece-hogwarts-lego-castle-bc7441d0b1b5&quot; target=&quot;_blank&quot;&gt;this excellent essay&lt;/a&gt; on the perils of splitting a team’s focus.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Mon, 14 Dec 2020 00:00:00 -0500</pubDate>
-      </item>
-    
-      <item>
-        <title>Organizational Orthodontia</title>
-        <link>/essays/2020/11/18/organizational-orthodontia.html</link>
-        <guid isPermaLink="true">/essays/2020/11/18/organizational-orthodontia.html</guid>
-        <description>&lt;p&gt;Not all organizational change requires swift action. In fact, most doesn’t. And to apply it would be wrong.&lt;/p&gt;
-
-&lt;p&gt;Instead, it’s better to think of organizational change like orthodontia.&lt;/p&gt;
-
-&lt;p&gt;Sometimes the teeth need a lot of help. But it’s the rare case where the orthodontist or oral surgeon has to break the jaw and plate the bones.&lt;/p&gt;
-
-&lt;p&gt;Instead, orthodontia is a game of constant, steady pressure over time. Patience.&lt;/p&gt;
-
-&lt;p&gt;Come back for regular adjustments. Soon you’ll have the braces removed and a perfect smile underneath.&lt;/p&gt;
-
-&lt;p&gt;(Then you have to retain that result nightly for the rest of your life.)&lt;/p&gt;
-
-&lt;p&gt;When you begin of course, the future state seems too far off to ever be a reality.&lt;/p&gt;
-
-&lt;p&gt;There are cases where an organization needs swift action (e.g. a concise termination).&lt;/p&gt;
-
-&lt;p&gt;In most cases though, organizational change requires patient, steady pressure.&lt;/p&gt;
-
-&lt;p&gt;Have a nasty habit of oral tradition or Slack essays to share knowledge?&lt;/p&gt;
-
-&lt;p&gt;Nudge the team to document their knowledge in the wiki.&lt;/p&gt;
-
-&lt;p&gt;Again.&lt;/p&gt;
-
-&lt;p&gt;And again.&lt;/p&gt;
-
-&lt;p&gt;And again.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The team is going to grow by 3x in 12 months. You won’t want to explain every one of these concepts 25 times.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Slowly. Very slowly. It starts to click into place.&lt;/p&gt;
-
-&lt;p&gt;One day a new employee has a question. And someone replies to that question with a wiki link. A link that contains the answer. An answer that would have been rehashed in Slack. Now that person knows knowledge transfers here through the wiki not oral tradition.&lt;/p&gt;
-
-&lt;p&gt;😁 Smile.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 18 Nov 2020 00:00:00 -0500</pubDate>
       </item>
     
   </channel>
