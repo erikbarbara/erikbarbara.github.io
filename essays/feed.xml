@@ -5,7 +5,54 @@
     <atom:link href="/essays/feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://erikbarbara.com/essays/</link>
     <description>Essays by Erik Barbara. All opinions are my own.</description>
-    <pubDate>Mon, 25 Apr 2022 11:30:06 -0400</pubDate>
+    <pubDate>Fri, 21 Oct 2022 11:35:24 -0400</pubDate>
+    
+      <item>
+        <title>Leader Lore</title>
+        <link>/essays/2022/10/21/leader-lore.html</link>
+        <guid isPermaLink="true">/essays/2022/10/21/leader-lore.html</guid>
+        <description>&lt;p&gt;Silicon Valley lives off leader lore. Whether truth or myth, the lore forms and perpetuates an image of the leader.&lt;/p&gt;
+
+&lt;p&gt;Stories abound how Steve Jobs acted in a particular situation.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;The designing of iPhone was not the first time that Steve Jobs put his foot down about this kind of Simplicity. A former director of product marketing at Apple, Mike Evangelist, has told the story of one of his first meetings with Steve Jobs, a meeting that took place in 2000 inside the Apple boardroom.&lt;/p&gt;
+
+  &lt;p&gt;Mike’s team had been charged with developing a simple way to turn a home movie into a DVD, an app that would later show up as iDVD (one of the iLife apps). He and a partner worked hard to develop their ideas for an interface that would be user-friendly enough for Steve, and prepared to share their work with him by creating all kinds of sample screens and verbal explanations.&lt;/p&gt;
+
+  &lt;p&gt;Mike was shocked when Steve Jobs walked into the room, ignored their work, and walked right up to the whiteboard. “Here’s the new application,” he said. “It’s got one window. You drag your video into the window. Then you click the button that says ‘Burn.’ That’s it. That’s what we’re going to make.”&lt;/p&gt;
+
+  &lt;p&gt;— &lt;a href=&quot;https://www.amazon.com/Insanely-Simple-Obsession-Drives-Success/dp/1591846218&quot; target=&quot;_blank&quot;&gt;Ken Segall, Insanely Simple&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;While Steve Jobs focused on radical simplicity, Bill Gates was said to test the depth of your knowledge to determine if he could trust your recommendations. In meetings he’d relentlessly ask probing questions, a technique known as dip-sticking. Eventually he’d bottom out your knowledge and either be satisfied or not. If you won his trust, you were free to proceed and gained his esteem.&lt;/p&gt;
+
+&lt;p&gt;Here I contribute a few pieces of lore to the canon. The stories are second-hand. Minor details may differ from reality (e.g., it was 20 hours, not 24 hours). Regardless, the lore supports the reputation.&lt;/p&gt;
+
+&lt;p&gt;I interviewed a candidate who worked at Tesla. At one point the Tesla build process was taking over 24 hours to complete, delaying development. A group of engineers was selected to improve the situation. Elon dropped in on their project kick off. His ultimatum was that the build must take less than 5 minutes. He’d be checking in daily on the team’s progress. They were incredulous it could be done. They got it down to 30 minutes. Good enough. Elon moved on.&lt;/p&gt;
+
+&lt;p&gt;Another time I worked at a company that built internal IT software. We were working to sell Tesla. Elon didn’t like an aspect of the user interface. The sales team joined a call with Elon and our CEO. We weren’t willing to change our roadmap for a CSS customization. We moved on.&lt;/p&gt;
+
+&lt;p&gt;Both stories are congruent with Elon’s self-acknowledged &lt;a href=&quot;https://www.youtube.com/watch?v=YcQwkL3eNmE&quot; target=&quot;_blank&quot;&gt;nano-managerial style&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Speaking again of build systems, let’s talk about Sergey Brin. Sergey took a different tact from the ruthless grilling of Gates. His humor was a weapon to cajole performance and make a point. A coworker and ex-Googler relayed a story when he was in a meeting with Sergey. One team was reporting out that their build was taking over 30 hours to complete (apparently a common theme across these companies). Sergey remarked,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;30 hours? Really?! I can crawl the world in 30 hours.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Tails between their legs, the team fixed their build lest Google crawl the web faster than their team’s build.&lt;/p&gt;
+
+&lt;p&gt;Here’s one more as we round third and head for home. Google is famous for the criteria that something must be a $1B idea to even be considered. An ex-Googler shared that Sergey was reviewing the Google Earth Enterprise growth charts with revenue sitting in the low 8-figures. He squinted at the chart and gestured with his finger drawing a line,&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Yeah, if I extrapolate way out, we might hit one billion. Though, I’m not sure if I’ll retire before that happens.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Google Earth Enterprise was retired in 2015.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 21 Oct 2022 00:00:00 -0400</pubDate>
+      </item>
     
       <item>
         <title>Local Maxima</title>
@@ -780,63 +827,6 @@ How did you know it hurt morale?&lt;/p&gt;
 &lt;p&gt;At this point in our industry, it’s impossible to objectively and qualitatively measure a single engineer’s performance. Engineering leaders are paid to bring to bear their professional experience and judgement to assess and steer both the team’s and individuals’ performance. Management is fundamentally about applying subjective assessment to ambiguous situations. Software engineer performance is no exception.&lt;/p&gt;
 </description>
         <pubDate>Sat, 16 Jan 2021 00:00:00 -0500</pubDate>
-      </item>
-    
-      <item>
-        <title>On Estimates</title>
-        <link>/essays/2020/12/14/on-estimates.html</link>
-        <guid isPermaLink="true">/essays/2020/12/14/on-estimates.html</guid>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;…current programming practice is closer to novel writing than it is to engineering. The novelists are bound only by their imaginations, which is somewhat as the programmers are when they are writing software. Both activities have a large creative component, and while you would like to make programming resemble engineering, it will take a lot to make programming resemble engineering, it will take a lot of time to get there–and maybe you really, in the long run, do not want to do it! Maybe it just sounds good.&lt;/p&gt;
-
-  &lt;p&gt;— &lt;a href=&quot;https://www.amazon.com/Art-Doing-Science-Engineering-Learning/dp/1732265178&quot; target=&quot;_blank&quot;&gt;Richard Hamming, The Art of Doing Science and Engineering&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;One of the challenges software engineers and engineering leaders face is that of providing estimates.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;How long will $X take?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Sounds simple. It’s often anything but, especially for any $X that will take more than a few hours.&lt;/p&gt;
-
-&lt;p&gt;In many ways, we’ve done ourselves a disservice by naming our discipline software engineering. I don’t know for certain, but I’d wager that when a civil engineer goes to design a bridge, they follow a pretty standard process. The number of ways for building a bridge is not just finite, but charted. Type? Suspension. Ok, we have five options. How many cars? $Y per hour. Ok, we have two options. Etc.&lt;/p&gt;
-
-&lt;p&gt;Software engineering though is more art than science. It’s fundamentally a creative endeavor. And this bit is hard to convey, especially to those who haven’t done it.&lt;/p&gt;
-
-&lt;p&gt;How can it be a creative endeavor? It’s got engineering right in the name?&lt;/p&gt;
-
-&lt;p&gt;How can you not tell me how long it will take to add a button to do $Z? Two weeks? I’m not asking for you to design a car (something that takes many years by the way).&lt;/p&gt;
-
-&lt;p&gt;How do you capture and convey this dilemna to those who haven’t experienced it?&lt;/p&gt;
-
-&lt;p&gt;Maybe it’s like asking an artist how long it will take to make an installation. If you want it faster, it won’t be as good. Quality art takes time. &lt;a href=&quot;https://vimeo.com/226508728&quot; target=&quot;_blank&quot;&gt;This video&lt;/a&gt; drives the point home.&lt;/p&gt;
-
-&lt;p&gt;But even that doesn’t do the issue justice for software engineers. There are two more variables at play.&lt;/p&gt;
-
-&lt;p&gt;First, we’re often being asked to build on top of something that already exists. Maybe the engineer is fortunate enough to have prior experience with that system or codebase. Regardless, whatever was built before certainly required time constraints and tradeoffs.&lt;/p&gt;
-
-&lt;p&gt;Second, we’re being asked to build something that may very well be built on in the future, but we don’t know exactly how it will be used or extended. So, we build with assumptions and with imperfect knowledge of the trade-offs to come on top of something that was built with assumptions and with imperfect knowledge of the trade-offs to come.&lt;/p&gt;
-
-&lt;p&gt;Neither of those points are exactly unlike other engineering disciplines. But I think the radical things that software engineers are asked to add to their systems are much more radical than other disciplines.&lt;/p&gt;
-
-&lt;p&gt;A building might be a candidate for an expansion. But what if the building was a skyscraper and we want to add a pool? What if the pool has to be on the top floor? What if it has to cantilever over the top with a see through bottom and support 500 people?&lt;/p&gt;
-
-&lt;p&gt;Now we’re starting to see the challenge. The building would have had fundamentally different design assumptions if we knew this was a use case we wanted to support when we were originally building it. We may be able to make the modifications to allow for this change, but it could take a long time and be expensive.&lt;/p&gt;
-
-&lt;p&gt;Similarly, changes to a car model are often incremental. Maybe a redesign happens, but if it’s radical enough then it starts from scratch and requires new ways of doing things. These new ways require inventing technology and methods that don’t exist. How long will that invention take? Just have the engineers &lt;a href=&quot;http://wiki.c2.com/?FeynmanAlgorithm&quot; target=&quot;_blank&quot;&gt;think harder&lt;/a&gt; I guess.&lt;/p&gt;
-
-&lt;p&gt;Often extensions to software systems take the product in unforeseen directions. This is part of discovering product market fit, of coming to better understand what problems are worth solving for users, etc.&lt;/p&gt;
-
-&lt;p&gt;Altogether software engineering suffers from the problems of many “right” ways of doing something combined with building on a system that was never designed with the new use case in mind.&lt;/p&gt;
-
-&lt;p&gt;These properties make it a creative endeavor.&lt;/p&gt;
-
-&lt;p&gt;And so estimating is difficult.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;h/t to my former colleague &lt;a href=&quot;https://www.linkedin.com/in/glenn-stempeck/&quot; target=&quot;_blank&quot;&gt;Glenn Stempeck&lt;/a&gt; for the pool analogy; he also wrote &lt;a href=&quot;https://medium.com/@glennstempeck/software-engineering-like-a-6-000-piece-hogwarts-lego-castle-bc7441d0b1b5&quot; target=&quot;_blank&quot;&gt;this excellent essay&lt;/a&gt; on the perils of splitting a team’s focus.&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Mon, 14 Dec 2020 00:00:00 -0500</pubDate>
       </item>
     
   </channel>
