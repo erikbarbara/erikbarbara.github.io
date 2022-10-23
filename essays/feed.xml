@@ -5,7 +5,60 @@
     <atom:link href="/essays/feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://erikbarbara.com/essays/</link>
     <description>Essays by Erik Barbara. All opinions are my own.</description>
-    <pubDate>Fri, 21 Oct 2022 11:35:24 -0400</pubDate>
+    <pubDate>Sat, 22 Oct 2022 20:02:26 -0400</pubDate>
+    
+      <item>
+        <title>Square Root</title>
+        <link>/essays/2022/10/22/introducing-bugs.html</link>
+        <guid isPermaLink="true">/essays/2022/10/22/introducing-bugs.html</guid>
+        <description>&lt;p&gt;Occasionally I’m asked why even seemingly simple software is riddled with bugs.&lt;/p&gt;
+
+&lt;p&gt;For example, a friend or family member asks why their favorite app had an obvious bug recently.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Come on, you just have to upload photos and let me see others’. Why is that so hard?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’ve developed a small illustration to help convey the challenges. Let’s start simple and build up.&lt;/p&gt;
+
+&lt;p&gt;Imagine you’re asked to make a black box. This is our app.&lt;/p&gt;
+
+&lt;p&gt;The user punches in a number and it returns the square root of that number.&lt;/p&gt;
+
+&lt;p&gt;Ok. Let’s go!&lt;/p&gt;
+
+&lt;p&gt;The user inputs zero. And we return…zero.&lt;/p&gt;
+
+&lt;p&gt;The user inputs four. And we return…two.&lt;/p&gt;
+
+&lt;p&gt;So far so good? Great!&lt;/p&gt;
+
+&lt;p&gt;Actually, we already have our first bug. Maybe. Both two and negative two are square roots of four.&lt;/p&gt;
+
+&lt;p&gt;Did we want our black box to return only the implied (positive) square root of the input? Or did you want any of the possible square roots?&lt;/p&gt;
+
+&lt;p&gt;I can hear the protestations now.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;But you didn’t tell me that’s what you wanted!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;You don’t say!&lt;/p&gt;
+
+&lt;p&gt;This is the exact problem engineers face when developing software.&lt;/p&gt;
+
+&lt;p&gt;Our illustration had one simple job, and we’re already into the ambiguity of requirements.&lt;/p&gt;
+
+&lt;p&gt;Now imagine developing high-stakes software. Maybe it needs to send rockets to space. Maybe it will process your mortgage application screening you for creditworthiness. Maybe it will drive your car autonomously.&lt;/p&gt;
+
+&lt;p&gt;It’s a minor miracle software works as well as it does. There’s an army of engineers employed at the companies building the software we use daily.&lt;/p&gt;
+
+&lt;p&gt;And they care about what they build. A lot. They sweat the details to minimize issues like the ones above.&lt;/p&gt;
+
+&lt;p&gt;In spite of all of this, there will always be bugs.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 22 Oct 2022 00:00:00 -0400</pubDate>
+      </item>
     
       <item>
         <title>Leader Lore</title>
@@ -790,43 +843,6 @@ How did you know it hurt morale?&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Mon, 25 Jan 2021 00:00:00 -0500</pubDate>
-      </item>
-    
-      <item>
-        <title>Assessing Sales and Engineering Performance</title>
-        <link>/essays/2021/01/16/assessing-performance.html</link>
-        <guid isPermaLink="true">/essays/2021/01/16/assessing-performance.html</guid>
-        <description>&lt;p&gt;Sales is the relational profession: drip campaigns, nurturing leads, touchpoints, making tee time, maintaining the rolodex. (Don’t confuse the soft-skill activities here to mean easy; from what I’ve observed it’s anything but.)&lt;/p&gt;
-
-&lt;p&gt;Engineering is applied science: proofs and theorems, instrumentation, algorithms, bits, and bytes.&lt;/p&gt;
-
-&lt;p&gt;And yet, there’s a certain objectivity available in assessing sales professional performance that isn’t available when it comes to software engineers. The sales leader has an easier time &lt;em&gt;qualitatively&lt;/em&gt; navigating performance conservations than the engineering leader.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Account Development Representative&lt;/strong&gt;: Did you meet quota on booked meetings?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Account Executive&lt;/strong&gt;: Did you meet quota on new deals?&lt;/li&gt;
-  &lt;li&gt;&lt;strong&gt;Account Manager&lt;/strong&gt;: Did you meet quota on expansions?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;A sales professional who meets their number quarter after quarter and embodies the team’s values gets to keep playing. If you miss quota too frequently or meet quota but run over others in the process (depending on the org), you’re gone.&lt;/p&gt;
-
-&lt;p&gt;As a manager, it’s a pretty simple rubric to assess performance and decide to act.&lt;/p&gt;
-
-&lt;p&gt;How do I decide as an engineering leader that someone isn’t performing? Being late on an estimate? Shipping a bug? Not performing enough code review? Being too pedantic in code review? Not knowing how to present your architecture for buy-in?&lt;/p&gt;
-
-&lt;p&gt;The most drastically deficient cases are easy (e.g. code is habitually late and broken when posted for review, an engineer never takes time to review other’s code.)&lt;/p&gt;
-
-&lt;p&gt;There are also engineers who are predictable and steady and who are easy to evalaute. They ship code on-time with few bugs, perform thoughtful reviews, and deliver what was asked. However, if they’re that consistent, then as a leader we’re probably not asking these engineers to tackle the hairy, ambiguous problems. They play an important part on the team, yet the advances they make for the team and company are incremental not revolutionary.&lt;/p&gt;
-
-&lt;p&gt;There’s a third case though. What about the engineer who you give the hardest problems to? They sometimes come up short. They sometimes make mistakes, ones that are obvious in retrospect. They’re also pushed harder project after project because the organization asks more of them.&lt;/p&gt;
-
-&lt;p&gt;How do you evaluate their performance? How do you justify this to your own leaders? What if those leaders don’t have a product development background themselves?&lt;/p&gt;
-
-&lt;p&gt;And of course software engineering is a team sport. So disambiguating the effects and dynamics of a team on an individual’s performance makes this all the harder.&lt;/p&gt;
-
-&lt;p&gt;At this point in our industry, it’s impossible to objectively and qualitatively measure a single engineer’s performance. Engineering leaders are paid to bring to bear their professional experience and judgement to assess and steer both the team’s and individuals’ performance. Management is fundamentally about applying subjective assessment to ambiguous situations. Software engineer performance is no exception.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 16 Jan 2021 00:00:00 -0500</pubDate>
       </item>
     
   </channel>

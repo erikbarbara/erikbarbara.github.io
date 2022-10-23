@@ -2,9 +2,9 @@
 <html class="no-js">
   <head>
 	<meta charset="utf-8">
-	<title>Pull It Forward | Essays by Erik</title>
+	<title>Square Root | Essays by Erik</title>
 	<meta name="description"
-		content="I worked with Chester Kustarz at Duo Security. He was Head of Engineering in various roles throughout my tenure there (Director, VP, Director again after we ...">
+		content="Occasionally I’m asked why even seemingly simple software is riddled with bugs.">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- CSS -->
@@ -14,7 +14,7 @@
 	<link rel="shortcut icon" href="/essays/assets/favicon.ico" type="image/x-icon">
 
 	<!-- Canonical -->
-	<link rel="canonical" href="/essays/2020/08/06/pull-it-forward.html">
+	<link rel="canonical" href="/essays/2022/10/22/introducing-bugs.html">
 
 	<!-- RSS -->
 	<link rel="alternate" type="application/atom+xml" title="Essays by Erik"
@@ -149,44 +149,58 @@
     <div class="content">
       <article >
   <header style="background-image: url('/essays/')">
-    <h1 class="title">Pull It Forward</h1>
+    <h1 class="title">Square Root</h1>
     
     <p class="meta">
-      August 6, 2020
+      October 22, 2022
       
     </p>
   </header>
-  <section class="post-content"><p>I worked with Chester Kustarz at Duo Security. He was Head of Engineering in various roles throughout my tenure there (Director, VP, Director again after we were acquired by Cisco). Like many leaders who are cultural staples within an organization, there are stories and Chesterisms that float around Duo. Some I experienced and have retold, some I heard, and some are probably just made up. Regardless of their truth though, they are nearly all impactful in setting the tone and culture of the org.</p>
+  <section class="post-content"><p>Occasionally I’m asked why even seemingly simple software is riddled with bugs.</p>
 
-<p>One that I return to constantly is the following, told in Chester’s words.</p>
-
-<blockquote>
-  <p>We were trying to kick off a project. And someone looked and saw that the people had non-overlapping calendars for the next two weeks.</p>
-
-  <p>So they said, “Ok. I’ll schedule it for then.”</p>
-
-  <p>Wrong.</p>
-
-  <p>I say “What does it take for us to clear the calendar for tomorrow afternoon to get it scheduled? What about tomorrow morning? What about today? What about we walk over to the whiteboard right now and kick it off? This is important.”</p>
-
-  <p>The point is that we have to reframe our mindset. We have to have a sense of urgency. Pull it forward.</p>
-</blockquote>
-
-<p>Companies don’t stop innovating because they become too big or bloated or outperformed. They become complacent. It happens to small companies too.</p>
-
-<p>It’s important to have a sense of urgency. In particular this is true in startups, which as Paul Graham <a href="http://www.paulgraham.com/aord.html" target="_blank">says</a> are often “default to death”. The only path to success is to have a sense of urgency.</p>
-
-<p>Reid Hoffman says it slightly differently.</p>
+<p>For example, a friend or family member asks why their favorite app had an obvious bug recently.</p>
 
 <blockquote>
-  <p>You jump off a cliff and you assemble an aeroplane on the way down.</p>
+  <p>Come on, you just have to upload photos and let me see others’. Why is that so hard?</p>
 </blockquote>
 
-<p>The point is that time is of the essence. Even when you’ve made it to profitability, you have a unique opportunity to seize that momentum and do more or go faster.</p>
+<p>I’ve developed a small illustration to help convey the challenges. Let’s start simple and build up.</p>
 
-<p>What’s powerful about the Chesterism above is that he doesn’t just say, “we need to have a sense of urgency”. His questions simultaneously model and will it into reality.</p>
+<p>Imagine you’re asked to make a black box. This is our app.</p>
 
-<p>Pull it forward.</p>
+<p>The user punches in a number and it returns the square root of that number.</p>
+
+<p>Ok. Let’s go!</p>
+
+<p>The user inputs zero. And we return…zero.</p>
+
+<p>The user inputs four. And we return…two.</p>
+
+<p>So far so good? Great!</p>
+
+<p>Actually, we already have our first bug. Maybe. Both two and negative two are square roots of four.</p>
+
+<p>Did we want our black box to return only the implied (positive) square root of the input? Or did you want any of the possible square roots?</p>
+
+<p>I can hear the protestations now.</p>
+
+<blockquote>
+  <p>But you didn’t tell me that’s what you wanted!</p>
+</blockquote>
+
+<p>You don’t say!</p>
+
+<p>This is the exact problem engineers face when developing software.</p>
+
+<p>Our illustration had one simple job, and we’re already into the ambiguity of requirements.</p>
+
+<p>Now imagine developing high-stakes software. Maybe it needs to send rockets to space. Maybe it will process your mortgage application screening you for creditworthiness. Maybe it will drive your car autonomously.</p>
+
+<p>It’s a minor miracle software works as well as it does. There’s an army of engineers employed at the companies building the software we use daily.</p>
+
+<p>And they care about what they build. A lot. They sweat the details to minimize issues like the ones above.</p>
+
+<p>In spite of all of this, there will always be bugs.</p>
 </section>
   
 
