@@ -5,7 +5,50 @@
     <atom:link href="/essays/feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://erikbarbara.com/essays/</link>
     <description>Essays by Erik Barbara. All opinions are my own.</description>
-    <pubDate>Sat, 22 Oct 2022 20:02:26 -0400</pubDate>
+    <pubDate>Tue, 25 Oct 2022 08:47:08 -0400</pubDate>
+    
+      <item>
+        <title>Every Flaw</title>
+        <link>/essays/2022/10/25/every-flaw.html</link>
+        <guid isPermaLink="true">/essays/2022/10/25/every-flaw.html</guid>
+        <description>&lt;p&gt;Craftsmen are cursed in any endeavor they pursue. The curse is the gap between their vision and reality.&lt;/p&gt;
+
+&lt;p&gt;It’s not easy to live up to the imperfection. Some cultures develop entire world views dedicated to accepting the imperfection. For example, the Japanese have &lt;a href=&quot;https://en.wikipedia.org/wiki/Wabi-sabi&quot; target=&quot;_blank&quot;&gt;wabi-sabi&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Whether it’s career, how a project was delivered at work, or even the result of a home improvement project, we’re burdened with the gap.&lt;/p&gt;
+
+&lt;p&gt;We enjoy the finished product. Yet knowing where expectations didn’t meet execution forever taunts us.&lt;/p&gt;
+
+&lt;p&gt;The sense of imperfection attenuates with time. But it never dissipates.&lt;/p&gt;
+
+&lt;p&gt;I used to think that agonizing over the delta was my curse alone. That those who I clearly knew to be masters in their craft didn’t suffer this. I was wrong.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;I only got 25% of what I wanted on Star Wars.&lt;/p&gt;
+
+  &lt;p&gt;I can see all the scotch tape and the rubber bands that are holding it together.&lt;/p&gt;
+
+  &lt;p&gt;But that’s how movies get made. They don’t get made right. They get made the best possible way under the circumstances.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;a href=&quot;https://www.disneyplus.com/series/light-magic/3OtlwhtW6Z7E&quot; target=&quot;_blank&quot;&gt;George Lucas, Episode 2, Light &amp;amp; Magic&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Lest we think it’s only the famous who suffer this.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;You live it and breath it for the whole time you’re doing it…&lt;/p&gt;
+
+  &lt;p&gt;In my head I can visual the images I’ve been looking at…&lt;/p&gt;
+
+  &lt;p&gt;I don’t think I’ll ever be satisfied no matter how well I’ve made a piece. I just think it’s in my nature to always think I could have done better.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;a href=&quot;https://www.discoveryplus.com/video/handcrafted-hotels-us/graduate-nashville&quot;&gt;Ricky Pittman, Chicken Wire Sculptor, Handcrafted Hotels&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Where we see perfection, they see anything but. Welcome to the club.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 25 Oct 2022 00:00:00 -0400</pubDate>
+      </item>
     
       <item>
         <title>Square Root</title>
@@ -778,71 +821,6 @@ How did you know it hurt morale?&lt;/p&gt;
 &lt;p&gt;So nail the purpose of the round when executing and you’ll have better problems to focus on. 📈&lt;/p&gt;
 </description>
         <pubDate>Fri, 23 Apr 2021 00:00:00 -0400</pubDate>
-      </item>
-    
-      <item>
-        <title>The Religion of Agile</title>
-        <link>/essays/2021/01/25/the-religion-of-agile.html</link>
-        <guid isPermaLink="true">/essays/2021/01/25/the-religion-of-agile.html</guid>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;Individuals and interactions over processes and tools&lt;/p&gt;
-
-  &lt;p&gt;– &lt;a href=&quot;https://agilemanifesto.org/&quot; target=&quot;_blank&quot;&gt;1st Principle of the Agile Manifesto&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I’m regularly asked by candidates when conducting interviews something along the lines of “Are you all an Agile shop?” or “What Agile methodologies do you all follow?”&lt;/p&gt;
-
-&lt;p&gt;These candidates are typically looking to hear what elements we’ve adopted of scrum, kanban, or XP. Do we estimate? Do we have a product owner? Do we use Jira?&lt;/p&gt;
-
-&lt;p&gt;The profound irony to me of this line of questions is that it is completely antithetical to the Agile Manifesto, in particular the first principle: individuals and interactions over processes and tools.&lt;/p&gt;
-
-&lt;p&gt;I call this line of thinking big-A Agile. It’s a type of religion of the by-products that evolved to serve the manifesto. But we’ve forgotten the master they serve.&lt;/p&gt;
-
-&lt;p&gt;When asking about big-A Agile, the candidates are literally asking what processes we follow.&lt;/p&gt;
-
-&lt;p&gt;The fact that we’ve arrived here isn’t suprising to me, but it does reveal an amnesia in what led the forefathers of agile to its roots to begin with.&lt;/p&gt;
-
-&lt;p&gt;There are entire cottage industries of consultants, certifications, tools, and books that teach “agile methodologies”. They’ll show you the “right” way of being Agile.&lt;/p&gt;
-
-&lt;p&gt;Now, I’m not against any one of these practices. However, if adopted what needs to be relgiously adhered to is not the process or tool itself, it’s the people and principles of the manifesto.&lt;/p&gt;
-
-&lt;p&gt;When I lead engineering teams, &lt;strong&gt;I&lt;/strong&gt; don’t mandate that we perform story pointing or planning poker. If the team finds value in it, great; I will gladly help facilitate this activity. The value I’ve seen teams derive from estimation though is that it is a forcing function for a conversation. That’s it.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You think that will take X, and I think it’ll take Y. Tell me more!&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;or&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Hey, the team’s velocity won’t allow for all of this work. What are we willing to trade off?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;If these discussions are occuring without the tool, then why change it?&lt;/p&gt;
-
-&lt;p&gt;The reason that I feel so strongly about this is because I have been part of teams that followed scrum and XP practices to a T.&lt;/p&gt;
-
-&lt;p&gt;We were efficient.&lt;/p&gt;
-
-&lt;p&gt;But we were not effective.&lt;/p&gt;
-
-&lt;p&gt;We were doing the work right but we were not doing the right work.&lt;/p&gt;
-
-&lt;p&gt;Agile hardliners will argue that’s because we were missing some key ceremony or role to protect against this.&lt;/p&gt;
-
-&lt;p&gt;It’s not that complicated though.&lt;/p&gt;
-
-&lt;p&gt;We forgot that we were &lt;strong&gt;people&lt;/strong&gt; who needed to &lt;strong&gt;interact&lt;/strong&gt; to create &lt;strong&gt;working software&lt;/strong&gt; that served our &lt;strong&gt;customers’&lt;/strong&gt; &lt;strong&gt;changing needs&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Losing the essence of something in the pursuit of religion is nothing new.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;The Sabbath was made for man, not man for the Sabbath.&lt;/p&gt;
-
-  &lt;p&gt;– &lt;a href=&quot;https://www.biblegateway.com/passage/?search=mark+2%3A27&amp;amp;version=ESV&quot; target=&quot;_blank&quot;&gt;Mark 2:27&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Mon, 25 Jan 2021 00:00:00 -0500</pubDate>
       </item>
     
   </channel>
