@@ -5,7 +5,61 @@
     <atom:link href="/essays/feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://erikbarbara.com/essays/</link>
     <description>Essays by Erik Barbara. All opinions are my own.</description>
-    <pubDate>Tue, 25 Oct 2022 08:47:08 -0400</pubDate>
+    <pubDate>Mon, 31 Oct 2022 09:28:11 -0400</pubDate>
+    
+      <item>
+        <title>Patent Programs</title>
+        <link>/essays/2022/10/31/patent-programs.html</link>
+        <guid isPermaLink="true">/essays/2022/10/31/patent-programs.html</guid>
+        <description>&lt;p&gt;A VP of Engineering I used to work with asked me the following:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Would you happen to know of any patent programs or processes that work?&lt;/p&gt;
+
+  &lt;p&gt;I was trying to give feedback on some proposal on how to make our patent program work better, and thus interested in leveraging what works for other people. Basically wondering what prior art there is.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;My short reply was “no”. Every program I’ve ever participated in has been roughly the same shape.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Submit your idea in a tool&lt;/li&gt;
+  &lt;li&gt;Maybe get followed up for more info and to proceed&lt;/li&gt;
+  &lt;li&gt;Otherwise, you’re quietly told “thanks, better luck next time”&lt;/li&gt;
+  &lt;li&gt;Even when your idea gets filed, you have no clue what parts are patentable, especially compared to other rejected ideas that seem more novel&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I started thinking how to build a differentiated patent program at least two orders of magnitude more effective than the norm.&lt;/p&gt;
+
+&lt;p&gt;Usually the extent of education and feedback received by employees is limited to ideas like &lt;a href=&quot;https://www.youtube.com/watch?v=hyv75d4JG7c&quot; target=&quot;_blank&quot;&gt;these&lt;/a&gt; from the Schox Group:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Don’t search to see if the idea is already filed, otherwise damages are tripled&lt;/li&gt;
+  &lt;li&gt;First-to-file vs first-inventor-to-file&lt;/li&gt;
+  &lt;li&gt;We’re building a defensive patent portfolio&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The rudimentary nature of the education and feedback is probably done with good intentions. That way potential inventors don’t worry too much about their ideas or whether they are worthy of being submitted.&lt;/p&gt;
+
+&lt;p&gt;However, this is a bug, not a feature for patent programs. The typical engineer thrives off pattern matching and case studies. Here are two ideas to correct this.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;First&lt;/strong&gt;, commit to feedback after submission. This creates a positive feedback loop that leads to more and better ideas submitted.&lt;/p&gt;
+
+&lt;p&gt;If an idea doesn’t qualify, spend 5-10 minutes with the submitter on why (in layman’s terms). This helps them get resolution and to try again with a new perspective.&lt;/p&gt;
+
+&lt;p&gt;If an idea does qualify and is worth filing, spend 15 minutes educating the submitter on what aspects led to this result.&lt;/p&gt;
+
+&lt;p&gt;Similarly, let them know how to better frame their submitted ideas.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Second&lt;/strong&gt;, give a quarterly case presentation on a patent the company successfully prosecuted. This improvement is less personal but magnifies the reach of the education. It could slot into an existing tech talk program.&lt;/p&gt;
+
+&lt;p&gt;These should be joint presentations between the inventor and an attorney from the patent team. The inventor presents their idea and its use at the company. Then the attorney discusses what was worth filing in the idea. Close with a final plug on how to submit ideas and Q&amp;amp;A.&lt;/p&gt;
+
+&lt;p&gt;These talks resurface the program to the fore of employees’ minds and help them build mental muscle in thinking about their ideas. Of course, the speakers must be engaging. If a company did these talks well, I guarantee they’d have strong attendance.&lt;/p&gt;
+
+&lt;p&gt;These ideas are relatively cheap to try for a year. I’m convinced they’d work at a sizable company and would be willing to place a gentleman’s bet on it. 💡&lt;/p&gt;
+</description>
+        <pubDate>Mon, 31 Oct 2022 00:00:00 -0400</pubDate>
+      </item>
     
       <item>
         <title>Every Flaw</title>
@@ -42,7 +96,7 @@
 
   &lt;p&gt;I don’t think I’ll ever be satisfied no matter how well I’ve made a piece. I just think it’s in my nature to always think I could have done better.&lt;/p&gt;
 
-  &lt;p&gt;– &lt;a href=&quot;https://www.discoveryplus.com/video/handcrafted-hotels-us/graduate-nashville&quot;&gt;Ricky Pittman, Chicken Wire Sculptor, Handcrafted Hotels&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;– &lt;a href=&quot;https://www.discoveryplus.com/video/handcrafted-hotels-us/graduate-nashville&quot; target=&quot;_blank&quot;&gt;Ricky Pittman, Chicken Wire Sculptor, Handcrafted Hotels&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Where we see perfection, they see anything but. Welcome to the club.&lt;/p&gt;
@@ -758,69 +812,6 @@ How did you know it hurt morale?&lt;/p&gt;
 &lt;p&gt;Mind the (fossil) gap. 🦕&lt;/p&gt;
 </description>
         <pubDate>Sun, 25 Apr 2021 00:00:00 -0400</pubDate>
-      </item>
-    
-      <item>
-        <title>What Funding Rounds Buy You</title>
-        <link>/essays/2021/04/23/funding-rounds.html</link>
-        <guid isPermaLink="true">/essays/2021/04/23/funding-rounds.html</guid>
-        <description>&lt;p&gt;As I’ve been recruiting, onboarding, and coaching lately within &lt;a href=&quot;http://datagrail.io/&quot; target=&quot;_blank&quot;&gt;DataGrail&lt;/a&gt;, I frequently touch on the topic of the company’s stage.&lt;/p&gt;
-
-&lt;p&gt;Folks make observations or have questions about where we are, where we’re going, problems we’re encountering, and what the right set of trade-offs to optimize for are.&lt;/p&gt;
-
-&lt;p&gt;One of the models that I come back to is our stage of company. I find it a useful tool to frame a larger discussion about what we’re working toward at this moment as a company.&lt;/p&gt;
-
-&lt;p&gt;It uses fundraising rounds as a lens for the problems that a company is focused on. What does each of these rounds buy an investor and focus the compnay on?&lt;/p&gt;
-
-&lt;p&gt;n.b. this model biases toward B2B SaaS companies.&lt;/p&gt;
-
-&lt;h1 id=&quot;seed&quot;&gt;Seed&lt;/h1&gt;
-
-&lt;p&gt;You’re paying for the company (really the founders at this point) to find a market problem that people are willing to spend money to have solved.&lt;/p&gt;
-
-&lt;p&gt;You’re discovering what the job to be done is.&lt;/p&gt;
-
-&lt;p&gt;Usually this involves building an alpha or POC version of a product.&lt;/p&gt;
-
-&lt;p&gt;Shortcuts are taken on the path to validating that this is a worthy problem.&lt;/p&gt;
-
-&lt;h1 id=&quot;series-a&quot;&gt;Series A&lt;/h1&gt;
-
-&lt;p&gt;You’ve proven that your problem matters to people.&lt;/p&gt;
-
-&lt;p&gt;Now the goal is to build a product that you can sell repeatedly.&lt;/p&gt;
-
-&lt;p&gt;Again, perfection is not the goal; iterating quickly is. By the end of A, if you’ve done it right, you’ve built yourself a product with market fit.&lt;/p&gt;
-
-&lt;h1 id=&quot;series-c&quot;&gt;Series C&lt;/h1&gt;
-
-&lt;p&gt;Before we move on to series B, it’s useful to first jump to C. By the time you arrive at a C round, you should have a repeatable go-to-market motion. You should have playbooks. You should have an excellent product that &lt;em&gt;can&lt;/em&gt; take off without the company collapsing under the weight of its own success.&lt;/p&gt;
-
-&lt;p&gt;We’re about to hit the steep part of the hockey stick and the money from this round buys you gasoline to pour on the 🔥. Building out a robust salesforce, hiring engineers to expand product surface area rapidly, pursuing new channels and verticals.&lt;/p&gt;
-
-&lt;p&gt;Let’s go.&lt;/p&gt;
-
-&lt;h1 id=&quot;series-b&quot;&gt;Series B&lt;/h1&gt;
-
-&lt;p&gt;So if A is about hitting the groove of product-market fit and C is about pouring gasoline on the fire, B is about tuning the engine of the company.&lt;/p&gt;
-
-&lt;p&gt;The goal here is to build a strong, repeatable GTM engine and a robust product that requires sublinear human effort to grow in usage.&lt;/p&gt;
-
-&lt;p&gt;In other words, engineer the business.&lt;/p&gt;
-
-&lt;h1 id=&quot;series-d-and-beyond&quot;&gt;Series D and Beyond&lt;/h1&gt;
-
-&lt;p&gt;The meaning of rounds at this point become fuzzier. D can be a mezzanine to something bigger like an IPO. For example, prove to the public markets ahead that you can acquire companies, integrate them, and grow non-organically. Or show that you can deliver on multi-year strategic plans.&lt;/p&gt;
-
-&lt;p&gt;Series D for a company that has executed through C &lt;em&gt;well&lt;/em&gt; though is a tee up for the big leagues.&lt;/p&gt;
-
-&lt;p&gt;Each of these rounds is critical, but to me the first 3 are the hardest to get right.&lt;/p&gt;
-
-&lt;p&gt;The plumb line moving from seed to A and A to B and B to C needs to be true. Small misalignments compound and become much costlier the further you go.&lt;/p&gt;
-
-&lt;p&gt;So nail the purpose of the round when executing and you’ll have better problems to focus on. 📈&lt;/p&gt;
-</description>
-        <pubDate>Fri, 23 Apr 2021 00:00:00 -0400</pubDate>
       </item>
     
   </channel>

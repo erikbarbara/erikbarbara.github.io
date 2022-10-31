@@ -30,6 +30,6 @@ Lest we think it's only the famous who suffer this.
 > 
 > I don't think I'll ever be satisfied no matter how well I've made a piece. I just think it's in my nature to always think I could have done better.
 > 
-> – [Ricky Pittman, Chicken Wire Sculptor, Handcrafted Hotels](https://www.discoveryplus.com/video/handcrafted-hotels-us/graduate-nashville)
+> – [Ricky Pittman, Chicken Wire Sculptor, Handcrafted Hotels](https://www.discoveryplus.com/video/handcrafted-hotels-us/graduate-nashville){:target="_blank"}
 
 Where we see perfection, they see anything but. Welcome to the club.
