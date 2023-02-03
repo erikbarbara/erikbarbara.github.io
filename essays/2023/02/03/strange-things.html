@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>Strange Things | Essays by Erik</title>
+	<meta name="description"
+		content="A collection of strange experiences I’ve had in corporate America.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/essays/assets/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/essays/assets/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="/essays/2023/02/03/strange-things.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Essays by Erik"
+		href="/essays/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet"
+		type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css"
+		integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+
+	<script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js"
+		integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ"
+		crossorigin="anonymous"></script>
+	
+
+	<!-- Google Analytics -->
+	
+</head>
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<h1 class="site-title">
+			<a href="/essays/">Essays by Erik</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled  -->
+			
+<li>
+	<a href="/essays/feed.xml" title="Follow RSS feed">
+		<i class="fas fa-fw fa-rss"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Search bar -->
+            
+		</ul>
+	</nav>
+
+</header>
+
+    <div class="content">
+      <article >
+  <header style="background-image: url('/essays/')">
+    <h1 class="title">Strange Things</h1>
+    
+    <p class="meta">
+      February 3, 2023
+      
+    </p>
+  </header>
+  <section class="post-content"><p>A collection of strange experiences I’ve had in corporate America.</p>
+
+<h2 id="corporate-espionage">Corporate Espionage</h2>
+
+<p>I worked at a Fortune 500 via acquisition. I had high-privilege access to the acquisition company’s systems. One day I was asked to join a video conference with a member of the security team. They informed me that the parent company’s corporate espionage team suspected insiders in the broader org.</p>
+
+<p>I was given a few usernames and asked to see if they appeared at all in our systems’ audit logs. I was instructed not to search for those usernames on the corporate directory or elsewhere. They were unsure what other systems these individuals may have infiltrated, and didn’t want searches to tip them off that the mole was compromised.</p>
+
+<p>Never heard where that one went. But it was my first personal exposure to the reality of corporate espionage.</p>
+
+<p><strong>Lesson learned</strong>: Spycraft persists, especially in high tech fields.</p>
+
+<h2 id="stickup-stills">Stickup Stills</h2>
+
+<p>Another time I was contacted by corporate legal from a Fortune 500. They were cooperating with law enforcement on a local crime. Someone had robbed a convenience store at gunpoint wearing a jacket with a company logo on it. This was a rare jacket that not many employees would have. They suspected that it had been donated to an organization and picked up at a secondhand store. However, the police still wanted to rule out that this wasn’t an employee in our office.</p>
+
+<p>I was a long-tenured employee who had interacted with many folks in that office throughout the years. Hence why I was brought in. Before they showed me the security camera stills, the attorneys briefed me that it’s natural to want to be helpful. However, unless I really did recognize this person don’t say something like “Hmmm…well maybe it kind of sort of looks like…” I should just state whether I recognize the person or not.</p>
+
+<p><strong>Lesson learned</strong>: Answer the question you’re asked, nothing more; being helpful sometimes isn’t.</p>
+
+<h2 id="embargoed-vulnerabilities">Embargoed Vulnerabilities</h2>
+
+<p>Not too surprising now, but when I was early in my security career I learned that vulnerabilities get embargoed. This works similar to press stories.</p>
+
+<p>A company may discover a bad vulnerability in a piece of open source software. They share the issue privately with the organization that maintains the software of course to determine a fix. Before the vulnerability is publicly disclosed, the discovering organization may decide to share it with critical partners under embargo.</p>
+
+<p>The idea is to give them a heads-up and a chance to fix the issue on their own systems before it goes public and is explicted. The partner is sufficiently important to the main organization’s security that just letting them patch the issue after public disclosure would present sufficient risk.</p>
+
+<p>I’ve worked a few of these. You’re always under pressure to remediate on a tight timeline and sharing context for the changes with as few people as possible.</p>
+
+<p><strong>Lesson learned</strong>: It’s nice to have powerful friends who find you important.</p>
+
+<h2 id="performance-management">Performance Management</h2>
+
+<p>I was working for a company that had rolled out a new tool for managers to complete performance reviews. There was weird UI issue that kept recurring, so I decided to open Developer Tools. While inspecting the issue I noticed something weird about the network calls.</p>
+
+<p>Two parameters were being passed when loading a performance review: the ID for the employee’s review and the email address of the person loading the review.</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"employee_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">1234</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"email"</span><span class="p">:</span><span class="w"> </span><span class="s2">"erik@example.com"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Huh, that seems goofy. What happens if I change employee ID to my own and my email to my boss’s?</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span><span class="w">
+    </span><span class="nl">"employee_id"</span><span class="p">:</span><span class="w"> </span><span class="mi">5678</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"email"</span><span class="p">:</span><span class="w"> </span><span class="s2">"john@example.com"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+</span></code></pre></div></div>
+
+<p>Sure enough, there was my performance review. Fun! I reported it to HR, an incident was opened, the vuln was fixed. They ended up pulling audit logs to see who else may have accessed records with a mismatch between the signed in employee and the email address.</p>
+
+<p>Some time later, I mentioned that I found this issue to another employee. They told me about a case from years before where interview scorecards were being exported to the company’s data warehouse with limited access controls. Numerous employees found out and queried the data before it was reported.</p>
+
+<p>Audit logs were pulled again and HR reached out to the employees who accessed the data. Most employees either selected a few rows or just their own interview results.</p>
+
+<div class="language-sql highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">select</span> <span class="o">*</span> <span class="k">from</span> <span class="n">interview_scorecards</span> <span class="k">limit</span> <span class="mi">5</span><span class="p">;</span>
+<span class="c1">-- or </span>
+<span class="k">select</span> <span class="o">*</span> <span class="k">from</span> <span class="n">interviews_scorecards</span> <span class="k">where</span> <span class="n">username</span> <span class="o">=</span> <span class="s1">'erik'</span><span class="p">;</span>
+</code></pre></div></div>
+
+<p>But a few had queried well beyond personal curiosity it seems.</p>
+
+<p><strong>Lesson learned</strong>: If you find a vuln don’t abuse your discovery. Report it responsibly and move on with your life. The audit logs don’t lie.</p>
+</section>
+  
+
+</article>
+
+<!-- Disqus -->
+
+
+<!-- Post navigation -->
+
+
+    </div>
+    
+<script src="/essays/assets/js/katex_init.js"></script>
+
+
+
+
+  </body>
+</html>

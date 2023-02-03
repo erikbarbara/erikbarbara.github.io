@@ -5,7 +5,81 @@
     <atom:link href="/essays/feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://erikbarbara.com/essays/</link>
     <description>Essays by Erik Barbara. All opinions are my own.</description>
-    <pubDate>Mon, 31 Oct 2022 09:28:11 -0400</pubDate>
+    <pubDate>Fri, 03 Feb 2023 16:45:06 -0500</pubDate>
+    
+      <item>
+        <title>Strange Things</title>
+        <link>/essays/2023/02/03/strange-things.html</link>
+        <guid isPermaLink="true">/essays/2023/02/03/strange-things.html</guid>
+        <description>&lt;p&gt;A collection of strange experiences I’ve had in corporate America.&lt;/p&gt;
+
+&lt;h2 id=&quot;corporate-espionage&quot;&gt;Corporate Espionage&lt;/h2&gt;
+
+&lt;p&gt;I worked at a Fortune 500 via acquisition. I had high-privilege access to the acquisition company’s systems. One day I was asked to join a video conference with a member of the security team. They informed me that the parent company’s corporate espionage team suspected insiders in the broader org.&lt;/p&gt;
+
+&lt;p&gt;I was given a few usernames and asked to see if they appeared at all in our systems’ audit logs. I was instructed not to search for those usernames on the corporate directory or elsewhere. They were unsure what other systems these individuals may have infiltrated, and didn’t want searches to tip them off that the mole was compromised.&lt;/p&gt;
+
+&lt;p&gt;Never heard where that one went. But it was my first personal exposure to the reality of corporate espionage.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lesson learned&lt;/strong&gt;: Spycraft persists, especially in high tech fields.&lt;/p&gt;
+
+&lt;h2 id=&quot;stickup-stills&quot;&gt;Stickup Stills&lt;/h2&gt;
+
+&lt;p&gt;Another time I was contacted by corporate legal from a Fortune 500. They were cooperating with law enforcement on a local crime. Someone had robbed a convenience store at gunpoint wearing a jacket with a company logo on it. This was a rare jacket that not many employees would have. They suspected that it had been donated to an organization and picked up at a secondhand store. However, the police still wanted to rule out that this wasn’t an employee in our office.&lt;/p&gt;
+
+&lt;p&gt;I was a long-tenured employee who had interacted with many folks in that office throughout the years. Hence why I was brought in. Before they showed me the security camera stills, the attorneys briefed me that it’s natural to want to be helpful. However, unless I really did recognize this person don’t say something like “Hmmm…well maybe it kind of sort of looks like…” I should just state whether I recognize the person or not.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lesson learned&lt;/strong&gt;: Answer the question you’re asked, nothing more; being helpful sometimes isn’t.&lt;/p&gt;
+
+&lt;h2 id=&quot;embargoed-vulnerabilities&quot;&gt;Embargoed Vulnerabilities&lt;/h2&gt;
+
+&lt;p&gt;Not too surprising now, but when I was early in my security career I learned that vulnerabilities get embargoed. This works similar to press stories.&lt;/p&gt;
+
+&lt;p&gt;A company may discover a bad vulnerability in a piece of open source software. They share the issue privately with the organization that maintains the software of course to determine a fix. Before the vulnerability is publicly disclosed, the discovering organization may decide to share it with critical partners under embargo.&lt;/p&gt;
+
+&lt;p&gt;The idea is to give them a heads-up and a chance to fix the issue on their own systems before it goes public and is explicted. The partner is sufficiently important to the main organization’s security that just letting them patch the issue after public disclosure would present sufficient risk.&lt;/p&gt;
+
+&lt;p&gt;I’ve worked a few of these. You’re always under pressure to remediate on a tight timeline and sharing context for the changes with as few people as possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lesson learned&lt;/strong&gt;: It’s nice to have powerful friends who find you important.&lt;/p&gt;
+
+&lt;h2 id=&quot;performance-management&quot;&gt;Performance Management&lt;/h2&gt;
+
+&lt;p&gt;I was working for a company that had rolled out a new tool for managers to complete performance reviews. There was weird UI issue that kept recurring, so I decided to open Developer Tools. While inspecting the issue I noticed something weird about the network calls.&lt;/p&gt;
+
+&lt;p&gt;Two parameters were being passed when loading a performance review: the ID for the employee’s review and the email address of the person loading the review.&lt;/p&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;employee_id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1234&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;email&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;erik@example.com&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Huh, that seems goofy. What happens if I change employee ID to my own and my email to my boss’s?&lt;/p&gt;
+
+&lt;div class=&quot;language-json highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;employee_id&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5678&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+    &lt;/span&gt;&lt;span class=&quot;nl&quot;&gt;&quot;email&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;john@example.com&quot;&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Sure enough, there was my performance review. Fun! I reported it to HR, an incident was opened, the vuln was fixed. They ended up pulling audit logs to see who else may have accessed records with a mismatch between the signed in employee and the email address.&lt;/p&gt;
+
+&lt;p&gt;Some time later, I mentioned that I found this issue to another employee. They told me about a case from years before where interview scorecards were being exported to the company’s data warehouse with limited access controls. Numerous employees found out and queried the data before it was reported.&lt;/p&gt;
+
+&lt;p&gt;Audit logs were pulled again and HR reached out to the employees who accessed the data. Most employees either selected a few rows or just their own interview results.&lt;/p&gt;
+
+&lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;interview_scorecards&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;limit&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;-- or &lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;interviews_scorecards&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;where&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;username&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'erik'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;But a few had queried well beyond personal curiosity it seems.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Lesson learned&lt;/strong&gt;: If you find a vuln don’t abuse your discovery. Report it responsibly and move on with your life. The audit logs don’t lie.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 03 Feb 2023 00:00:00 -0500</pubDate>
+      </item>
     
       <item>
         <title>Patent Programs</title>
@@ -781,37 +855,6 @@ How did you know it hurt morale?&lt;/p&gt;
 &lt;p&gt;We “win as a team” and have “empathy always”.&lt;/p&gt;
 </description>
         <pubDate>Sat, 15 May 2021 00:00:00 -0400</pubDate>
-      </item>
-    
-      <item>
-        <title>A Gap in My Fossil Record</title>
-        <link>/essays/2021/04/25/fossil-record.html</link>
-        <guid isPermaLink="true">/essays/2021/04/25/fossil-record.html</guid>
-        <description>&lt;p&gt;I joined Duo Security in early 2015. At the time we were just shy of 100 employees and had around 20 engineers. We had &amp;lt;$10M ARR. We were late in our series B financing and just about to raise &lt;a href=&quot;https://duo.com/resources/news-and-press/releases/duo-raises-30-million&quot; target=&quot;_blank&quot;&gt;series C&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;In the 5.5 years to follow I would be a part of Duo’s growth to 800+ employees, over 100 engineers, a &lt;a href=&quot;https://techcrunch.com/2018/08/02/cisco-is-buying-duo-security-for-2-35b-in-cash/&quot; target=&quot;_blank&quot;&gt;$2.35B acquisition by Cisco&lt;/a&gt;, and $300M+ ARR.&lt;/p&gt;
-
-&lt;p&gt;In 2015, we tripled revenue. Then we doubled it again and again and nearly again.&lt;/p&gt;
-
-&lt;p&gt;I got to see firsthand how Duo’s leadership steered the company through an unrelenting pace of change. I ran and invented many plays myself along the way as I led teams doing things neither I nor anyone else around me had experienced before.&lt;/p&gt;
-
-&lt;p&gt;Most days it felt a bit like going too fast down a hill on your bike. The handlebars are wobbling despite your white knuckles with control just out of reach.&lt;/p&gt;
-
-&lt;p&gt;In retrospect, it was exhilirating. In the moment, it was exhausting and terrifying.&lt;/p&gt;
-
-&lt;p&gt;I joined DataGrail in late 2020. We were and still are earlier in our journey than Duo was when I joined. We had 40 employees and just 7 engineers. We were earlier in the &lt;a href=&quot;https://techcrunch.com/2015/02/01/the-saas-travel-adventure/&quot; target=&quot;_blank&quot;&gt;T2D3 model&lt;/a&gt;. We were late series A and now are &lt;a href=&quot;https://techcrunch.com/2021/03/10/datagrail-snares-30m-series-b-to-help-deal-with-privacy-regulations/&quot; target=&quot;_blank&quot;&gt;series B&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Many days I feel a bit uncomfortable. Not discomfort like growing from 100 to 200 or 200 to 400 people or starting 3 product lines in a year. I know what over &lt;em&gt;there&lt;/em&gt; at Duo’s stage should generally feel like. Rather, the discomfort is not yet knowing the course to chart to get there.&lt;/p&gt;
-
-&lt;p&gt;In short, I have a gap in my fossil records.&lt;/p&gt;
-
-&lt;p&gt;My job over the next 18 to 24 months is to nudge us–my team, the company, myself–bit by bit closer to &lt;em&gt;there&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Then my job is to bring to bear my 5+ years of experience under incredible growth to do it again at DataGrail.&lt;/p&gt;
-
-&lt;p&gt;Mind the (fossil) gap. 🦕&lt;/p&gt;
-</description>
-        <pubDate>Sun, 25 Apr 2021 00:00:00 -0400</pubDate>
       </item>
     
   </channel>
