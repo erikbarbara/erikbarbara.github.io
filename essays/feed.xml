@@ -5,7 +5,42 @@
     <atom:link href="/essays/feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://erikbarbara.com/essays/</link>
     <description>Essays by Erik Barbara. All opinions are my own.</description>
-    <pubDate>Sat, 04 Feb 2023 13:00:24 -0500</pubDate>
+    <pubDate>Mon, 25 Sep 2023 14:52:26 -0400</pubDate>
+    
+      <item>
+        <title>The Sacred Timeline</title>
+        <link>/essays/2023/09/25/sacred-timeline.html</link>
+        <guid isPermaLink="true">/essays/2023/09/25/sacred-timeline.html</guid>
+        <description>&lt;p&gt;Humans are remarkably great at revisionist history. Business is no exception. When I discuss a startup or growth company’s future prospects, my crystal ball is typically cloudy. And it’s cloudier the closer I am to the operations and execution of the organization. It’s easier to prognosticate positively about a competitor when you only see their good press and growth rates from the outside.&lt;/p&gt;
+
+&lt;p&gt;Patrick Collison once said at a Stripe all-hands, “We live our self-doubt.”&lt;/p&gt;
+
+&lt;p&gt;On the inside, the likelihood of negative events &lt;em&gt;feels&lt;/em&gt; higher than positive ones. This is probably because negative events occur easily through inertia and complacency while positive breaks require tremendous effort to inflect the business.&lt;/p&gt;
+
+&lt;p&gt;Looking forward, it feels like we as employees are the &lt;a href=&quot;https://en.wikipedia.org/wiki/Time_Variance_Authority&quot; target=&quot;_blank&quot;&gt;Time Variance Authority&lt;/a&gt; working to ensure that the timeline of the company stays on the best, predictable path. We work to cleave branches that threaten to destabilize our trajectory.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://qph.cf2.quoracdn.net/main-qimg-d3935e77983e278a215a50011ef6ea33-lq&quot; alt=&quot;Time Variance Authority Monitor&quot; width=&quot;500px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Retrospectively, the timeline followed feels self-evident. All the branches that could have been are cleaved and the narrative is set. Of course we ended up here, that’s where we are.&lt;/p&gt;
+
+&lt;p&gt;This comes up from time-to-time with former coworkers from Duo Security. Cisco acquired Duo in 2018 for $2.35B. This was undeniably a great result.&lt;/p&gt;
+
+&lt;p&gt;One of the former Duo executives likes to quip along the lines of “Yes, and we could have done a lot better if we had been more disciplined.”&lt;/p&gt;
+
+&lt;p&gt;I’m not so sure about that. It’s hard to know prospectively which ideas may lead to the next $100M in ARR. And I’ve been skeptical of enough ideas that do so to remain skeptical of my own predictive abilities.&lt;/p&gt;
+
+&lt;p&gt;Conversely, there were a lot of paths that might have been worse than the result Duo arrived at. Nation state adversaries were constantly trying to breach Duo and compromise customers’ authentication systems. Attacker luck or a simple error like an employee getting phished may have led to this. For a security company whose sole purpose is protecting customers, that’s game over and would decimate the company’s value.&lt;/p&gt;
+
+&lt;p&gt;About a year before the Cisco acquisition Duo was in the process of being acquired by another MegaCorp for just under $1B. A signed term sheet and everything. Just before close, the acquirer pulled out. It felt devastating at the time, like we’d peaked. Duo instead raised $70M and just 12 months later was acquired for &amp;gt;2x those terms. Not a bad ROI for a year’s time.&lt;/p&gt;
+
+&lt;p&gt;There’s a reason that one of Stripe’s Operating Principles was once: We Haven’t Won Yet.&lt;/p&gt;
+
+&lt;p&gt;It’s easy to revise the narrative of what occurred; fortune telling forward is far more fraught with peril.&lt;/p&gt;
+
+&lt;p&gt;Avoid complacency and stay diligent.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 25 Sep 2023 00:00:00 -0400</pubDate>
+      </item>
     
       <item>
         <title>More Strange Things</title>
@@ -778,133 +813,6 @@ Own it.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
         <pubDate>Fri, 06 Aug 2021 00:00:00 -0400</pubDate>
-      </item>
-    
-      <item>
-        <title>Behavioral Interviewing Made Simple (Interviewees)</title>
-        <link>/essays/2021/07/26/behavioral-interviews-made-simple.html</link>
-        <guid isPermaLink="true">/essays/2021/07/26/behavioral-interviews-made-simple.html</guid>
-        <description>&lt;p&gt;Here’s a &lt;a href=&quot;https://en.wikipedia.org/wiki/Scientific_wild-ass_guess&quot; target=&quot;_blank&quot;&gt;SWAG&lt;/a&gt;: over the past 6.5 years I’ve conducted over 2 interviews per week tallying over 650 in total. I performed over 15 in a single week running the Duo Engineering internship program.&lt;/p&gt;
-
-&lt;p&gt;The compendium includes systems design sessions, algorithmic coding assessments, and introductory phone interviews. Behavioral interviews were the most prevalent.&lt;/p&gt;
-
-&lt;p&gt;Behavorial interviewing posits that &lt;em&gt;past behavior is the best predictor of future success&lt;/em&gt;.&lt;/p&gt;
-
-&lt;p&gt;Questions often follow the form “Tell me about a time when…” or “Have you ever…?”&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Tell me about a time you provided critical feedback to a boss or superior.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I’m not as interested in what you’d do in a hypothetical situation. Instead, I want you to show me what you have done in reality.&lt;/p&gt;
-
-&lt;p&gt;There are weaknesses to this approach.&lt;/p&gt;
-
-&lt;p&gt;Less tenured candidates may not have experienced different scenarios. An entry-level candidate may never have provided critical feedback to a superior.&lt;/p&gt;
-
-&lt;p&gt;A poor interviewee may get filtered out by a poor interviewer: someone who doesn’t continue to probe and ask questions to draw the candidate out.&lt;/p&gt;
-
-&lt;p&gt;Yet, I’ve seen workplace behaviors from hires repeatedly prove the value of behavioral interviews.&lt;/p&gt;
-
-&lt;p&gt;It makes me sad when I see candidates overthink behavioral interview questions. I’m not trying to entrap the candidate. I’m not looking for &lt;em&gt;one&lt;/em&gt; right answer; there are many. I want to hire great people. And I want great people to do well in their interviews.&lt;/p&gt;
-
-&lt;p&gt;Below are 3 principles to follow as an interviewee.&lt;/p&gt;
-
-&lt;h2 id=&quot;tell-a-story&quot;&gt;Tell a Story&lt;/h2&gt;
-
-&lt;p&gt;Really. Don’t tell me what you would do (more on that later).&lt;/p&gt;
-
-&lt;p&gt;If you can’t think of a story immediately, ask for a moment to collect your thoughts. I’d rather have you sit for 20 seconds in silence. Provide a meaningful anecdote rather than tell me something has never happened to you.&lt;/p&gt;
-
-&lt;p&gt;If you can’t think of a story that’s an exact match, tell something that’s proximate. Tell me:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I don’t know if this will be an exact match but I think it will help you understand a similar scenario.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Telling stories involves details.&lt;/p&gt;
-
-&lt;p&gt;Yes, you could study and follow the STAR model. Or treat me like a human.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;We were working on this project…&lt;br /&gt;
-This was my role and who else was involved…&lt;br /&gt;
-Here was the problem…&lt;br /&gt;
-Here’s what I did and how others were involved…&lt;br /&gt;
-This is how it ended up…&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;You know that old saying, if you always tell the truth you don’t have to remember what you told someone? Do that too.&lt;/p&gt;
-
-&lt;p&gt;I’ll ask a lot of follow-up questions. I’m trying to paint a picture of how you behave.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;You mentioned telling your boss that it hurt morale when they…&lt;br /&gt;
-Did that conversation happen over Slack, email, face-to-face?…&lt;br /&gt;
-How did you know it hurt morale?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I get that you might be drawing on a 5 year old event. I’m not deposing you, and you’re not perjured if the details aren’t 100% accurate. But try to recall. If you don’t remember what you did for that situation, tell me in that case what was commonplace behavior.&lt;/p&gt;
-
-&lt;h2 id=&quot;stay-positive&quot;&gt;Stay Positive&lt;/h2&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;All businesses are loosely functioning disasters.&lt;/p&gt;
-
-  &lt;p&gt;— Brent Beshore&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I hire positive change agents. Yes, I asked you to tell me about a time you worked with a difficult coworker or boss.&lt;/p&gt;
-
-&lt;p&gt;Yes, they may have been intolerable. Organizations are messy places. We’re not there to solve easy problems. Do you work to make things better, constructively?&lt;/p&gt;
-
-&lt;p&gt;It’s not that hard.&lt;/p&gt;
-
-&lt;p&gt;9 times out of 10 when someone says:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;I don’t want to speak poorly of my past employer.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I know the next word out of their mouth is going to be…&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;But&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Stay positive. If this is hard for you, consider changing this single thought pattern in life.&lt;/p&gt;
-
-&lt;h2 id=&quot;take-ownership&quot;&gt;Take Ownership&lt;/h2&gt;
-
-&lt;p&gt;Remember that question about the difficult coworker? Did you make an effort to make it work?&lt;/p&gt;
-
-&lt;p&gt;No? Ok.&lt;/p&gt;
-
-&lt;p&gt;Did you reflect on that and wish you had behaved differently? Yes? Great!&lt;/p&gt;
-
-&lt;p&gt;This is your chance to tell me what you did &lt;strong&gt;and&lt;/strong&gt; what you wish you had done differently. This is the one time I want to hear hypotheticals.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;One co-worker in particular I worked with early in my career was incredibly difficult. I honestly didn’t have the crucial conversations with them that I wish I had. I ended up quitting. I haven’t encountered anyone as challenging for me as that since then. But I have a few cases where I was encountering friction with a co-worker. I remembered where I fell down and decided to have an uncomfortable conversation. Can I share that with you?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Yes. Yes. Yes. Please do! (&lt;em&gt;Can you tell I’m excited?&lt;/em&gt;)&lt;/p&gt;
-
-&lt;p&gt;That’s it:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Tell a Story&lt;/li&gt;
-  &lt;li&gt;Stay Positive&lt;/li&gt;
-  &lt;li&gt;Take Ownership&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;These are three simple principles to follow.&lt;/p&gt;
-
-&lt;p&gt;In practice these are hard to internalize and apply. Behavioral interviews reflect people’s behaviors as well as their perceptions. Powerful things to change. So I’m not worried about folks gaming the system.&lt;/p&gt;
-
-&lt;p&gt;I hope this post helps even a few people better represent their experiences, interview better, and land in great organizations.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 26 Jul 2021 00:00:00 -0400</pubDate>
       </item>
     
   </channel>
