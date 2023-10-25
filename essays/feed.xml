@@ -5,7 +5,98 @@
     <atom:link href="/essays/feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://erikbarbara.com/essays/</link>
     <description>Essays by Erik Barbara. All opinions are my own.</description>
-    <pubDate>Mon, 25 Sep 2023 14:52:26 -0400</pubDate>
+    <pubDate>Wed, 25 Oct 2023 13:11:33 -0400</pubDate>
+    
+      <item>
+        <title>Of ISOs and Edge Cases</title>
+        <link>/essays/2023/10/25/of-isos-and-edge-cases.html</link>
+        <guid isPermaLink="true">/essays/2023/10/25/of-isos-and-edge-cases.html</guid>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;It’s not fun…taxes…it’s the worst part of the game!&lt;/p&gt;
+
+  &lt;p&gt;– &lt;a href=&quot;https://www.youtube.com/watch?v=DF_PPPNkw1o&quot; target=&quot;_blank&quot;&gt;Donny&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Startup employees often receive stock options. These are most commonly Incentive Stock Options (ISOs), which carry special tax treatment.&lt;/p&gt;
+
+&lt;p&gt;When a company has a positive financial result, its employees are exposed to some peculiar edge cases within the US tax code. Below are some interesting (and sometimes simplified) scenarios.&lt;/p&gt;
+
+&lt;h2 id=&quot;stock-option-background&quot;&gt;Stock Option Background&lt;/h2&gt;
+
+&lt;p&gt;Susan is an employee of Acme.ai. She is granted 1,000 Incentive Stock Options with a strike price of $1.00 vesting over 4 years.&lt;/p&gt;
+
+&lt;p&gt;Contrary to what many people believe, the employee isn’t given Acme.ai stock. What Susan receives (is granted) is the &lt;em&gt;option&lt;/em&gt; to purchase the company’s stock at a predefined amount. Hence the phrase stock &lt;em&gt;option&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Employees can only purchase this stock as they gain tenure at the company. This is referred to as vesting. Vesting follows a schedule. Most commonly the stock vests over 4 years. The first 25% vests at the employee’s 1 year anniversary. Then 1/48th vests every month thereafter.&lt;/p&gt;
+
+&lt;p&gt;In the above case, Susan can &lt;em&gt;buy&lt;/em&gt; 1,000 shares of Acme’s stock for $1.00/share.&lt;/p&gt;
+
+&lt;p&gt;Why would she do this? Well, she may believe that the stock will someday be worth more than that.&lt;/p&gt;
+
+&lt;p&gt;The cool thing, is that Susan doesn’t have to buy it as soon as it vests. She may be equivocal about the company’s future success, especially in those early years.&lt;/p&gt;
+
+&lt;p&gt;Instead, Susan can work for Acme.ai for 6 years and decide to purchase those 1,000 shares after that time. Maybe Acme.ai is then valued at $1,000/share. That would be $999K of profit. This is a pretty great deal. Susan gets to buy the stock at the price she was offered 6 years ago and gets the value it’s at today.&lt;/p&gt;
+
+&lt;p&gt;It looks like Susan’s hard work for Acme.ai was worth all those late nights and ramen.&lt;/p&gt;
+
+&lt;h2 id=&quot;alternative-minimum-tax&quot;&gt;Alternative Minimum Tax&lt;/h2&gt;
+
+&lt;p&gt;Hers’s where things start to get wonky. After 6 years, Susan is ready to move from Acme.ai to Widgets.io. Her stock options usually require that she exercise (buy) any shares within 30 days of leaving Acme.ai. $1,000 is meaningful to Susan but she believes in Acme.ai’s future.&lt;/p&gt;
+
+&lt;p&gt;So she buys all 1,000 shares. Now the weird thing is that, yes, Susan owns shares of Acme.ai that are technically worth $1,000,000. However, it’s all funny money. The startup stock is illiquid. She can’t sell it to someone else. She knows of no future IPO or acquisition of Acme.ai. It’s all just Monopoly money.&lt;/p&gt;
+
+&lt;p&gt;But in the eyes of the IRS, Susan &lt;em&gt;may&lt;/em&gt; be taxed on that funny money. The IRS will require that Susan complete forms considering her Alternative Minimum Tax, a parallel tax code that was created to ensure that high earners with uncommon income situations pay their dues.&lt;/p&gt;
+
+&lt;p&gt;Through the infinite wisdom of some tax code creating lawyer, the gains from Susan’s stock are treated as income under the Alternative Minimum Tax code. There are some conditions that attenuate the impact, but overall Susan must think carefully about leaving Acme.ai or exercising her options lest she end up with a tax bill she can’t afford on that $1M of funny money.&lt;/p&gt;
+
+&lt;p&gt;Worse still Susan may choose the exercise all 1,000 options, leave for Widgets, and pay a large tax bill that year. Later if Acme goes bust and her shares are worth $0, she doesn’t get a refund for that tax on her paper wealth. She would get to claim a $999K capital loss, but that probably does her little good unless she has other gains for it offset.&lt;/p&gt;
+
+&lt;h2 id=&quot;deal-close&quot;&gt;Deal Close&lt;/h2&gt;
+
+&lt;p&gt;Now, let’s say Acme.ai signed a letter of intent to be acquired by MegaCorp. Susan may have the opportunity before the deal closes to buy her shares for $1,000 and receive $1M from the deal broker after close. If she doesn’t, the deal may be structured whereupon close MegaCorp will &lt;em&gt;net exercise&lt;/em&gt; her shares and just give her the net proceeds through payroll.&lt;/p&gt;
+
+&lt;p&gt;Why purchase the shares early? Well, if MegaCorp processes the proceeds through payroll, Susan will also be subject to Medicare-related taxes. At her income level this will be 2.25% of additional taxes.&lt;/p&gt;
+
+&lt;p&gt;So should Susan purchase her shares pre-close? Maybe. It would certainly be nice not to pay an additional $20K in taxes. However, deals fall apart all the time. Susan is confronted with a tax pickle choice.&lt;/p&gt;
+
+&lt;p&gt;She could steal away (legally) from 1st base and avoid the Medicare taxes by exercising pre-close. However, if the deal falls apart she would then owe AMT as described above on the $1M of funny money income for which she no longer is receiving cash payment. Susan may effectively go bankrupt in this case for lack of ability to pay the IRS.&lt;/p&gt;
+
+&lt;p&gt;Will she make it to base safe?&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://wp.usatodaysports.com/wp-content/uploads/sites/90/2013/12/red-sox-cardinals-game-6-world-series-jacoby-ellsbury-rundown-103013.gif&quot; alt=&quot;Baseball Pickle&quot; width=&quot;350px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;The above is a real scenario. I knew employees during the acquisition of Duo Security who faced this very situation. They chose the extra Medicare taxes–likely totaling over $100K–over the risk of bankruptcy.&lt;/em&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;83b-elections&quot;&gt;83(b) Elections&lt;/h2&gt;
+
+&lt;p&gt;Some companies offer their employees the chance to early exercise their options. In Susan’s case this would mean that she could pay $1,000 some time after she starts at Acme.ai and before the stock has actually vested. Then as she gains tenure with the company, she automatically receives the stock she has already purchased.&lt;/p&gt;
+
+&lt;p&gt;The nice thing here is that the IRS lets her claim the stock as income immediately. And because Susan is buying stock that is worth $1.00/share for $1.00/share her net gain is $0. So there are no tax implications.&lt;/p&gt;
+
+&lt;p&gt;Six years later when Susan’s stock is worth $1,000/share, she already “paid” ordinary income on the stock option exercise and all of her gains are treated as long-term capital gains taxed at 20%.&lt;/p&gt;
+
+&lt;p&gt;But (yes, there’s a but) this is only the case if Susan remembers to fill out and file an 83(b) election with the IRS stating that she wants this specific tax treatment. And she is under fairly strict time requirements to file this soon after early exercising the shares.&lt;/p&gt;
+
+&lt;p&gt;If she doesn’t, the IRS will tax her as she vests her shares. So if at year 4 the stock is worth $900/share, the IRS may tax her newly vested shares under the Alternative Minimum Tax as if she made $899/share on every share she vested.&lt;/p&gt;
+
+&lt;p&gt;Like most tax-related niceties, early exercises are a fun feature of the tax code so long as you understand the paperwork requirements.&lt;/p&gt;
+
+&lt;h2 id=&quot;qualified-small-business-stock&quot;&gt;Qualified Small Business Stock&lt;/h2&gt;
+
+&lt;p&gt;Another cool feature of early exercises is the Qualified Small Business Stock. If you early exercise and file your 83(b), you start the clock on avoiding Federal taxes.&lt;/p&gt;
+
+&lt;p&gt;Essentially for Susan, she needs to hold the stock for at least 5 years before acquisition, and Acme.ai needs to have had &amp;lt;$50M in assets when she exercised.&lt;/p&gt;
+
+&lt;p&gt;If these conditions are met, then Susan doesn’t pay Federal taxes on the greater of $10M or 10 times her basis.&lt;/p&gt;
+
+&lt;p&gt;In Susan’s case, she would avoid Federal taxes on her $999K of profit.&lt;/p&gt;
+
+&lt;p&gt;Technically the QSBS benefit doesn’t require early exercise. But startups that grow past N years of life tend to raise capital that causes the company assets to exceed $50M and disqualify it from the benefit before employees can exercise most of their stock. Early exercise gets you in before the company is disqualified.&lt;/p&gt;
+
+&lt;p&gt;All in all, ISOs are largely a positive feature of the tax code. Their pointy edges though have maimed more than a handful of employees over time.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 25 Oct 2023 00:00:00 -0400</pubDate>
+      </item>
     
       <item>
         <title>The Sacred Timeline</title>
@@ -766,53 +857,6 @@ How much?&lt;/p&gt;
 &lt;p&gt;It’s better to be effective than to be right.&lt;/p&gt;
 </description>
         <pubDate>Tue, 24 Aug 2021 00:00:00 -0400</pubDate>
-      </item>
-    
-      <item>
-        <title>Own It</title>
-        <link>/essays/2021/08/06/own-it.html</link>
-        <guid isPermaLink="true">/essays/2021/08/06/own-it.html</guid>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;A friend recently complained about how inefficient his employer is. Processes are poor, communication is bad. He then said a competitor company had its act together. I asked him how he knew that – he’s never worked there and has never been inside the company. Fair, he said. It just seems that way from the outside.&lt;/p&gt;
-
-  &lt;p&gt;But almost everything looks better from the outside. I guarantee workers at the competitor find flaws in the way their company operates, because they know about their company what my friend knows about his: how the sausage is made. All the messy personalities and difficult decisions that you only see when you’re inside, in the trenches. “All businesses are loosely functioning disasters” Brent Beshore says. But it’s like an iceberg, only a fraction is visible.&lt;/p&gt;
-
-  &lt;p&gt;– &lt;a href=&quot;https://www.collaborativefund.com/blog/hard/&quot; target=&quot;_blank&quot;&gt;Harder Than It Looks, Not As Fun as It Seems, Collaborative Fund&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;I’m not a Sales Engineer but I occasionally play one on Zoom calls.&lt;/p&gt;
-
-&lt;p&gt;I’ve &lt;a href=&quot;/essays/2021/01/16/assessing-performance.html&quot;&gt;written&lt;/a&gt; about the differences in assessing sales vs engineering performance.&lt;/p&gt;
-
-&lt;p&gt;There’s a similar dichotomy for feedback, especially critical feedback that pertains to relational dynamics. The culture must be strongly cultivated in engineering organizations. It seems to come much easier in sales.&lt;/p&gt;
-
-&lt;p&gt;I enjoy the blunt feedback and rigorous analysis of interactions from sales professionals.&lt;/p&gt;
-
-&lt;p&gt;I’ve hopped off calls and had Account Executives with 15 years selling ask me:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;What did you think?&lt;br /&gt;
-What was strong?&lt;br /&gt;
-Where did I suck?&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;They then go on to self-criticize before giving me unsolicited feedback on what to change.&lt;/p&gt;
-
-&lt;p&gt;One great piece of feedback I received was about “owning it.”&lt;/p&gt;
-
-&lt;p&gt;Our product had a particular weakness in comparison to our competitors. When I discussed our approach, I’d often caveat my explanation with, “This is how we approach this…&lt;em&gt;for now&lt;/em&gt;.” I’d hesitate.&lt;/p&gt;
-
-&lt;p&gt;After hearing me do this on a few of their calls, one of the Account Executives I worked with said:&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Drop the hesitancy.&lt;br /&gt;
-Tell the prospect what we do and why.&lt;br /&gt;
-They don’t know and don’t need to know this is a point of internal discussion.&lt;br /&gt;
-The solution works; it’s just different.&lt;br /&gt;
-Own it.&lt;/p&gt;
-&lt;/blockquote&gt;
-</description>
-        <pubDate>Fri, 06 Aug 2021 00:00:00 -0400</pubDate>
       </item>
     
   </channel>
