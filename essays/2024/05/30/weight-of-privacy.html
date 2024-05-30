@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+	<meta charset="utf-8">
+	<title>The Weight of Privacy | Essays by Erik</title>
+	<meta name="description"
+		content="N.B. The goal of examples and cases below is to examine what went wrong, not cast aspersions at companies or past decisions.">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="/essays/assets/css/main.css">
+
+	<!--Favicon-->
+	<link rel="shortcut icon" href="/essays/assets/favicon.ico" type="image/x-icon">
+
+	<!-- Canonical -->
+	<link rel="canonical" href="/essays/2024/05/30/weight-of-privacy.html">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/atom+xml" title="Essays by Erik"
+		href="/essays/feed.xml" />
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+		integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+	<!-- Google Fonts -->
+	
+	<link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,700italic,400italic" rel="stylesheet"
+		type="text/css">
+	
+
+	<!-- KaTeX -->
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css"
+		integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+
+	<script src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js"
+		integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ"
+		crossorigin="anonymous"></script>
+	
+
+	<!-- Google Analytics -->
+	
+</head>
+  <body>
+    <header class="site-header">
+	<div class="branding">
+		
+		<h1 class="site-title">
+			<a href="/essays/">Essays by Erik</a>
+		</h1>
+	</div>
+	<nav class="site-nav">
+		<ul>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!-- Social icons from Font Awesome, if enabled  -->
+			
+<li>
+	<a href="/essays/feed.xml" title="Follow RSS feed">
+		<i class="fas fa-fw fa-rss"></i>
+	</a>
+</li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Search bar -->
+            
+		</ul>
+	</nav>
+
+</header>
+
+    <div class="content">
+      <article >
+  <header style="background-image: url('/essays/')">
+    <h1 class="title">The Weight of Privacy</h1>
+    
+    <p class="meta">
+      May 30, 2024
+      
+    </p>
+  </header>
+  <section class="post-content"><p><em>N.B. The goal of examples and cases below is to examine what went wrong, not cast aspersions at companies or past decisions.</em></p>
+
+<h2 id="what-is-privacy">What Is Privacy?</h2>
+
+<p><a href="https://www.youtube-nocookie.com/embed/BlisJgS_lyA?rel=0" target="_blank">Video: Steve Jobs On Privacy</a> (34s)</p>
+
+<p><strong>Privacy is the right to control <em>your</em> data.</strong> Boil away the legal details and this is its essence.</p>
+
+<p>This post provides a survey of real privacy issues, and how they can be mitigated. The goal is to convey the weight of privacy that we all bear as engineers handling user data.</p>
+
+<h2 id="why-care-about-privacy">Why Care about Privacy?</h2>
+
+<p><a href="https://www.youtube-nocookie.com/embed/EZVPEeG4h7s?rel=0" target="_blank">Video: Mythic Quest Has Been Hacked</a> (42s)</p>
+
+<p>Respecting privacy <strong>is</strong> users first.</p>
+
+<p>Set aside the alphabet soup (GDPR, CCPA) of privacy legislation and how you may feel about these laws. Many, many users care deeply about how their and their customers’ data is used; a significant degree consider privacy to be a fundamental <a href="https://www.un.org/en/about-us/universal-declaration-of-human-rights#:~:text=Article%2012,against%20such%20interference%20or%20attacks." target="_blank">human right</a>. Not sufficiently considering user privacy in your products and systems is to disrespect your users’ privacy, violate their rights, and go against company values to put users first.</p>
+
+<p>When users discover violations, trust is lost. Users expect that by default:</p>
+<ul>
+  <li>Products protect privacy (<a href="https://22-8miles.com/public-by-default/" target="_blank">Public By Default: What Venmo and the Whole World Knows About You</a>)</li>
+  <li>Data access is limited (<a href="https://www.reuters.com/technology/tesla-workers-shared-sensitive-images-recorded-by-customer-cars-2023-04-06/" target="_blank">Tesla workers shared sensitive images</a>)</li>
+  <li>Internal tools are safe (<a href="https://www.forbes.com/sites/kashmirhill/2014/10/03/god-view-uber-allegedly-stalked-users-for-party-goers-viewing-pleasure/" target="_blank">Uber Allegedly Stalked Users, Snapchat Employees Abused Data Access</a>)</li>
+</ul>
+
+<p>This is trust that takes years to build, but would take seconds to break, and may take forever to repair.</p>
+
+<h2 id="privacy-engineering-and-how-it-is-different-from-security-engineering">Privacy Engineering (and How It Is Different from Security Engineering)</h2>
+
+<p>Privacy engineering teams builds frameworks to meet the privacy expectations of users.
+Security and privacy are adjacent but distinct disciplines. Privacy is about the right to control how personal data is collected and used. Security is about protecting that data, including preventing unauthorized access, data corruption, or theft. Often good practices overlap between the two.</p>
+
+<p>The first OWASP Top 10 dropped in 2003 with your favorite PHP and IIS-powered site vulnerable to script kiddies. Twenty years later robust security protections come out-of-the-box in popular frameworks. For example, a default Rails app provides protections for CSRF, SQL injection, and more.</p>
+
+<p>Privacy engineering is today where web app security was 20 years ago. There are few paved paths and even fewer plug-and-play frameworks for achieving the ends expected by users and demanded by legislation. Because of this, the frameworks companies use to ensure they respect user privacy evolve drastically year-to-year.</p>
+
+<p>By seeing the consequences of privacy issues in practice, you can better understand why you’re asked to implement privacy controls or adopt privacy frameworks.</p>
+
+<h2 id="selected-case-studies-and-lessons">Selected Case Studies and Lessons</h2>
+
+<blockquote>
+  <p>Invert, always invert.</p>
+
+  <p>— Charlie Munger</p>
+</blockquote>
+
+<p>The front page test is an excellent litmus test for privacy issues. It’s useful to examine real-world privacy issues and then invert these into practices to adopt instead.</p>
+
+<h3 id="was-clear-plain-terms-consent-obtained-before-data-collection-or-use">Was clear, plain-terms consent obtained before data collection or use?</h3>
+
+<p>In 2011, Google <a href="https://www.ftc.gov/news-events/news/press-releases/2011/03/ftc-charges-deceptive-privacy-practices-googles-rollout-its-buzz-social-network" target="_blank">agreed</a> to an FTC consent decree requiring 20 years of independent privacy audits. This came from Google Buzz sign-up and data sharing. In the FTC’s own words:</p>
+
+<blockquote>
+  <p>Google led Gmail users to believe that they could choose whether or not they wanted to join the network, [but] the options for declining or leaving the social network were ineffective…the controls for limiting the sharing of their personal information were confusing and difficult to find[.] [Consumers were] concerned about public disclosure of their email contacts which included, in some cases, ex-spouses, patients, students, employers, or competitors.</p>
+</blockquote>
+
+<p>In another case in 2022, CNIL–France’s privacy regulator–<a href="https://www.theverge.com/2022/1/7/22871719/france-fines-google-facebook-cookies-tracking-dark-patterns-eprivacy" target="_blank">fined</a> Google and Facebook €150M and €60M respectively for nudging users to “accept all” cookies in their consent banners. Consent must be provided freely. That means making it as easy to reject non-essential cookies as accept them.</p>
+
+<p><img src="https://web.archive.org/web/20220114092730im_/https://pbs.twimg.com/media/FJDVVirX0AI1Qlt.png" alt="Opt-out checkbox" width="600px" /></p>
+
+<p>In 2022, a Twitter user <a href="https://web.archive.org/web/20220114092730/https://twitter.com/type__error/status/1481918942474035203" target="_blank">called out</a> Stripe for a checkbox to subscribe to email product updates. The issue was quickly remediated once flagged.</p>
+
+<p>Users have high standards for companies and expect the same excellence and clarity in the privacy experience as the rest of the product experience.</p>
+
+<h4 id="inversion">Inversion</h4>
+
+<blockquote>
+  <p>Privacy means people know what they are signing up for in plain English…Ask them.</p>
+
+  <p>— Steve Jobs</p>
+</blockquote>
+
+<p>When building user journeys–for example, signup pages–Jobs’ advice from the first video is trustworthy.</p>
+
+<p>Ask users unambiguously for permission. A user is signing up for a product? Ask them. Want to collect web analytics? Ask them. And if asking is difficult for whatever reason, ask your privacy-focused colleagues whether there are alternatives.</p>
+
+<p>Respecting the <a href="https://globalprivacycontrol.org/">Global Privacy Control</a> setting for <em>all</em> users is a clear illustration of prioritizing and respecting users’ privacy. Beyond merely complying with legal requirements, you can prioritize users’ privacy preferences. Even in jurisdictions where it’s not required, respect users’ GPC setting opting them out of advertising cookies. Users with the GPC setting proactively communicate their preference, so respect this and don’t set those cookies or use their data for that purpose.</p>
+
+<h3 id="did-the-reason-for-collecting-the-data-remain-consistent">Did the reason for collecting the data remain consistent?</h3>
+
+<p>In 2022 as part of a 20 year consent decree, the FTC <a href="https://www.ftc.gov/news-events/news/press-releases/2022/05/ftc-charges-twitter-deceptively-using-account-security-data-sell-targeted-ads" target="_blank">ordered</a> Twitter to pay $150M for collecting phone numbers for 2FA and then using those numbers for targeted ads. The data used was not clearly annotated, leading to this mishap. Users were frustrated. They provided their phone numbers with the understanding that they’d protect their accounts, not enable advertising.</p>
+
+<p>A 2020 blog post was picked up by <a href="https://news.ycombinator.com/item?id=22936818" target="_blank">Hacker News</a> with concerns over Stripe’s collection of advanced fraud signals. There were concerns that Stripe’s privacy policy allowed for using this data for advertising purposes. Patrick Collison, Stripe’s CEO, quickly promised that this data is collected exclusively for anti-fraud purposes. Stripe followed this up with a <a href="https://stripe.com/blog/advanced-fraud-detection-updates" target="_blank">blog post</a> and updates to its privacy policy.</p>
+
+<p>Distrust of how companies use data is the norm. Regardless of your intent, users are quick to point out incongruencies and potential loopholes between policies and practices.</p>
+
+<h4 id="inversion-1">Inversion</h4>
+
+<p>You must adhere to the purposes of processing for which data was collected. In practice this is called business purpose limitation. If data was collected for anti-fraud purposes then that’s what the data can be used for. You can’t later change your mind without gathering consent again.</p>
+
+<p>Individuals have the right to a copy of their data (via a Data Subject Access Request), often grouped by the purposes of processing. Imagine seeing data a user provided for risk purposes displayed under analytics because it was copied inappropriately from one system to another. Users also have the right to be forgotten and for their data to be deleted.</p>
+
+<p>Data annotations are key to knowing what data you have, to whom it belongs, and why it was collected. Annotations are foundational to infrastructure limiting access to closed account data, a special case of business purpose limitation. They can also be used to identify data to delete when you no longer have a justification for retaining it.</p>
+
+<p>When creating or editing data models, add annotations. Yes, this should be the case even if the dataset is intended to be short-lived or only go to QA. Usage evolves, data is forgotten, people move on. Without annotations you can’t account for the data you have.</p>
+
+<p>While privacy engineering teams can create inference models and tools to improve the ease of annotation and accuracy, you are ultimately the expert in your data and responsible for us handling it well.</p>
+
+<h3 id="is-access-to-data-limited-to-proper-use-cases">Is access to data limited to proper use cases?</h3>
+
+<p>In 2024, a Carta employee inappropriately accessed and <a href="https://www.axios.com/2024/01/08/carta-credibility-startup-founder-allegations#:~:text=In%20short%2C%20someone%20on%20Carta%27s%20%22liquidity%20solutions%22%20team%20had%20accessed%20Linear%27s%20confidential%20cap%20table%20data%3B%20leveraging%20the%20core%20product%20as%20lead%20gen%20for%20a%20more%20lucrative%20effort.%20It%20was%20a%20massive%20ethical%20breach%2C%20no%20matter%20how%20different%20lawyers%20might%20interpret%20Carta%27s%20privacy%20policy." target="_blank">shared</a> customer data to generate interest in an unauthorized, secondary sale of stock. As a result and to stave off brand damage, within 72 hours Carta shuttered their entire secondary stock sale business.</p>
+
+<blockquote>
+  <p>One VC [said] it was akin to ‘Oracle using your database to share supply-chain data or Salesforce using your CRM data to inquire about the state of your sales leads.’</p>
+</blockquote>
+
+<p>Abuse of internal tools and data access is deeply corrosive to user trust.</p>
+
+<h4 id="inversion-2">Inversion</h4>
+
+<p>Least privilege dictates that only the people and workloads that need access to specific data for their job have it. That access must also be monitored and audited.</p>
+
+<p>Authorization controls including two-person confirmation and expiring permissions on internal tools and data can enforce least privilege. These checks may add friction to your workflow. And, yes, you are trying to help your users. Remember though that the abuses mentioned at the beginning of this article stemmed from permissive access. Continual investments in ergonomics can minimize the impact of these controls on daily productivity.</p>
+
+<p>In the long term, privacy preserving technologies like tokenization, pseudonymization, and differential privacy can enable open access to data without compromising an individual’s privacy.</p>
+
+<h2 id="a-vector-not-a-destination">A Vector, Not a Destination</h2>
+
+<p>Like security or reliability, privacy is a vector, not a destination. There will not come a time when the work is done.</p>
+
+<p>In all likelihood, your company’s use of data is complex and building excellent privacy controls means that privacy engineering teams must make it simple for engineers to reason about its collection and use.</p>
+
+<p>While building your own products and systems, reflect on the above cases. Whether you are using a privacy engineering framework or implementing controls on your own, we all bear the weighty responsibility of respecting user data and privacy.</p>
+</section>
+  
+
+</article>
+
+<!-- Disqus -->
+
+
+<!-- Post navigation -->
+
+
+    </div>
+    
+<script src="/essays/assets/js/katex_init.js"></script>
+
+
+
+
+  </body>
+</html>
