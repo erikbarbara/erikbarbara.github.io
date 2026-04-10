@@ -5,7 +5,78 @@
     <atom:link href="/essays/feed.xml" rel="self" type="application/rss+xml"/>
     <link>https://erikbarbara.com/essays/</link>
     <description>Essays by Erik Barbara. All opinions are my own.</description>
-    <pubDate>Thu, 30 May 2024 09:41:29 -0400</pubDate>
+    <pubDate>Fri, 10 Apr 2026 08:40:10 -0400</pubDate>
+    
+      <item>
+        <title>Winter Is Coming</title>
+        <link>/essays/2026/04/10/winter-is-coming.html</link>
+        <guid isPermaLink="true">/essays/2026/04/10/winter-is-coming.html</guid>
+        <description>&lt;blockquote&gt;
+  &lt;p&gt;Winter is coming.&lt;/p&gt;
+
+  &lt;p&gt;– House of Stark&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;A year ago, most engineers, myself included, thought Copilot and Cursor were “cute”. That’s nice. They can write tests or auto-complete a few lines.&lt;/p&gt;
+
+&lt;p&gt;Today engineers turn over entire features to Claude Code and let it burn.&lt;/p&gt;
+
+&lt;p&gt;A sea change has occurred in AI capabilities these past 6 months.&lt;/p&gt;
+
+&lt;p&gt;Security is not unaffected. A few recent Anthropic announcements:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…found and validated more than 500 high-severity vulnerabilities.&lt;/p&gt;
+
+  &lt;p&gt;– &lt;a href=&quot;https://red.anthropic.com/2026/zero-days/&quot;&gt;Evaluating and mitigating the growing risk of LLM-discovered 0-days&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…discovered 22 vulnerabilities over the course of two weeks…a fifth of all high-severity Firefox vulnerabilities that were remediated in 2025.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://red.anthropic.com/2026/firefox/&quot;&gt;Partnering with Mozilla to improve Firefox’s security&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;…capable of identifying and then exploiting zero-day vulnerabilities in every major operating system…subtle or difficult to detect…27-year-old bug in OpenBSD—an operating system known primarily for its security.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;https://red.anthropic.com/2026/mythos-preview/&quot;&gt;Assessing Claude Mythos Preview’s cybersecurity capabilities&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Where does this leave us? My 🔮 is cloudy, but here is a guess.&lt;/p&gt;
+
+&lt;h2 id=&quot;micro-pessimism&quot;&gt;Micro-pessimism&lt;/h2&gt;
+
+&lt;p&gt;The next 2-3 years will be bad. It will feel like a reset of the internet to the early 00’s when OWASP Top 10 in the wild was the norm, not a cautionary tail.&lt;/p&gt;
+
+&lt;p&gt;We’ll see an unprecedented volume of high-severity vulnerabilities in open source projects foundational to modern software. Teams will be buried in triage and patching.&lt;/p&gt;
+
+&lt;p&gt;Adversaries will abuse frontier models to identify and exploit new vulnerabilities in open source, compromise supply chains, and directly attack corporate applications.&lt;/p&gt;
+
+&lt;p&gt;There are tremendous asymmetries for attackers. They can scale up more agents, hunting across companies and attack surfaces. In spite of organizations’ best defenses, failure only requires one successful attack. And of course, attackers have an asymmetry in morals.&lt;/p&gt;
+
+&lt;p&gt;Given this, there are only a few obviously useful asymmetries in the other direction.&lt;/p&gt;
+
+&lt;p&gt;First, organizations know their most worrisome areas (weakest || most important). They know what keeps them up.&lt;/p&gt;
+
+&lt;p&gt;Second, organizations are the only ones with access to their codebase.&lt;/p&gt;
+
+&lt;p&gt;Organizations should act on both in combination. Run agentic vulnerability scanners against codebases. Direct them to the most worrisome areas and entry points first. Prioritize ruthlessly. Repeat.&lt;/p&gt;
+
+&lt;p&gt;Because attackers can’t–yet. They’re limited to external attack surfaces.&lt;/p&gt;
+
+&lt;p&gt;Go.&lt;/p&gt;
+
+&lt;h2 id=&quot;macro-optimism&quot;&gt;Macro-optimism&lt;/h2&gt;
+
+&lt;p&gt;The future can be better. The systems we build and code we write 1-2 years from now, reviewed by frontier models for flaws from the start, can be the most secure in history.&lt;/p&gt;
+
+&lt;p&gt;5 years from now, we can shake out the worst of the legacy issues. The new norm can be laughably secure systems.&lt;/p&gt;
+
+&lt;p&gt;Onward.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 10 Apr 2026 00:00:00 -0400</pubDate>
+      </item>
     
       <item>
         <title>The Weight of Privacy</title>
@@ -488,7 +559,7 @@ Security and privacy are adjacent but distinct disciplines. Privacy is about the
 
 &lt;div class=&quot;language-sql highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;interview_scorecards&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;limit&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;-- or &lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;interviews_scorecards&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;where&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;username&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'erik'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;select&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;interviews_scorecards&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;where&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;username&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;erik&apos;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;But a few had queried well beyond personal curiosity it seems.&lt;/p&gt;
@@ -765,7 +836,7 @@ Security and privacy are adjacent but distinct disciplines. Privacy is about the
       </item>
     
       <item>
-        <title>Discovering a Person's API</title>
+        <title>Discovering a Person&apos;s API</title>
         <link>/essays/2022/01/04/discovering-api.html</link>
         <guid isPermaLink="true">/essays/2022/01/04/discovering-api.html</guid>
         <description>&lt;blockquote&gt;
@@ -859,45 +930,6 @@ Security and privacy are adjacent but distinct disciplines. Privacy is about the
 &lt;p&gt;Yes, measure what matters. And don’t forget to manage toward that by understanding &lt;em&gt;why&lt;/em&gt; the key results will help you achieve the objective.&lt;/p&gt;
 </description>
         <pubDate>Tue, 16 Nov 2021 00:00:00 -0500</pubDate>
-      </item>
-    
-      <item>
-        <title>We Shape Our Comp Bands</title>
-        <link>/essays/2021/09/28/we-shape-our-comp-bands.html</link>
-        <guid isPermaLink="true">/essays/2021/09/28/we-shape-our-comp-bands.html</guid>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;We shape our buildings and afterwards our buildings shape us.&lt;/p&gt;
-
-  &lt;p&gt;– Winston Churchill&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;This is a reflection on a recent interaction. I feel self-conscious writing this post. Like most things I learn, it sounds like common sense when stated explicitly.&lt;/p&gt;
-
-&lt;p&gt;The insight struck me enough though that I’m going to share it.&lt;/p&gt;
-
-&lt;p&gt;I’ve typically designed comp bands to have even overlap between levels. If one level runs to $120K as a max salary, the next will start with a minimum of $110K.&lt;/p&gt;
-
-&lt;p&gt;Looking back, this is a product of organizations where budgets for raises are decoupled from budgets for promotions. You retain a great Software Engineer II and reward them for their contributions with a raise while standing in line for their promotion budget for several quarters.&lt;/p&gt;
-
-&lt;p&gt;Compensation in the software development job market, like pricing in the housing market, has recently come unhinged. In order to stay competitive, we took a pass at redesigning our comp bands.&lt;/p&gt;
-
-&lt;p&gt;The overlap described above makes sense when you have the budget constraints described. And that was informing my design.&lt;/p&gt;
-
-&lt;p&gt;However, our VPE (h/t &lt;a href=&quot;https://twitter.com/jondmatthews?lang=en&quot; target=&quot;_blank&quot;&gt;@jondmatthews&lt;/a&gt;) suggested something different.&lt;/p&gt;
-
-&lt;p&gt;He said we should not overlap compensation on the lower levels of our career ladder and instead maintain tigher salary bands. This would force us to recognize strong performance in our less tenured engineers with promotions, not raises.&lt;/p&gt;
-
-&lt;p&gt;Inversely, we’d design our most senior levels to have broad overlap. This would allow us to reward folks who made great contributions as senior engineers but who may not be ready for the title of principal engineer and the associated organizational impact.&lt;/p&gt;
-
-&lt;p&gt;Let’s pause for a moment. We can debate the merits of rapid early career promotions, the tradeoffs of up-or-out roles, or the wisdom of a career ladder with N levels. I welcome the coffee we’ll share over that discussion some day.&lt;/p&gt;
-
-&lt;p&gt;My point is we shape our comp bands and afterwards our comp bands shape us (and our management). In my example above, our budgeting process shapes our comp bands. And something shaped the budgeting process. And…&lt;/p&gt;
-
-&lt;p&gt;Intentional organizational design matters. Consider it a corollary of &lt;a href=&quot;https://en.wikipedia.org/wiki/Conway%27s_law&quot; target=&quot;_blank&quot;&gt;Conway’s Law&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Design wisely.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 28 Sep 2021 00:00:00 -0400</pubDate>
       </item>
     
   </channel>
