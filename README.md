@@ -1,5 +1,5 @@
 # erikbarbara.com
-GitHub Grab Bag
+**GitHub Grab Bag**
 ```
 gh auth login
 gh repo clone https://github.com/erikbarbara/erikbarbara.com.git
