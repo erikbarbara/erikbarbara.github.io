@@ -1,17 +1,17 @@
 # erikbarbara.com
-View draft essay:
+**View draft essay**
 ```
 cd essays-by-erik/
 bundle exec jekyll serve
 ```
 
-Generate essay HTML:
+**Generate essay HTML**
 ```
 cd essays-by-erik/
 bundle exec jekyll build --destination ../essays
 ```
 
-Publish to AWS S3
+**Publish to AWS S3**
 ```
 aws s3 sync --delete . s3://erikbarbara.com \
   --exclude ".*" \
