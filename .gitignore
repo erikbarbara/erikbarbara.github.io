@@ -1,2 +1,5 @@
 essays-by-erik/_site/
+essays/
+.jekyll-cache/
+**/.DS_Store
 **/.DS_STORE
