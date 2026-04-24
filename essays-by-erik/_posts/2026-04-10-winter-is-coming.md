@@ -16,15 +16,15 @@ Security is not unaffected. A few recent Anthropic announcements:
 
 > ...found and validated more than 500 high-severity vulnerabilities.
 > 
-> – [Evaluating and mitigating the growing risk of LLM-discovered 0-days](https://red.anthropic.com/2026/zero-days/)
+> – [Evaluating and mitigating the growing risk of LLM-discovered 0-days](https://red.anthropic.com/2026/zero-days/){:target="_blank"}
 
 > ...discovered 22 vulnerabilities over the course of two weeks...a fifth of all high-severity Firefox vulnerabilities that were remediated in 2025.
 > 
-> [Partnering with Mozilla to improve Firefox’s security](https://red.anthropic.com/2026/firefox/)
+> [Partnering with Mozilla to improve Firefox’s security](https://red.anthropic.com/2026/firefox/){:target="_blank"}
 
 > ...capable of identifying and then exploiting zero-day vulnerabilities in every major operating system...subtle or difficult to detect...27-year-old bug in OpenBSD—an operating system known primarily for its security.
 > 
-> [Assessing Claude Mythos Preview’s cybersecurity capabilities](https://red.anthropic.com/2026/mythos-preview/)
+> [Assessing Claude Mythos Preview’s cybersecurity capabilities](https://red.anthropic.com/2026/mythos-preview/){:target="_blank"}
 
 Where does this leave us? My 🔮 is cloudy, but here is a guess.
 

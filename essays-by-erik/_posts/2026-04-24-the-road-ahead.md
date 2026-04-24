@@ -10,17 +10,21 @@ I believe these hold for at least the conditions where superhuman intelligence i
 
 ## Crushing the Competition
 
-Companies are marveling At AI in the moment. They say "Wow, look at what we can do with this. We can be so efficient."
+Companies are marveling at AI in the moment. They say "Wow, look at what we can do with this. We can be so efficient."
 
 There are two roads to take from there.
 
-The organization continues, saying, "We can do the same amount of work with fewer people." This is the scarcity mindset. The path Block has taken, laying off 40% of the company.
+The organization continues, saying, "We can do the same amount of work with fewer people."
+
+This is the scarcity mindset. The path Block has taken, laying off 40% of the company.
 
 > we're not making this decision because we're in trouble. our business is strong. gross profit continues to grow, we continue to serve more and more customers, and profitability is improving. but something has changed. we're already seeing that the intelligence tools we’re creating and using, paired with smaller and flatter teams, are enabling a new way of working which fundamentally changes what it means to build and run a company. and that's accelerating rapidly. 
 > 
-> – [Jack Dorsey, CEO](https://x.com/jack/status/2027129697092731343)
+> – [Jack Dorsey, CEO](https://x.com/jack/status/2027129697092731343){:target="_blank"}
 
-In the other, the organization instead says, "We can do so much more with the same amount of people." These organizations keep their existing hiring plans or expand them. They retool and reorganize in-place. They accelerate, not just maintain, their roadmaps. They pull ahead of the competition, the ones maintaining their existing pace with fewer people. They crush them. This is the scarcity mindset.
+In the other, the organization instead says, "We can do so much more with the same amount of people."
+
+This is the growth mindset. These organizations keep their existing hiring plans or expand them. They retool and reorganize. They accelerate, not maintain, their roadmaps. They pull ahead of the competition, the ones maintaining their existing pace with fewer people. They crush them. 
 
 The job market does not have to be net negative due to AI.
 
