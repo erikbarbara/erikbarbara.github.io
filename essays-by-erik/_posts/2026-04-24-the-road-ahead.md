@@ -48,9 +48,9 @@ And so we found new uses for them. In overseeing the computers. Taking on higher
 
 And so it can be with AI.
 
-Software engineers as a professional class are generally pretty intelligent. While handcrafting code may become a hobbyist endeavor, utilizing their human intelligence will not be.
+While handcrafting code may become a hobbyist endeavor, utilizing their human intelligence will not.
 
-We will find new, knowledge-based uses for these people. The uses are hard to see right now in the fog of war.
+We will find new, knowledge-based uses for intelligent people. The uses are hard to see right now in the fog of war.
 
 Capitalism is ruthlessly efficient.  
 It would be economically wasteful to not utilize these individuals.  
