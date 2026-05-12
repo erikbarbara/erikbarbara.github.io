@@ -12,28 +12,30 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Audit Root .npmrc
-        run: |
-          echo "Checking root .npmrc for security policies..."
-          ERRORS=()
-
-          if [ ! -f ".npmrc" ]; then
-            echo "::error::Missing root .npmrc"
-            exit 1
-          fi
-
-          # Define required settings
-          # Using grep -F for exact string matching
-          grep -q "min-package-age=7" .npmrc || ERRORS+=("Missing or incorrect 'min-package-age=7'")
-          grep -q "package-lock-only=true" .npmrc || ERRORS+=("Missing or incorrect 'package-lock-only=true'")
-          grep -q "ignore-scripts=true" .npmrc || ERRORS+=("Missing or incorrect 'ignore-scripts=true'")
-
-          if [ ${#ERRORS[@]} -ne 0 ]; then
-            for err in "${ERRORS[@]}"; do
-              echo "::error file=.npmrc::$err"
-            done
-            exit 1
-          fi
-          echo "✅ .npmrc policy compliant."
+              run: |
+                echo "Checking root .npmrc for ACTIVE security policies..."
+                ERRORS=()
+      
+                if [ ! -f ".npmrc" ]; then
+                  echo "::error::Missing root .npmrc"
+                  exit 1
+                fi
+      
+                # ^        : Matches the start of the line
+                # [[:space:]]* : Allows for leading whitespace
+                # (no #)   : Implicitly ensures no # exists at the start
+                
+                grep -E "^[[:space:]]*min-package-age=7" .npmrc || ERRORS+=("min-package-age=7 is missing or commented out")
+                grep -E "^[[:space:]]*package-lock-only=true" .npmrc || ERRORS+=("package-lock-only=true is missing or commented out")
+                grep -E "^[[:space:]]*ignore-scripts=true" .npmrc || ERRORS+=("ignore-scripts=true is missing or commented out")
+      
+                if [ ${#ERRORS[@]} -ne 0 ]; then
+                  for err in "${ERRORS[@]}"; do
+                    echo "::error file=.npmrc::$err"
+                  done
+                  exit 1
+                fi
+                echo "✅ .npmrc policy is active and uncommented."
 
       - name: Audit for 'npm ci' Usage
         run: |
