@@ -3,62 +3,73 @@ name: Security & Policy Audit
 on:
   pull_request:
     branches: [ main ]
-  workflow_dispatch:
+  workflow_dispatch: # Allows manual testing from the Actions tab
+
 jobs:
   audit-policy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: checkout@v4
 
-      - name: Audit Root .npmrc
-              run: |
-                echo "Checking root .npmrc for ACTIVE security policies..."
-                ERRORS=()
-      
-                if [ ! -f ".npmrc" ]; then
-                  echo "::error::Missing root .npmrc"
-                  exit 1
-                fi
-      
-                # ^        : Matches the start of the line
-                # [[:space:]]* : Allows for leading whitespace
-                # (no #)   : Implicitly ensures no # exists at the start
-                
-                grep -E "^[[:space:]]*min-package-age=7" .npmrc || ERRORS+=("min-package-age=7 is missing or commented out")
-                grep -E "^[[:space:]]*package-lock-only=true" .npmrc || ERRORS+=("package-lock-only=true is missing or commented out")
-                grep -E "^[[:space:]]*ignore-scripts=true" .npmrc || ERRORS+=("ignore-scripts=true is missing or commented out")
-      
-                if [ ${#ERRORS[@]} -ne 0 ]; then
-                  for err in "${ERRORS[@]}"; do
-                    echo "::error file=.npmrc::$err"
-                  done
-                  exit 1
-                fi
-                echo "✅ .npmrc policy is active and uncommented."
+      - name: Audit Root .npmrc Settings
+        run: |
+          echo "Checking root .npmrc for ACTIVE security policies..."
+          ERRORS=()
+
+          if [ ! -f ".npmrc" ]; then
+            echo "::error::Missing root .npmrc file."
+            exit 1
+          fi
+
+          # Regex Explanation:
+          # ^[[:space:]]* -> Line must start with the setting (allowing for spaces, but NOT comments like #)
+          
+          grep -E "^[[:space:]]*min-package-age=7" .npmrc || ERRORS+=("min-package-age=7 is missing, commented out, or incorrect.")
+          grep -E "^[[:space:]]*package-lock-only=true" .npmrc || ERRORS+=("package-lock-only=true is missing, commented out, or incorrect.")
+          grep -E "^[[:space:]]*ignore-scripts=true" .npmrc || ERRORS+=("ignore-scripts=true is missing, commented out, or incorrect.")
+
+          if [ ${#ERRORS[@]} -ne 0 ]; then
+            for err in "${ERRORS[@]}"; do
+              echo "::error file=.npmrc::$err"
+            done
+            exit 1
+          fi
+          echo "✅ .npmrc policy is active and verified."
 
       - name: Audit for 'npm ci' Usage
         run: |
-          echo "Scanning for 'npm install' usage in build/workflow files..."
+          echo "Scanning for prohibited 'npm install' in build/workflow files..."
           
-          # We look for 'npm install' or 'npm i' in YAML (GitHub Actions) 
-          # or shell scripts, excluding the word 'package.json' context.
-          # We want to see 'npm ci' instead.
+          # This looks for 'npm install' or 'npm i' in YAML or Shell files.
+          # We want to force 'npm ci' for security.
+          # We exclude node_modules and the audit file itself to avoid false positives.
           
-          # Search for prohibited install commands in sensitive files
-          BAD_INSTALLS=$(grep -rEi "npm (install|i)($|[[:space:]])" .github/workflows/ *.sh scripts/ --exclude-dir=node_modules || true)
+          BAD_INSTALLS=$(grep -rEi "npm (install|i)($|[[:space:]])" .github/workflows/ *.sh scripts/ \
+            --exclude-dir=node_modules \
+            --exclude=".github/workflows/npm-policy-audit.yml" || true)
 
           if [ -n "$BAD_INSTALLS" ]; then
-            echo "::error::Found 'npm install' usage. Please use 'npm ci' for deterministic and secure builds."
+            echo "::error::Found 'npm install' usage. Please use 'npm ci' for deterministic builds."
             echo "$BAD_INSTALLS"
             exit 1
           fi
-          echo "✅ No unsafe npm install commands found in build scripts."
+          echo "✅ All install commands are using 'npm ci'."
 
-      - name: Verify Root Lockfile
+      - name: Verify Workspace Lockfile
         run: |
+          # In a workspace, we must have a root lockfile. 
+          # We also check that no one accidentally added a nested lockfile.
+          
           if [ ! -f "package-lock.json" ]; then
-            echo "::error::Workspaces require a root package-lock.json."
+            echo "::error::Root package-lock.json is missing. This is required for workspaces."
             exit 1
           fi
-          echo "✅ Root lockfile present."
+
+          NESTED_LOCKS=$(find . -mindepth 2 -name "package-lock.json" -not -path "*/node_modules/*")
+          if [ -n "$NESTED_LOCKS" ]; then
+            echo "::error::Found nested package-lock.json files. Workspaces should only use the root lockfile."
+            echo "$NESTED_LOCKS"
+            exit 1
+          fi
+          echo "✅ Lockfile structure is correct."
