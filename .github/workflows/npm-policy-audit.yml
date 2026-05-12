@@ -1,0 +1,62 @@
+name: Security & Policy Audit
+
+on:
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+jobs:
+  audit-policy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Audit Root .npmrc
+        run: |
+          echo "Checking root .npmrc for security policies..."
+          ERRORS=()
+
+          if [ ! -f ".npmrc" ]; then
+            echo "::error::Missing root .npmrc"
+            exit 1
+          fi
+
+          # Define required settings
+          # Using grep -F for exact string matching
+          grep -q "min-package-age=7" .npmrc || ERRORS+=("Missing or incorrect 'min-package-age=7'")
+          grep -q "package-lock-only=true" .npmrc || ERRORS+=("Missing or incorrect 'package-lock-only=true'")
+          grep -q "ignore-scripts=true" .npmrc || ERRORS+=("Missing or incorrect 'ignore-scripts=true'")
+
+          if [ ${#ERRORS[@]} -ne 0 ]; then
+            for err in "${ERRORS[@]}"; do
+              echo "::error file=.npmrc::$err"
+            done
+            exit 1
+          fi
+          echo "✅ .npmrc policy compliant."
+
+      - name: Audit for 'npm ci' Usage
+        run: |
+          echo "Scanning for 'npm install' usage in build/workflow files..."
+          
+          # We look for 'npm install' or 'npm i' in YAML (GitHub Actions) 
+          # or shell scripts, excluding the word 'package.json' context.
+          # We want to see 'npm ci' instead.
+          
+          # Search for prohibited install commands in sensitive files
+          BAD_INSTALLS=$(grep -rEi "npm (install|i)($|[[:space:]])" .github/workflows/ *.sh scripts/ --exclude-dir=node_modules || true)
+
+          if [ -n "$BAD_INSTALLS" ]; then
+            echo "::error::Found 'npm install' usage. Please use 'npm ci' for deterministic and secure builds."
+            echo "$BAD_INSTALLS"
+            exit 1
+          fi
+          echo "✅ No unsafe npm install commands found in build scripts."
+
+      - name: Verify Root Lockfile
+        run: |
+          if [ ! -f "package-lock.json" ]; then
+            echo "::error::Workspaces require a root package-lock.json."
+            exit 1
+          fi
+          echo "✅ Root lockfile present."
