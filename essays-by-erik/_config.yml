@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/essays"
-url: "https://erikbarbara.com"
+url: "https://erikbarbara.github.io"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
