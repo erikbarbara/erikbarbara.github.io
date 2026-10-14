@@ -1,0 +1,39 @@
+name: Dependabot Auto-Merge
+
+on:
+  pull_request:
+
+permissions:
+  pull-requests: write
+  contents: write
+
+jobs:
+  auto-merge:
+    runs-on: ubuntu-latest
+    
+    # Only run this workflow if the PR was opened by Dependabot
+    if: github.actor == 'dependabot[bot]'
+    
+    steps:
+      - name: Dependabot metadata
+        id: metadata
+        uses: dependabot/fetch-metadata@v2
+        with:
+          github-token: "${{ secrets.GITHUB_TOKEN }}"
+
+      # Automatically approve patch and minor updates (adjust as needed)
+      - name: Approve Dependabot PR
+        if: steps.metadata.get-update-type() == 'version-update:semver-patch' || steps.metadata.get-update-type() == 'version-update:semver-minor'
+        run: |
+          gh pr review --approve "$PR_URL"
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Enable auto-merge so it merges once all status checks pass
+      - name: Enable auto-merge for Dependabot PR
+        run: |
+          gh pr merge --auto --squash "$PR_URL"
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
