@@ -21,9 +21,9 @@ jobs:
         with:
           github-token: "${{ secrets.GITHUB_TOKEN }}"
 
-      # Automatically approve patch and minor updates (adjust as needed)
+      # Automatically approve patch and minor updates
       - name: Approve Dependabot PR
-        if: steps.metadata.get-update-type() == 'version-update:semver-patch' || steps.metadata.get-update-type() == 'version-update:semver-minor'
+        if: steps.metadata.outputs.update-type == 'version-update:semver-patch' || steps.metadata.outputs.update-type == 'version-update:semver-minor'
         run: |
           gh pr review --approve "$PR_URL"
         env:
@@ -32,6 +32,7 @@ jobs:
 
       # Enable auto-merge so it merges once all status checks pass
       - name: Enable auto-merge for Dependabot PR
+        if: steps.metadata.outputs.update-type == 'version-update:semver-patch' || steps.metadata.outputs.update-type == 'version-update:semver-minor'
         run: |
           gh pr merge --auto --squash "$PR_URL"
         env:
